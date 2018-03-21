@@ -7,8 +7,9 @@
             <header>
                 <h1><?php the_title(); ?></h1>
             </header>
-
             <?php the_content(); ?>
+
+
         </article>
     <?php endwhile; else: ?>
         <article>
@@ -18,4 +19,5 @@
 </main>
 
 </div>
-<?php get_footer();
+
+<?php get_footer(); ?>
