@@ -11,6 +11,8 @@
     <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>">
 </head>
 <body <?php body_class(); ?>>
+<div class="bg">
+
 
     <header class="d-flex justify-content-between">
         <div class="mt-2 ml-5">

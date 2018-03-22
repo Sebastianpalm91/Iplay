@@ -6,11 +6,15 @@
  * Author: WordPlate
  * Author URI: https://wordplate.github.io
  */
+html {
+  width: 100%;
+  height: 100%;
+}
  body {
    background-image: url('./images/bg1.png');
    background-position: center;
    background-repeat: no-repeat;
    background-size: cover;
-   height: auto;
+   height: 100%;
    width: 100%;
  }
