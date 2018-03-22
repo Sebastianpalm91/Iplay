@@ -1,16 +1,11 @@
 /* WordPlate */
 
-body {
-  background-image: url('../images/bg.png');
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-  height: 100%;
-  width: 100%;
+* {
+  color: white;
 }
 
 .logo {
-  background-image: url('../images/_Iplay_Apricot_WB_.png');
+  background-image: url('../../../public/themes/IPLAY/images/_Iplay_Apricot_WB_.png');
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -19,7 +14,7 @@ body {
 }
 
 .nav-color {
-  color: #353a3f;
+  color: white;
 }
 .nav-color:hover {
   background-color: #74E493;
