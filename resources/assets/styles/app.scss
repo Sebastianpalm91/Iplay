@@ -4,6 +4,8 @@
   color: white;
 }
 
+// HEADER/MENU STYLE
+
 .logo {
   background-image: url('../../../public/themes/IPLAY/images/_Iplay_Apricot_WB_.png');
   background-position: center;
@@ -12,17 +14,21 @@
   height: 60px;
   width: 60px;
 }
-
 .nav-color {
   color: white;
 }
-.skew {
-  transform: skewX(-25deg);
-}
 .nav-color:hover {
+  color: white;
+}
+.skew {
+  transform: skewX(-25deg)!important;
+}
+.skew2 {
+  transform: skewX(25deg);
+}
+.skew:hover {
   background-color: #74E493;
   color: white;
-  transform: skewX(-25deg);
 }
 .screenshot2 {
   background-image: url('../../../public/themes/IPLAY/images/screenshot2.png');
@@ -31,4 +37,21 @@
   background-size: cover;
   width: 100%;
   height: 450px;
+}
+
+
+// FOOTER/MENU STYLE
+
+.footer-container {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  height: 300px;
+  background-color: #666666;
+  padding-bottom: 20px;
+}
+
+.footer-menu {
+  display: flex;
+  flex-direction: row;
 }

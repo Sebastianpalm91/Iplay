@@ -24,15 +24,14 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
                 <ul class="navbar-nav mt-lg-0">
-
                     <?php
                     $pages = get_pages(array('sort_column' => 'menu_order'));;
                     foreach ( $pages as $page ) {
-                        $option = '<li class="nav-item"><a class="nav-link nav-color" href="' .
+                        $option = '<div class="skew mx-auto"><a class="nav-link nav-color skew2" href="' .
                         get_page_link( $page->ID ) .
-                        '"></li>' .
+                        '">' .
                         $page->post_title .
-                        '</a>';
+                        '</a></div>';
                         echo $option;
                     }
                     ?>

@@ -1,4 +1,4 @@
-<?php /* Template Name: WhoAreWe */ ?>
+<?php /* Template Name: ForWho */ ?>
 <?php get_header(); ?>
 <div class="col-md-8 m-5">
 
@@ -14,5 +14,5 @@
 
 <?php endif; ?>
 
-
 </div>
+<?php get_footer(); ?>
