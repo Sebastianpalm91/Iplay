@@ -6,22 +6,20 @@
 
 // HEADER/MENU STYLE
 
-.logo {
-  background-image: url('../../../public/themes/IPLAY/images/_Iplay_Apricot_WB_.png');
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-  height: 60px;
-  width: 60px;
-}
+
 .nav-color {
   color: white;
+  text-decoration-style: none;
+
 }
 .nav-color:hover {
   color: white;
 }
 .skew {
   transform: skewX(-25deg)!important;
+  transition: 0.2s;
+  transition-timing-function: ease-out;
+
 }
 .skew2 {
   transform: skewX(25deg);
@@ -30,15 +28,37 @@
   background-color: #74E493;
   color: white;
 }
-.screenshot2 {
-  background-image: url('../../../public/themes/IPLAY/images/screenshot2.png');
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 100%;
-  height: 450px;
+
+.menu-container {
+  display: flex;
+  justify-content: space-between;
+  z-index: 1;
 }
 
+.fixed-position {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.logo {
+  background-image: url('../../../public/themes/IPLAY/images/_Iplay_Apricot_WB_.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 60px;
+  width: 60px;
+}
+
+.navigation {
+  display: flex;
+}
+
+.navigation-bar {
+  display: flex;
+  flex-direction: row;
+  margin: 20px;
+}
 
 // FOOTER/MENU STYLE
 
@@ -54,4 +74,16 @@
 .footer-menu {
   display: flex;
   flex-direction: row;
+}
+
+
+// BLOG
+
+.screenshot2 {
+  background-image: url('../../../public/themes/IPLAY/images/screenshot2.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 450px;
 }

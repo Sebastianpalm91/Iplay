@@ -1,6 +1,6 @@
 <?php /* Template Name: ForWho */ ?>
 <?php get_header(); ?>
-<div class="col-md-8 m-5">
+<div class="col-md-8 mt-5 mb-5">
 
 <?php if (have_posts()): ?>
 

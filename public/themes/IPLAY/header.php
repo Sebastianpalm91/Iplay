@@ -11,32 +11,26 @@
     <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>">
 </head>
 <body <?php body_class(); ?>>
-<div class="bg">
 
 
-    <header class="d-flex justify-content-between">
-        <div class="mt-2 ml-5">
-            <div class="logo"></div>
-        </div>
-        <div class="navbar navbar-expand-md">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-                <ul class="navbar-nav mt-lg-0">
-                    <?php
-                    $pages = get_pages(array('sort_column' => 'menu_order'));;
-                    foreach ( $pages as $page ) {
-                        $option = '<div class="skew mx-auto"><a class="nav-link nav-color skew2" href="' .
-                        get_page_link( $page->ID ) .
-                        '">' .
-                        $page->post_title .
-                        '</a></div>';
-                        echo $option;
-                    }
-                    ?>
-                </ul>
-            </div>
+    <header class="menu-container fixed-position">
+        <div class="logo"></div>
+        <div class="navigation">
+            <ul class="navigation-bar">
+                <?php
+                $pages = get_pages(array('sort_column' => 'menu_order'));;
+                foreach ( $pages as $page ) {
+                    $option = '<div class="skew"><a class="nav-color nav-link skew2" href="' .
+                    get_page_link( $page->ID ) .
+                    '">' .
+                    $page->post_title .
+                    '</a></div>';
+                    echo $option;
+                }
+                ?>
+            </ul>
         </div>
     </header>
-    <div class="container">
+
+
+    <div class="container pt-5">
