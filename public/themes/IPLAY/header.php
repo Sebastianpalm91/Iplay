@@ -11,6 +11,14 @@
     <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>">
 </head>
 <body <?php body_class(); ?>>
+    <div class="hamburger-container">
+
+    <div class="hamburger" id="hamburger-2">
+        <span class="line"></span>
+        <span class="line"></span>
+        <span class="line"></span>
+    </div>
+</div>
 
 
     <header class="menu-container fixed-position">
