@@ -1,0 +1,108 @@
+// HEADER/MENU STYLE
+
+#hamburger-2.is-active .line:nth-child(1){
+  -webkit-transform: translateY(13px);
+  -ms-transform: translateY(13px);
+  -o-transform: translateY(13px);
+  transform: translateY(13px);
+}
+
+#hamburger-2.is-active .line:nth-child(3){
+  -webkit-transform: translateY(-13px);
+  -ms-transform: translateY(-13px);
+  -o-transform: translateY(-13px);
+  transform: translateY(-13px);
+}
+.hamburger:hover{
+  cursor: pointer;
+}
+.hamburger-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.hamburger .line{
+  width: 50px;
+  height: 5px;
+  background-color: #ecf0f1;
+  display: block;
+  margin: 8px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+
+.nav-color {
+  color: white;
+  text-decoration-style: none;
+
+}
+.nav-color:hover {
+  color: white;
+}
+.skew {
+  transform: skewX(-25deg)!important;
+  transition: 0.2s;
+  transition-timing-function: ease-out;
+
+}
+.skew2 {
+  transform: skewX(25deg);
+}
+.skew:hover {
+  background-color: #74E493;
+  color: white;
+}
+
+// .menu-container {
+//   display: flex;
+//
+// }
+
+.fixed-position {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.logo {
+  background-image: url('../../../public/themes/IPLAY/images/_Iplay_Apricot_WB_.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 60px;
+  width: 60px;
+}
+
+.navigation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.navigation-bar {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 0px;
+}
+.menu-wrapper {
+  display: flex;
+  justify-content: space-between;
+  z-index: 1;
+  margin: 20px;
+}
+
+@media screen and (min-width: 737px) {
+  .hamburger-container {
+    display: none;
+  }
+}
+@media screen and (max-width: 737px) {
+  .navigation {
+    display: none;
+  }
+
+}

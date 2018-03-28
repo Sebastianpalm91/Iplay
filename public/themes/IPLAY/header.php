@@ -11,34 +11,36 @@
     <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>">
 </head>
 <body <?php body_class(); ?>>
-    <div class="hamburger-container">
-
-    <div class="hamburger" id="hamburger-2">
-        <span class="line"></span>
-        <span class="line"></span>
-        <span class="line"></span>
-    </div>
-</div>
+    <div class="fixed-position">
+        <div class="menu-container">
 
 
-    <header class="menu-container fixed-position">
-        <div class="logo"></div>
-        <div class="navigation">
-            <ul class="navigation-bar">
-                <?php
-                $pages = get_pages(array('sort_column' => 'menu_order'));;
-                foreach ( $pages as $page ) {
-                    $option = '<div class="skew"><a class="nav-color nav-link skew2" href="' .
-                    get_page_link( $page->ID ) .
-                    '">' .
-                    $page->post_title .
-                    '</a></div>';
-                    echo $option;
-                }
-                ?>
-            </ul>
+        <div class="menu-wrapper">
+            <div class="logo"></div>
+            <div class="hamburger-container">
+                <div class="hamburger" id="hamburger-2">
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                </div>
+            </div>
+
+            <div class="navigation">
+                <ul class="navigation-bar">
+                    <?php
+                    $pages = get_pages(array('sort_column' => 'menu_order'));;
+                    foreach ( $pages as $page ) {
+                        $option = '<div class="skew"><a class="nav-color nav-link skew2" href="' .
+                        get_page_link( $page->ID ) .
+                        '">' .
+                        $page->post_title .
+                        '</a></div>';
+                        echo $option;
+                    }
+                    ?>
+                </ul>
+            </div>
         </div>
-    </header>
-
-
+        </div>
+    </div>
     <div class="container pt-5">

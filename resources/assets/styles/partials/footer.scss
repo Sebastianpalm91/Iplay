@@ -1,0 +1,15 @@
+// FOOTER/MENU STYLE
+
+.footer-container {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  height: 300px;
+  background-color: #666666;
+  padding-bottom: 20px;
+}
+
+.footer-menu {
+  display: flex;
+  flex-direction: row;
+}
