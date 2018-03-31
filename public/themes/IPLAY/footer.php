@@ -2,17 +2,11 @@
 </div>
 <div class="footer-container col-md-12 col-md-8">
     <div class="footer-menu">
-            <?php
-            $pages = get_pages(array('sort_column' => 'menu_order'));;
-            foreach ( $pages as $page ) {
-                $option = '<div class="skew mx-auto"><a class="nav-link nav-color skew2" href="' .
-                get_page_link( $page->ID ) .
-                '">' .
-                $page->post_title .
-                '</a></div>';
-                echo $option;
-            }
-            ?>
+        <div class="skew mx-auto"><a class="nav-link nav-color skew2" href="">FOR INVESTORS</a></div>
+        <div class="skew mx-auto"><a class="nav-link nav-color skew2" href="">ABOUT</a></div>
+        <div class="skew mx-auto"><a class="nav-link nav-color skew2" href="">CONTACT</a></div>
+        <div class="skew mx-auto"><a class="nav-link nav-color skew2" href="">PRESS</a></div>
+        <div class="skew mx-auto"><a class="nav-link nav-color skew2" href="">NEWSLETTER</a></div>
     </div>
 </div>
 </div>
