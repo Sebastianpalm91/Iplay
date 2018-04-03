@@ -2,13 +2,10 @@
 <div class="col-md-12 col-sm-12 col-sm-8 mt-5">
     <main role="main">
         <?php if (have_posts()): while (have_posts()): the_post(); ?>
-            <article>
+            <article class="home-feed">
                 <header>
                     <h1><?php the_title(); ?></h1>
                 </header>
-                <div class="">
-                    <?php require __DIR__.'/page-templates/Hero.php'; ?>
-                </div>
                 <?php the_content(); ?>
             </article>
         <?php endwhile; else: ?>
@@ -16,6 +13,9 @@
                 <p>Nothing to see.</p>
             </article>
         <?php endif; ?>
+        <div class="hero">
+            <?php require __DIR__.'/page-templates/Hero.php'; ?>
+        </div>
     </main>
 </div>
 
