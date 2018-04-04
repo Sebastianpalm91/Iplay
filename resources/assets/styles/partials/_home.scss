@@ -11,26 +11,35 @@
 
 .hero {
   display: flex;
-  justify-content: center;
   flex-direction: column;
-  width: 100%;
-  .hero-image img {
-    height: 50%;
-    width: 100%;
-  }
-  .hero-text {
-    position: absolute;
-    top: 350px;
-    font-size: 3em;
+  background-image: url('../../../../public/themes/IPLAY/images/screenshot2.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  .hero-text-wrapper {
+      display: flex;
+      justify-content: center;
+      text-align: left;
+      margin-top: 150px;
+      margin-right: 250px;
+    .hero-text {
+        width: 40vw;
+        word-break: normal;
+        font-size: calc(1rem + ((2.5vw - 4.8px) * 1.1111));
+    }
   }
 }
 
 
 .uniting-sport {
   display: flex;
-  justify-content: center;
   flex-direction: column;
-  width: 100%;
+  background-color: green;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
   .uniting-image img {
     height: 50%;
     width: 100%;
@@ -44,9 +53,12 @@
 
 .app-tour {
   display: flex;
-  justify-content: center;
   flex-direction: column;
-  width: 100%;
+  background-color: blue;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
   .app-image img {
     height: 50%;
     width: 100%;

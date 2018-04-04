@@ -4,23 +4,23 @@
     <div class="home-container">
         <?php $fields = get_fields();?>
         <div class="hero">
-            <div class="hero-image">
+            <div class="hero-text-wrapper">
                 <p class="hero-text"> <?php echo $fields['hero_text']; ?> </p>
-                <img src="<?php echo $fields['hero_image']["url"]; ?>" alt="">
+
             </div>
         </div>
 
         <div class="uniting-sport">
             <p class="uniting-text"> <?php echo $fields['uniting_text'] ?></p>
             <div class="uniting-image">
-                <img  src="<?php echo $fields['uniting_image']["url"]; ?>" alt="">
+                <?php //echo $fields['uniting_image']["url"]; ?>
             </div>
         </div>
 
         <div class="app-tour">
             <p class="app-text"> <?php echo $fields['app_text'] ?></p>
             <div class="app-image">
-                <img src="<?php echo $fields['app_image']["url"]; ?>" alt="">
+                <img src="<?php //echo $fields['app_image']["url"]; ?>" alt="">
             </div>
         </div>
 
