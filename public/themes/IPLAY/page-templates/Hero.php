@@ -1,24 +1,27 @@
 <?php /* Template Name: Hero */ ?>
 <?php get_header(); ?>
+<?php //echo $fields['uniting_image']["url"]; ?>
 <div class="col-md-12 p-0 m-0">
     <div class="home-container">
         <?php $fields = get_fields();?>
         <div class="hero">
             <div class="hero-text-wrapper">
                 <p class="hero-text"> <?php echo $fields['hero_text']; ?> </p>
-
             </div>
             <div class="hero-text-sub-wrapper">
-
-            <p class="hero-text-sub"> <?php echo $fields['hero_text_sub']; ?> </p>
-        </div>
+                <p class="hero-text-sub"> <?php echo $fields['hero_text_sub']; ?> </p>
+            </div>
 
         </div>
 
         <div class="uniting-sport">
-            <p class="uniting-text"> <?php echo $fields['uniting_text'] ?></p>
-            <div class="uniting-image">
-                <?php //echo $fields['uniting_image']["url"]; ?>
+            <div class="uniting-text-wrapper">
+                <p class="uniting-text-title"> <?php echo $fields['uniting_text_title'] ?></p>
+                <p class="uniting-text-content"> <?php echo $fields['uniting_text_content'] ?></p>
+            </div>
+            <div class="uniting-colors">
+                <p class="uniting-color-title">Hello</p>
+                <p class="uniting-color-content"> Anodnawoudnwaod</p>
             </div>
         </div>
 
@@ -29,12 +32,6 @@
             </div>
         </div>
 
-        <div class="news-feed">
-            <p class="news-text"> <?php echo $fields['news_text'] ?></p>
-            <div class="news-image">
-                <img src="<?php //echo $fields['news_image']["url"]; ?>" alt="" >
-            </div>
-        </div>
     </div>
 </div>
 <?php get_footer();
