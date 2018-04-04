@@ -8,6 +8,11 @@
                 <p class="hero-text"> <?php echo $fields['hero_text']; ?> </p>
 
             </div>
+            <div class="hero-text-sub-wrapper">
+
+            <p class="hero-text-sub"> <?php echo $fields['hero_text_sub']; ?> </p>
+        </div>
+
         </div>
 
         <div class="uniting-sport">
@@ -27,7 +32,7 @@
         <div class="news-feed">
             <p class="news-text"> <?php echo $fields['news_text'] ?></p>
             <div class="news-image">
-                <img src="<?php echo $fields['news_image']["url"]; ?>" alt="" >
+                <img src="<?php //echo $fields['news_image']["url"]; ?>" alt="" >
             </div>
         </div>
     </div>

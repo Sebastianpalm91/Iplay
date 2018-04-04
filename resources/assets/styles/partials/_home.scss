@@ -12,7 +12,8 @@
 .hero {
   display: flex;
   flex-direction: column;
-  background-image: url('../../../../public/themes/IPLAY/images/screenshot2.png');
+  background-color: #2d2d2d;
+  // background-image: url('../../../../public/themes/IPLAY/images/screenshot2.png');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -22,11 +23,22 @@
       justify-content: center;
       text-align: left;
       margin-top: 150px;
-      margin-right: 250px;
+      margin-right: 150px;
     .hero-text {
         width: 40vw;
         word-break: normal;
         font-size: calc(1rem + ((2.5vw - 4.8px) * 1.1111));
+    }
+  }
+  .hero-text-sub-wrapper {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 250px;
+    margin-top: 100px;
+    .hero-text-sub {
+      width: 20vw;
+      word-break: normal;
+      font-size: calc(1rem + ((0.5vw - 4.8px) * 1.1111));
     }
   }
 }
@@ -71,9 +83,12 @@
 
 .news-feed {
   display: flex;
-  justify-content: center;
   flex-direction: column;
-  width: 100%;
+  background-color: black;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
   .news-image img {
     height: 50%;
     width: 100%;
