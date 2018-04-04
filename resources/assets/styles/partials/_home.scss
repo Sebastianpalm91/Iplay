@@ -1,28 +1,73 @@
-.home-feed {
-  height: 600px;
+
+
+.home-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 100%;
+  z-index: 0;
 }
 
 .hero {
   display: flex;
   justify-content: center;
+  flex-direction: column;
   width: 100%;
-  margin: auto;
+  .hero-image img {
+    height: 50%;
+    width: 100%;
+  }
+  .hero-text {
+    position: absolute;
+    top: 350px;
+    font-size: 3em;
+  }
 }
+
 
 .uniting-sport {
   display: flex;
   justify-content: center;
+  flex-direction: column;
   width: 100%;
+  .uniting-image img {
+    height: 50%;
+    width: 100%;
+  }
+  .uniting-text {
+
+    top: 1200px;
+    font-size: 3em;
+  }
 }
 
 .app-tour {
   display: flex;
   justify-content: center;
+  flex-direction: column;
   width: 100%;
+  .app-image img {
+    height: 50%;
+    width: 100%;
+  }
+  .app-text {
+    top: 2200px;
+    font-size: 3em;
+  }
 }
 
 .news-feed {
   display: flex;
   justify-content: center;
+  flex-direction: column;
   width: 100%;
+  .news-image img {
+    height: 50%;
+    width: 100%;
+  }
+  .news-text {
+    top: 50vh;
+    font-size: 3em;
+  }
 }
