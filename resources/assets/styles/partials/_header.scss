@@ -20,10 +20,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
-
+  transform: rotate(90deg);
 }
 .hamburger .line{
-  width: 50px;
+  width: 35px;
   height: 5px;
   background-color: #ecf0f1;
   display: block;
@@ -42,15 +42,15 @@
 .nav-color:hover {
   color: white;
 }
-.skew {
-  transform: skewX(-25deg)!important;
-  transition: 0.2s;
-  transition-timing-function: ease-out;
-
-}
-.skew2 {
-  transform: skewX(25deg);
-}
+// .skew {
+//   transform: skewX(-25deg)!important;
+//   transition: 0.2s;
+//   transition-timing-function: ease-out;
+//
+// }
+// .skew2 {
+//   transform: skewX(25deg);
+// }
 .skew:hover {
   background-color: #74E493;
   color: white;
@@ -77,18 +77,55 @@
   width: 60px;
 }
 
-.navigation {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
+.navigation-bar ul {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+.navigation-bar ul li {
+  float: left;
+  width: 120px;
+  height: 40px;
+  background-color: inherit;
+  line-height: 40px;
+  text-align: center;
+  font-size: 16px;
+  transform: skew(-25deg, 0deg);
+  transition: 0.2s;
+  transition-timing-function: ease-out;
 }
 
-.navigation-bar {
-  display: flex;
-  flex-direction: row;
-  margin-bottom: 0px;
+.navigation-bar ul li a {
+  text-decoration: none;
+  color: white;
+  display: block;
+  transform: skew(25deg, 0deg);
 }
+.navigation-bar ul li:hover {
+  background-color: #74E493;
+  color: white;
+
+}
+.navigation-bar ul li ul li {
+  display: none;
+}
+.navigation-bar ul li ul > .sub-menu{
+  background-color: #74E493!important;
+  color: white;
+}
+.navigation-bar ul li:hover ul li {
+  display: block;
+}
+.navigation-bar ul li:hover > .sub-menu li a {
+  transform: skew(25deg, 0deg)!important;
+}
+
+.navigation-bar li:hover > .sub-menu  {
+  transform: skew(25deg, 0deg);
+}
+
+
+
 .menu-wrapper {
   display: flex;
   justify-content: space-between;

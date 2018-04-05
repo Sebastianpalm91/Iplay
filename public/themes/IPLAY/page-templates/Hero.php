@@ -28,7 +28,7 @@
         <div class="app-tour">
             <p class="app-text"> <?php echo $fields['app_text'] ?></p>
             <div class="app-image">
-                <img src="<?php //echo $fields['app_image']["url"]; ?>" alt="">
+                <img src="<?php// echo $fields['app_image']["url"]; ?>" alt="">
             </div>
         </div>
 

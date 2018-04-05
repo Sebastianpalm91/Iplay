@@ -25,21 +25,17 @@
                 </div>
             </div>
 
+
             <div class="navigation">
                 <ul class="navigation-bar">
-                    <?php
-                    $pages = get_pages(array('sort_column' => 'menu_order'));;
-                    foreach ( $pages as $page ) {
-                        $option = '<div class="skew"><a class="nav-color nav-link skew2" href="' .
-                        get_page_link( $page->ID ) .
-                        '">' .
-                        $page->post_title .
-                        '</a></div>';
-                        echo $option;
-                    }
-                    ?>
+
+                    <?php wp_nav_menu([
+                        'theme_location' => 'primary-menu',
+                        ]) ?>
+
                 </ul>
             </div>
+            <!-- <div class="skew"><a class="nav-color nav-link skew2" href=""></a></div> -->
         </div>
         </div>
     </div>

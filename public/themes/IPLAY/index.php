@@ -13,9 +13,6 @@
                 <p>Nothing to see.</p>
             </article>
         <?php endif; ?>
-        <div class="hero">
-            <?php require __DIR__.'/page-templates/Hero.php'; ?>
-        </div>
     </main>
 </div>
 
