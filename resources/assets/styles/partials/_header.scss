@@ -1,5 +1,5 @@
 // HEADER/MENU STYLE
-
+// MOBILE MENU
 #hamburger-2.is-active .line:nth-child(1){
   -webkit-transform: translateY(13px);
   -ms-transform: translateY(13px);
@@ -34,6 +34,8 @@
 }
 
 
+
+// DESKTOP MENU
 .nav-color {
   color: white;
   text-decoration-style: none;
@@ -55,11 +57,6 @@
   background-color: #74E493;
   color: white;
 }
-
-// .menu-container {
-//   display: flex;
-//
-// }
 
 .fixed-position {
   position: fixed;
@@ -124,8 +121,6 @@
   transform: skew(25deg, 0deg);
 }
 
-
-
 .menu-wrapper {
   display: flex;
   justify-content: space-between;
@@ -141,5 +136,4 @@
   .navigation {
     display: none;
   }
-
 }
