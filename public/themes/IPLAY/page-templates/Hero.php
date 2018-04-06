@@ -1,7 +1,7 @@
 <?php /* Template Name: Hero */ ?>
 <?php get_header(); ?>
 <?php //echo $fields['uniting_image']["url"]; ?>
-<div class="col-md-12 p-0 m-0">
+<div class="p-0 m-0 home-backgorund">
     <div class="home-container">
         <?php $fields = get_fields();?>
         <div class="hero">
@@ -9,7 +9,12 @@
                 <p class="hero-text"> <?php echo $fields['hero_text']; ?> </p>
             </div>
             <div class="hero-text-sub-wrapper">
-                <p class="hero-text-sub"> <?php echo $fields['hero_text_sub']; ?> </p>
+                <div class="hero-text-sub-container">
+
+                    <p class="hero-text-sub"> <?php echo $fields['hero_text_sub']; ?></p>
+                    <img class="hero-text-sub-apple" alt="">
+                    <img class="hero-text-sub-google" alt="">
+                </div>
             </div>
 
         </div>
