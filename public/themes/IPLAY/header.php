@@ -33,10 +33,16 @@
                     <?php wp_nav_menu([
                         'theme_location' => 'primary-menu',
                         ]) ?>
-
                 </ul>
             </div>
+            <div class="icon_container">
+
             <!-- <div class="skew"><a class="nav-color nav-link skew2" href=""></a></div> -->
+            <img class="twitter" alt="">
+            <img class="facebook" alt="">
+            <img class="instagram" alt="">
+            <img class="youtube" alt="">
+        </div>
         </div>
         </div>
     </div>

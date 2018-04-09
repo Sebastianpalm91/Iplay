@@ -68,7 +68,27 @@
 }
 
 .menu-container {
-
+}
+.icon_container {
+  display: flex;
+  flex-direction: row;
+  .twitter,
+  .facebook,
+  .youtube,
+  .instagram {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 40px;
+    width: 40px;
+    margin: 2px;
+  }
+  .twitter {
+    background-image: url('../../../public/themes/IPLAY/images/twitter-header-iplay.svg');
+  }
+  .facebook {
+    background-image: url('../../../public/themes/IPLAY/images/facebook-header-iplay.svg');
+  }
 
 }
 
