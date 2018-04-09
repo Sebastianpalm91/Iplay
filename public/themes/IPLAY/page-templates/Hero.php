@@ -9,12 +9,20 @@
                 <p class="hero-text"> <?php echo $fields['hero_text']; ?> </p>
             </div>
             <div class="hero-text-sub-wrapper">
-                <div class="hero-text-sub-container">
+            <div class="hero-text-sub-wrapper2">
 
+                <div class="hero-image-sub-carousel">
+                    <img class="hero-image-badge login-img" data-position="1" src=" <?php echo $fields['hero_image_badge2']["url"]; ?>" alt="">
+                    <img class="hero-image-badge profile-img" data-position="2" src=" <?php echo $fields['hero_image_badge1']["url"]; ?>" alt="">
+                    <img class="hero-image-badge post-img" data-position="3" src=" <?php echo $fields['hero_image_badge3']["url"]; ?>" alt="">
+                </div>
+                <div class="hero-text-sub-container">
                     <p class="hero-text-sub"> <?php echo $fields['hero_text_sub']; ?></p>
                     <img class="hero-text-sub-apple" alt="">
                     <img class="hero-text-sub-google" alt="">
                 </div>
+
+            </div>
             </div>
 
         </div>
