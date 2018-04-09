@@ -1,8 +1,10 @@
 /* WordPlate */
 @import "partials/header";
 @import "partials/footer";
-@import "partials/home";
-@import "partials/apptour";
+@import "partials/home/home";
+@import "partials/home/hero";
+@import "partials/home/unitingsport";
+@import "partials/home/apptour";
 
 
 @font-face {
@@ -17,6 +19,13 @@
 body {
   line-height: 0px!important;
   overflow-x: hidden;
+}
+
+img.icon_container {
+  border: 0px;
+  box-shadow: none!important;
+  border-radius: 0;
+  border-width: 0;
 }
 
 * {

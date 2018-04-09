@@ -33,8 +33,6 @@
   transition: all 0.3s ease-in-out;
 }
 
-
-
 // DESKTOP MENU
 .nav-color {
   color: white;
@@ -78,10 +76,10 @@
   .instagram {
     background-position: center;
     background-repeat: no-repeat;
-    background-size: contain;
-    height: 40px;
-    width: 40px;
-    margin: 2px;
+    background-color: none;
+    height: 21px;
+    width: 19px;
+    margin: 10px;
   }
   .twitter {
     background-image: url('../../../public/themes/IPLAY/images/twitter-header-iplay.svg');
@@ -89,11 +87,16 @@
   .facebook {
     background-image: url('../../../public/themes/IPLAY/images/facebook-header-iplay.svg');
   }
-
+  .youtube {
+    background-image: url('../../../public/themes/IPLAY/images/youtube-header-iplay.svg');
+  }
+  .instagram {
+    background-image: url('../../../public/themes/IPLAY/images/instagram-header-iplay.svg');
+  }
 }
 
 .logo {
-  background-image: url('../../../public/themes/IPLAY/images/_Iplay_Apricot_WB_.png');
+  background-image: url('../../../public/themes/IPLAY/images/iplay-header-logo.svg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -114,6 +117,7 @@
   line-height: 40px;
   text-align: center;
   font-size: 16px;
+  font-weight: bold;
   transform: skew(-25deg, 0deg);
   transition: 0.2s;
   transition-timing-function: ease-out;
@@ -153,7 +157,6 @@
   justify-content: space-between;
   align-items: center;
   margin: 20px;
-
 }
 
 @media screen and (min-width: 737px) {

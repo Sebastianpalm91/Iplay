@@ -1,0 +1,18 @@
+// APP TOUR STYLE
+
+.app-tour {
+  display: flex;
+  flex-direction: column;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  .app-image img {
+    height: 50%;
+    width: 100%;
+  }
+  .app-text {
+    top: 2200px;
+    font-size: 3em;
+  }
+}

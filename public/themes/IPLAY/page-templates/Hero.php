@@ -18,8 +18,10 @@
                 </div>
                 <div class="hero-text-sub-container">
                     <p class="hero-text-sub"> <?php echo $fields['hero_text_sub']; ?></p>
-                    <img class="hero-text-sub-apple" alt="">
-                    <img class="hero-text-sub-google" alt="">
+                    <div class="hero-buy">
+                        <div class="hero-text-sub-apple" alt=""></div>
+                        <div class="hero-text-sub-google" alt=""></div>
+                    </div>
                 </div>
 
             </div>

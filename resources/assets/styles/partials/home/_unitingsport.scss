@@ -1,0 +1,56 @@
+// UNITING SPORT STYLES
+
+.uniting-sport {
+  display: flex;
+  flex-wrap: wrap;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  .uniting-text-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    margin-left: 100px;
+    width: 35%;
+    .uniting-text-title {
+      color: black;
+      font-family: HelveticaTitle;
+      top: 1200px;
+      line-height: 1em;
+      word-break: normal;
+      font-size: calc(1rem + ((2.5vw - 4.8px) * 1.1111));
+    }
+    .uniting-text-content {
+      line-height: 1em;
+      color: black;
+      font-family: HelveticaText;
+      word-break: normal;
+      font-size: calc(1rem + ((0.5vw - 7.8px) * 1.1111));
+    }
+  }
+  .uniting-colors {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    margin-left: 100px;
+    width: 35%;
+    text-align: center;
+    .uniting-color-title {
+      color: black;
+      font-family: HelveticaTitle;
+      top: 1200px;
+      line-height: 1em;
+      word-break: normal;
+      font-size: calc(1rem + ((2.5vw - 4.8px) * 1.1111));
+    }
+    .uniting-color-content {
+      color: black;
+      font-family: HelveticaText;
+      word-break: normal;
+      font-size: calc(1rem + ((0.5vw - 7.8px) * 1.1111));
+    }
+  }
+}

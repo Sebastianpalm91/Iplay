@@ -38,10 +38,10 @@
             <div class="icon_container">
 
             <!-- <div class="skew"><a class="nav-color nav-link skew2" href=""></a></div> -->
-            <img class="twitter" alt="">
-            <img class="facebook" alt="">
-            <img class="instagram" alt="">
-            <img class="youtube" alt="">
+            <div class="twitter" alt=""></div>
+            <div class="facebook" alt=""></div>
+            <div class="instagram" alt=""></div>
+            <div class="youtube" alt=""></div>
         </div>
         </div>
         </div>

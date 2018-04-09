@@ -4,11 +4,9 @@
     <title>ion-social-facebook - Ionicons</title>
     <desc>Created with Sketch.</desc>
     <defs></defs>
-    <g id="Design" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" font-family="Ionicons" font-size="20" font-weight="400">
+    <g id="Design" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g id="Desktop-HD-Copy" transform="translate(-1341.000000, -33.000000)" fill="#FFFEFC">
-            <text id="ion-social-facebook---Ionicons">
-                <tspan x="1341" y="48"></tspan>
-            </text>
+            <path d="M1346,38 L1348.5,38 L1348.1875,40.5 L1346,40.5 L1346,48 L1342.75781,48 L1342.75781,40.5 L1341,40.5 L1341,38 L1342.75781,38 L1342.75781,36.3203125 C1342.75781,35.226557 1343.03125,34.3997424 1343.57812,33.8398438 C1344.125,33.2799451 1345.03645,33 1346.3125,33 L1348.5,33 L1348.5,35.5 L1347.17188,35.5 C1346.67708,35.5 1346.35807,35.5781242 1346.21484,35.734375 C1346.07161,35.8906258 1346,36.1510398 1346,36.515625 L1346,38 Z" id="ion-social-facebook---Ionicons"></path>
         </g>
     </g>
 </svg>
