@@ -41,14 +41,15 @@
   }
   .hero-text-sub-wrapper {
     display: flex;
-
-    margin-left: 120px;
+    margin-left: 310px;
     .hero-text-sub-wrapper2 {
     display: flex;
     flex-grow: 1;
     align-items: center;
     justify-content: space-evenly;
     .hero-text-sub-container {
+      margin-left: 480px;
+      margin-bottom: 100px;
     .hero-text-sub {
       width: 250px;
       color: #424242;
@@ -75,7 +76,7 @@
       display: flex;
       align-items: center;
       position: relative;
-      margin-bottom: 80px;
+      margin-bottom: 150px;
       .hero-image-badge {
         position: absolute;
         display: flex;
