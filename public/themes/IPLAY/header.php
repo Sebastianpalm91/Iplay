@@ -11,40 +11,46 @@
     <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>">
 </head>
 <body <?php body_class(); ?>>
+
     <div class="fixed-position">
-        <div class="menu-container">
+            <!-- MOBILE MENU -->
+            <div class="mobile-menu">
+                <button class="hamburger hamburger--spring" type="button">
+                    <span class="hamburger-box">
+                        <span class="hamburger-inner"></span>
+                    </span>
+                </button>
+                <div class="mobile-sub-menu">
+                    <?php wp_nav_menu(['theme_location' => 'primary-menu']);?>
+                    <div class="icon-wrapper">
 
-
-        <div class="menu-wrapper">
-            <div class="logo"></div>
-            <div class="hamburger-container">
-                <div class="hamburger" id="hamburger-2">
-                    <span class="line"></span>
-                    <span class="line"></span>
-                    <span class="line"></span>
+                    <div class="icon-container">
+                        <div class="twitter" alt=""></div>
+                        <div class="facebook" alt=""></div>
+                        <div class="instagram" alt=""></div>
+                        <div class="youtube" alt=""></div>
+                    </div>
                 </div>
-
+                </div>
             </div>
+            <!-- DESKTOP MENU -->
+            <div class="menu-wrapper">
+                <div class="logo"></div>
+                <div class="navigation">
+                    <ul class="navigation-bar">
 
-
-            <div class="navigation">
-                <ul class="navigation-bar">
-
-                    <?php wp_nav_menu([
-                        'theme_location' => 'primary-menu',
-                        ]) ?>
-                </ul>
-            </div>
-            <div class="icon_container">
-
-            <!-- <div class="skew"><a class="nav-color nav-link skew2" href=""></a></div> -->
-            <div class="twitter" alt=""></div>
-            <div class="facebook" alt=""></div>
-            <div class="instagram" alt=""></div>
-            <div class="youtube" alt=""></div>
+                        <?php wp_nav_menu([
+                            'theme_location' => 'primary-menu',
+                            ]) ?>
+                        </ul>
+                    </div>
+                    <div class="icon-container">
+                        <div class="twitter" alt=""></div>
+                        <div class="facebook" alt=""></div>
+                        <div class="instagram" alt=""></div>
+                        <div class="youtube" alt=""></div>
+                    </div>
+                </div>
         </div>
-        </div>
-        </div>
-    </div>
 
-    <div class="container-page">
+        <div class="container-page">

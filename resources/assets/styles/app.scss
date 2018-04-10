@@ -1,10 +1,13 @@
 /* WordPlate */
+@import "mixins/mixins";
 @import "partials/header";
+@import "partials/hamburger";
 @import "partials/footer";
 @import "partials/home/home";
 @import "partials/home/hero";
 @import "partials/home/unitingsport";
 @import "partials/home/apptour";
+@import "hamburgers/hamburgers";
 
 
 @font-face {
@@ -16,9 +19,11 @@
     src: url('../../../public/themes/IPLAY/fonts/HelveticaNeueLTCom-Bd.ttf');
 }
 
-body {
+body, html{
   line-height: 0px!important;
   overflow-x: hidden;
+  height: 100%;
+  width: 100%;
 }
 
 img.icon_container {
@@ -29,6 +34,7 @@ img.icon_container {
 }
 
 * {
+  outline: none!important;
   color: white;
 }
 

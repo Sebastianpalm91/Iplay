@@ -30,21 +30,24 @@
       font-size: calc(1rem + ((0.5vw - 7.8px) * 1.1111));
     }
   }
-  .uniting-colors {
+  .uniting-user-icons {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
     justify-content: center;
     margin: auto;
     margin-left: 100px;
     width: 35%;
     text-align: center;
-    .uniting-color-title {
-      color: black;
-      font-family: HelveticaTitle;
-      top: 1200px;
-      line-height: 1em;
-      word-break: normal;
-      font-size: calc(1rem + ((2.5vw - 4.8px) * 1.1111));
+    .uniting-image-athletes,
+    .uniting-image-fans,
+    .uniting-image-users,
+    .uniting-image-athletes,
+    .uniting-image-athletes,
+    .uniting-image-athletes,
+    .uniting-image-athletes, {
+      height: 100px;
+      width: 100px;
     }
     .uniting-color-content {
       color: black;

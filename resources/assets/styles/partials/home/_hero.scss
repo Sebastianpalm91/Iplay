@@ -14,6 +14,29 @@
     justify-content: center;
     margin-top: 140px;
     margin-right: 150px;
+    @include bp(small) {
+      margin: 0px;
+      margin-bottom: 50px;
+      text-align: center;
+      align-items: center;
+      flex-direction: column;
+      .hero-buy {
+        display: flex;
+        flex-direction: row;
+        .hero-text-sub-apple,
+        .hero-text-sub-google {
+          background-repeat: no-repeat;
+          height: 45px;
+          width: 140px;
+        }
+        .hero-text-sub-apple {
+          background-image: url('../../../public/themes/IPLAY/images/storebadges/Download_on_the_App_Store_Badge_US-UK_blk_092917.svg');
+        }
+        .hero-text-sub-google {
+          background-image: url('../../../public/themes/IPLAY/images/storebadges/google-play-badge.svg');
+        }
+      }
+    }
     .hero-text {
       font-family: HelveticaTitle;
       line-height: 70px;
@@ -22,6 +45,19 @@
       font-weight: 200;
       word-break: normal;
       font-size: calc(1rem + ((2.8vw - 3px) * 1.1111));
+      @include bp(small) {
+        line-height: 60px;
+        width: 70%;
+        height: auto;
+        font-size: calc(1rem + ((5.8vw - 3px) * 1.1111));;
+        font-weight: bold;
+        margin-left: 5px;
+        margin-right: 5px;
+      }
+      @include bp(xsmall) {
+        line-height: 36px;
+      }
+
     }
   }
   .hero-text-sub-wrapper {
@@ -29,12 +65,18 @@
     justify-content: center;
     width: 100%;
     margin-left: 150px;
+    @include bp(small) {
+      margin: auto;
+    }
     .hero-text-sub-wrapper2 {
       display: flex;
       flex-grow: 1;
       align-items: center;
       justify-content: space-around;
       .hero-text-sub-container {
+        @include bp(small) {
+        display: none;
+        }
         margin-left: 100px;
         margin-bottom: 120px;
         .hero-text-sub {
@@ -45,28 +87,34 @@
           word-break: normal;
           font-size: calc(1rem + ((0.5vw - 4.8px) * 1.1111));
         }
-        .hero-buy {
-          display: flex;
-          flex-direction: row;
-          .hero-text-sub-apple,
-          .hero-text-sub-google {
-            background-repeat: no-repeat;
-            height: 45px;
-            width: 140px;
+          .hero-buy {
+            display: flex;
+            flex-direction: row;
+            .hero-text-sub-apple,
+            .hero-text-sub-google {
+              background-repeat: no-repeat;
+              height: 45px;
+              width: 140px;
+            }
+            .hero-text-sub-apple {
+              background-image: url('../../../public/themes/IPLAY/images/storebadges/Download_on_the_App_Store_Badge_US-UK_blk_092917.svg');
+            }
+            .hero-text-sub-google {
+              background-image: url('../../../public/themes/IPLAY/images/storebadges/google-play-badge.svg');
+            }
           }
-          .hero-text-sub-apple {
-            background-image: url('../../../public/themes/IPLAY/images/storebadges/Download_on_the_App_Store_Badge_US-UK_blk_092917.svg');
-          }
-          .hero-text-sub-google {
-            background-image: url('../../../public/themes/IPLAY/images/storebadges/google-play-badge.svg');
-          }
-        }
       }
       .hero-image-sub-carousel {
         display: flex;
         align-items: center;
         position: relative;
         margin-bottom: 100px;
+        @include bp(small) {
+          transform: scale(0.68);
+          display: flex;
+          justify-content: center;
+          margin-bottom: 120px;
+        }
         .hero-image-badge {
           position: absolute;
           display: flex;
@@ -84,6 +132,7 @@
           transform: translateX(0) scale(1.25);
           z-index: 1;
           opacity: 1;
+
         }
         img[data-position="3"] {
           transform: translateX(-80%);
