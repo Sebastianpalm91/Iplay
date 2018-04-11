@@ -5,6 +5,9 @@
     right: 2%;
     top: 22%;
     @include bp(small) {
+      .menu-menu1-container {
+        margin-top: 60px;
+      }
       display: block;
     }
     .hamburger-box {
@@ -17,26 +20,63 @@
       top: 0;
       height: 100%;
       width: 75%;
-      background: black;
+      background: #424242;
       right: 0;
+      #menu-item-94,
+      #menu-item-97,
+      #menu-item-137,
+      #menu-item-138,
+      #menu-item-139,
+      #menu-item-140,
+      #menu-item-141,
+      #menu-item-142,
+      #menu-item-143,
 
+       {
+         display: none!important;
+         }
       ul {
+        display: flex;
+        flex-direction: column;
+        align-content: flex-start;
         list-style-type: none;
         padding: 0px!important;
-
+        margin-top: 10px;
         li {
-          padding-top: 20px;
-          margin: 20px;
+          border-bottom: 1px solid #A0A0A0;
+          padding: 30px;
           a {
             color: white;
           }
         }
       }
+
       .icon-wrapper {
         display: flex;
-        justify-content: center;
-        align-items: baseline;
-        margin-top: 100px;
+        justify-content: space-around;
+        .twitter-hamburger,
+        .facebook-hamburger,
+        .youtube-hamburger,
+        .instagram-hamburger, {
+          background-position: center;
+          background-repeat: no-repeat;
+          background-color: none;
+          height: 21px;
+          width: 19px;
+          margin: 10px;
+        }
+        .twitter-hamburger {
+          background-image: url('../../../public/themes/IPLAY/images/twitter-header-iplay.svg');
+        }
+        .facebook-hamburger {
+          background-image: url('../../../public/themes/IPLAY/images/facebook-header-iplay.svg');
+        }
+        .youtube-hamburger {
+          background-image: url('../../../public/themes/IPLAY/images/youtube-header-iplay.svg');
+        }
+        .instagram-hamburger {
+          background-image: url('../../../public/themes/IPLAY/images/instagram-header-iplay.svg');
+        }
+      }
       }
     }
-  }

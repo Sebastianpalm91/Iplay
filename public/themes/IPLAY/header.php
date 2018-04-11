@@ -23,13 +23,10 @@
                 <div class="mobile-sub-menu">
                     <?php wp_nav_menu(['theme_location' => 'primary-menu']);?>
                     <div class="icon-wrapper">
-
-                    <div class="icon-container">
-                        <div class="twitter" alt=""></div>
-                        <div class="facebook" alt=""></div>
-                        <div class="instagram" alt=""></div>
-                        <div class="youtube" alt=""></div>
-                    </div>
+                        <div class="twitter-hamburger" alt=""></div>
+                        <div class="facebook-hamburger" alt=""></div>
+                        <div class="instagram-hamburger" alt=""></div>
+                        <div class="youtube-hamburger" alt=""></div>
                 </div>
                 </div>
             </div>

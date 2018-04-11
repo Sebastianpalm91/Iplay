@@ -106,6 +106,9 @@ a {
   transition: 0.2s;
   transition-timing-function: ease-out;
 }
+.navigation-bar ul li a:hover {
+  color: white;
+}
 
 .navigation-bar ul li a {
   text-decoration: none;
@@ -114,21 +117,24 @@ a {
 }
 .navigation-bar ul li:hover {
   background-color: #74E493;
-  color: white;
-
 }
 .navigation-bar ul li ul li {
   display: none;
 }
 .navigation-bar ul li ul > .sub-menu{
   background-color: #74E493!important;
-  color: white;
 }
 .navigation-bar ul li:hover ul li {
   display: block;
 }
 .navigation-bar ul li:hover > .sub-menu li a {
   transform: skew(25deg, 0deg)!important;
+}
+.navigation-bar ul li:hover > .sub-menu {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 50vw;
 }
 
 .navigation-bar li:hover > .sub-menu  {
