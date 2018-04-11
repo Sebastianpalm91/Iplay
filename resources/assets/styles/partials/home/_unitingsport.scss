@@ -7,6 +7,9 @@
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
+  @include bp(small) {
+    justify-content: center;
+  }
   .uniting-text-wrapper {
     display: flex;
     flex-direction: column;
@@ -14,20 +17,32 @@
     margin: auto;
     margin-left: 100px;
     width: 35%;
+    @include bp(small) {
+      width: 80%;
+      text-align: center;
+      margin: auto;
+      margin-bottom: 10px;
+      margin-top: 120px;
+    }
     .uniting-text-title {
-      color: black;
+      color: #3FBF55;
       font-family: HelveticaTitle;
-      top: 1200px;
       line-height: 1em;
       word-break: normal;
       font-size: calc(1rem + ((2.5vw - 4.8px) * 1.1111));
+      @include bp(small) {
+        font-size: calc(1rem + ((6.4vw - 2.2px) * 1.1111));
+      }
     }
     .uniting-text-content {
       line-height: 1em;
-      color: black;
+      color: #424242;
       font-family: HelveticaText;
       word-break: normal;
       font-size: calc(1rem + ((0.5vw - 7.8px) * 1.1111));
+      @include bp(small) {
+        display: none;
+      }
     }
   }
   .uniting-user-icons {
@@ -37,8 +52,13 @@
     justify-content: center;
     margin: auto;
     margin-left: 100px;
-    width: 35%;
+    width: 450px;
     text-align: center;
+    @include bp(small) {
+      margin-left: 0px;
+      margin-top: 0px;
+      transform: translateX(-10%);
+    }
     .uniting-image-athletes,
     .uniting-image-fans,
     .uniting-image-teams,
@@ -46,8 +66,25 @@
     .uniting-image-athletes,
     .uniting-image-athletes,
     .uniting-image-athletes, {
-      height: 100px;
-      width: 100px;
+      height: 107px;
+      width: 140px;
+      margin-top: 10px;
+      @include bp(small) {
+        height: 92px;
+        width: 120px;
+      }
+    }
+    img.uniting-image-athletes {
+      transform: translateX(80px);
+      @include bp(small) {
+        transform: translateX(70px);
+      }
+    }
+    img.uniting-image-fans {
+      transform: translateX(40px);
+      @include bp(small) {
+        transform: translateX(35px);
+      }
     }
     .uniting-color-content {
       color: black;

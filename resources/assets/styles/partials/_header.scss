@@ -9,6 +9,17 @@
 .nav-color:hover {
   color: white;
 }
+
+.nav-color-scroll {
+  color: black!important;
+}
+// .navigation {
+//   color: white!important;
+// }
+
+a {
+  color: white;
+}
 // .skew {
 //   transform: skewX(-25deg)!important;
 //   transition: 0.2s;
@@ -29,7 +40,6 @@
   top: 0;
   width: 100vw;
   z-index: 2;
-
 }
 
 .menu-container {
@@ -99,7 +109,6 @@
 
 .navigation-bar ul li a {
   text-decoration: none;
-  color: white;
   display: block;
   transform: skew(25deg, 0deg);
 }

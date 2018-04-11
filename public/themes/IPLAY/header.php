@@ -41,8 +41,9 @@
 
                         <?php wp_nav_menu([
                             'theme_location' => 'primary-menu',
-                            ]) ?>
-                        </ul>
+                            ])
+                        ?>
+                    </ul>
                     </div>
                     <div class="icon-container">
                         <div class="twitter" alt=""></div>
