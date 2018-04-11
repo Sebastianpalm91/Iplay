@@ -1,9 +1,8 @@
 //Apptour JS
- const section = document.querySelectorAll('.app-image');
- const listItems = document.querySelectorAll('.list-item');
- const imageItems = [...document.querySelectorAll('.tour-icon')];
- const imageText = [...document.querySelectorAll('.text-wrapper h3, .text-wrapper p')];
-
+const section = document.querySelectorAll('.app-image');
+const listItems = document.querySelectorAll('.list-item');
+const imageItems = [...document.querySelectorAll('.tour-icon')];
+const imageText = [...document.querySelectorAll('.text-wrapper h3, .text-wrapper p')];
 
 listItems.forEach(item => {
  item.addEventListener('click', e => {

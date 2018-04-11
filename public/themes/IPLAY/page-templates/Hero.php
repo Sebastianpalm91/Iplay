@@ -57,6 +57,8 @@
         </div>
     </div>
 
+
+
     <div class="app-tour">
         <div class="app-text">
             <h2>The
@@ -84,7 +86,7 @@
                         previous teammates.</p>
                 </div>
             </div>
-            <div class="wrapper active">
+            <div class="wrapper">
                 <img class="tour-icon" src="<?php echo $fields['app_image']["url"]; ?>">
                 <div class="text-wrapper">
                     <h3>Own your communication</h3>
@@ -93,7 +95,7 @@
                         communication in one place.</p>
                 </div>
             </div>
-            <div class="wrapper active">
+            <div class="wrappers">
                 <img class="tour-icon" src="<?php echo $fields['app_image']["url"]; ?>">
                 <div class="text-wrapper">
                     <h3>Take controll over your career</h3>
@@ -116,7 +118,7 @@
             <div class="wrapper">
                 <img class="tour-icon" src="<?php echo $fields['app_image']["url"]; ?>">
                 <div class="text-wrapper">
-                    <h3>Own your communication</h3>
+                    <h3>test</h3>
                     <p>Connect your social networks to <br>
                         Iplay and maintain all your <br>
                         communication in one place.</p>
@@ -125,7 +127,7 @@
             <div class="wrapper">
                 <img class="tour-icon" src="<?php echo $fields['app_image']["url"]; ?>">
                 <div class="text-wrapper">
-                    <h3>Take controll over your career</h3>
+                    <h3>test</h3>
                     <p>Connect with agents, coaches, <br>
                         sponsors or companies that <br>
                         could be your future employers.</p>
@@ -145,7 +147,7 @@
             <div class="wrapper">
                 <img class="tour-icon" src="<?php echo $fields['app_image']["url"]; ?>">
                 <div class="text-wrapper">
-                    <h3>Own your communication</h3>
+                    <h3>kebab</h3>
                     <p>Connect your social networks to <br>
                         Iplay and maintain all your <br>
                         communication in one place.</p>
@@ -154,7 +156,7 @@
             <div class="wrapper">
                 <img class="tour-icon" src="<?php echo $fields['app_image']["url"]; ?>">
                 <div class="text-wrapper">
-                    <h3>Take controll over your career</h3>
+                    <h3>kebab</h3>
                     <p>Connect with agents, coaches, <br>
                         sponsors or companies that <br>
                         could be your future employers.</p>

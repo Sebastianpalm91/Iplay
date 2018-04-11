@@ -50,7 +50,7 @@
 
   .app-text h2 ul li {
     height: 10%;
-    color: #3FBF55;
+    color: pink;
     font-size: 32px;
     line-height: 32px;
     list-style: none;
@@ -60,8 +60,11 @@
       }
       li {
         display: block;
-        opacity: 0;
-        display: none;
+        opacity: 1;
+        &:hover {
+          background-color: green;
+        }
+        // display: none;
       }
   }
 
