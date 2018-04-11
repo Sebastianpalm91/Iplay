@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="140px" height="107px" viewBox="0 0 140 107" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>Staff</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="51.6701121 -0.000149556432 0 107 88.3300386 107 140.000151 -0.000149556432"></polygon>
+    </defs>
+    <g id="Design" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD-Copy" transform="translate(-943.000000, -1225.000000)">
+            <g id="Staff" transform="translate(943.000000, 1225.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Rectangel" fill="#8278EB" xlink:href="#path-1"></use>
+                <image id="icons8-access-card-filled" mask="url(#mask-2)" x="44.5" y="29.2391304" width="48" height="48" xlink:href="data:image/png;base64,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"></image>
+            </g>
+        </g>
+    </g>
+</svg>

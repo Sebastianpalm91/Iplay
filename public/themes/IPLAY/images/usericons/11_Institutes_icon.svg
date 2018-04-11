@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="140px" height="107px" viewBox="0 0 140 107" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>Institutes</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="51.6701121 -0.000149556432 0 107 88.3300386 107 140.000151 -0.000149556432"></polygon>
+    </defs>
+    <g id="Design" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD-Copy" transform="translate(-943.000000, -1365.000000)">
+            <g id="Institutes" transform="translate(943.000000, 1365.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Rectangel" fill="#FF559F" xlink:href="#path-1"></use>
+                <image id="icons8-diploma-filled" mask="url(#mask-2)" x="45.6666667" y="29.2391304" width="48" height="48" xlink:href="data:image/png;base64,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"></image>
+            </g>
+        </g>
+    </g>
+</svg>
