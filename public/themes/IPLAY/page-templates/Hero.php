@@ -58,9 +58,47 @@
         </div>
 
         <div class="app-tour">
-            <p class="app-text"> <?php echo $fields['app_text'] ?></p>
+            <div class="app-text">
+                <h2>The
+                     <ul>
+                         <li class="list-item">ATHLETES</li>
+                         <li class="list-item">FANS</li>
+                         <li class="list-item">COACHES</li>
+                     </ul>
+                  Tour</h2><br>
+                <p>Take a tour through the Iplay Sport App <br>
+                    and discover some of the top features.
+                </p>
+
+            </div>
             <div class="app-image">
-                <img src="<?php// echo $fields['app_image']["url"]; ?>" alt="">
+                <div class="wrapper">
+                    <img class="tour-icon" src="<?php echo $fields['app_image']["url"]; ?>">
+                    <div class="text-wrapper">
+                        <h3>Chat with your teammates</h3> <br>
+                        <p>Connect with your team and <br>
+                            chat with your current or <br>
+                            previous teammates.</p>
+                    </div>
+                </div>
+                <div class="wrapper">
+                    <img class="tour-icon" src="<?php echo $fields['app_image']["url"]; ?>">
+                    <div class="text-wrapper">
+                        <h3>Own your communication</h3>
+                        <p>Connect your social networks to <br>
+                            Iplay and maintain all your <br>
+                            communication in one place.</p>
+                    </div>
+                </div>
+                <div class="wrapper">
+                    <img class="tour-icon" src="<?php echo $fields['app_image']["url"]; ?>">
+                    <div class="text-wrapper">
+                        <h3>Take controll over your career</h3>
+                        <p>Connect with agents, coaches, <br>
+                            sponsors or companies that <br>
+                            could be your future employers.</p>
+                    </div>
+                </div>
             </div>
         </div>
 
