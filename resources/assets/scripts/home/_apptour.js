@@ -1,9 +1,15 @@
 //Apptour JS
- const section = document.querySelector('.wrapper');
+ const section = document.querySelectorAll('.app-image');
+ const listItems = document.querySelectorAll('.list-item');
  const imageItems = [...document.querySelectorAll('.tour-icon')];
- const imageText = [...document.querySelectorAll('.text-wrapper')];
+ const imageText = [...document.querySelectorAll('.text-wrapper h3, .text-wrapper p')];
 
- function toggleInfo(info) {
-  // Loop through all items
-  imageItems.forEach(picture => imageItems.classList.remove('tour-icon--active'));
-  imageText.forEach(text => imageText.classList.remove('text-wrapper--active'));
+
+listItems.forEach(item => {
+ item.addEventListener('click', e => {
+   section.forEach(x => x.classList.remove('active'));
+   const key = item.dataset.key;
+   const activeItems = document.querySelectorAll(`.app-image[data-key="${key}"]`)
+   activeItems.forEach(item => item.classList.add('active'))
+ })
+})
