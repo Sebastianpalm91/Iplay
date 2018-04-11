@@ -45,6 +45,19 @@
         margin: 0;
         padding: 0;
         display: inline-block;
+          &:hover {
+            background-color: green;
+              li {
+                display: block;
+                  ul {
+                    display: flex;
+                    flex-direction: column;
+                      &:hover li {
+                        background-color: green;
+                      }
+                  }
+              }
+          }
       }
   }
 
@@ -59,12 +72,10 @@
         max-height: 0;
       }
       li {
-        display: block;
+        display: flex;
+        flex-direction: column;
+        display: none;
         opacity: 1;
-        &:hover {
-          background-color: green;
-        }
-        // display: none;
       }
   }
 
