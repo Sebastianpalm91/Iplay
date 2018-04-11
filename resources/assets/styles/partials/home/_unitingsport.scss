@@ -79,7 +79,7 @@
         width: 120px;
       }
     }
-    img.uniting-image-athletes {
+    img.uniting-image-athletes, {
       transform: translateX(80px);
       @include bp(small) {
         transform: translateX(70px);
@@ -91,6 +91,43 @@
         transform: translateX(35px);
       }
     }
+    img.uniting-image-teams {
+      transform: translateX(80px);
+      @include bp(small) {
+        transform: translateX(70px);
+      }
+    }
+    img.uniting-image-clubs, {
+      transform: translateX(40px);
+      @include bp(small) {
+        transform: translateX(35px);
+      }
+    }
+    img.uniting-image-agents {
+      transform: translateX(80px);
+      @include bp(small) {
+        transform: translateX(70px);
+      }
+    }
+    img.uniting-image-staff, {
+      transform: translateX(40px);
+      @include bp(small) {
+        transform: translateX(35px);
+      }
+    }
+    img.uniting-image-media {
+      transform: translateX(80px);
+      @include bp(small) {
+        transform: translateX(70px);
+      }
+    }
+    img.uniting-image-institutes, {
+      transform: translateX(40px);
+      @include bp(small) {
+        transform: translateX(35px);
+      }
+    }
+
     .uniting-color-content {
       color: black;
       font-family: HelveticaText;

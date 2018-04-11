@@ -41,19 +41,19 @@
                 <!-- 1ST -->
                 <img class="uniting-image-athletes" src="<?php echo $fields['uniting_image_athletes']["url"]; ?>" alt="">
                 <img class="uniting-image-fans" src="<?php echo $fields['uniting_image_fans']["url"]; ?>" alt="">
-                <img class="uniting-image-teams" src="<?php echo $fields['uniting_image_teams']["url"]; ?>" alt="">
+                <img class="uniting-image-coaches" src="<?php echo $fields['uniting_image_coaches']["url"]; ?>" alt="">
                 <!-- 2ND -->
-                <img class="uniting-image-athletes" src="<?php echo $fields['uniting_image_athletes']["url"]; ?>" alt="">
-                <img class="uniting-image-fans" src="<?php echo $fields['uniting_image_fans']["url"]; ?>" alt="">
                 <img class="uniting-image-teams" src="<?php echo $fields['uniting_image_teams']["url"]; ?>" alt="">
+                <img class="uniting-image-clubs" src="<?php echo $fields['uniting_image_clubs']["url"]; ?>" alt="">
+                <img class="uniting-image-referees" src="<?php echo $fields['uniting_image_referees']["url"]; ?>" alt="">
                 <!-- 3RD -->
-                <img class="uniting-image-athletes" src="<?php echo $fields['uniting_image_athletes']["url"]; ?>" alt="">
-                <img class="uniting-image-fans" src="<?php echo $fields['uniting_image_fans']["url"]; ?>" alt="">
-                <img class="uniting-image-teams" src="<?php echo $fields['uniting_image_teams']["url"]; ?>" alt="">
+                <img class="uniting-image-agents" src="<?php echo $fields['uniting_image_agents']["url"]; ?>" alt="">
+                <img class="uniting-image-staff" src="<?php echo $fields['uniting_image_staff']["url"]; ?>" alt="">
+                <img class="uniting-image-sponsors" src="<?php echo $fields['uniting_image_sponsors']["url"]; ?>" alt="">
                 <!-- 4TH -->
-                <img class="uniting-image-athletes" src="<?php echo $fields['uniting_image_athletes']["url"]; ?>" alt="">
-                <img class="uniting-image-fans" src="<?php echo $fields['uniting_image_fans']["url"]; ?>" alt="">
-                <img class="uniting-image-teams" src="<?php echo $fields['uniting_image_teams']["url"]; ?>" alt="">
+                <img class="uniting-image-media" src="<?php echo $fields['uniting_image_media']["url"]; ?>" alt="">
+                <img class="uniting-image-institutes" src="<?php echo $fields['uniting_image_institutes']["url"]; ?>" alt="">
+                <img class="uniting-image-companies" src="<?php echo $fields['uniting_image_companies']["url"]; ?>" alt="">
             </div>
         </div>
 
