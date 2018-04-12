@@ -81,7 +81,7 @@
         <!-- ATHLETES -->
         <div class="app-image app-image--active" data-key="athletes">
             <div class="wrapper">
-                <img class="tour-icon" src="<?php echo $fields['app_image']["url"]; ?>">
+                <img class="tour-icon" src="<?php echo $fields['app_image_athletes_1']["url"]; ?>">
                 <div class="text-wrapper">
                     <h3>Chat with your teammates</h3> <br>
                     <p>Connect with your team and <br>
@@ -90,7 +90,7 @@
                 </div>
             </div>
             <div class="wrapper">
-                <img class="tour-icon" src="<?php echo $fields['app_image']["url"]; ?>">
+                <img class="tour-icon" src="<?php echo $fields['app_image_athletes_2']["url"]; ?>">
                 <div class="text-wrapper">
                     <h3>Own your communication</h3>
                     <p>Connect your social networks to <br>
@@ -99,7 +99,7 @@
                 </div>
             </div>
             <div class="wrapper">
-                <img class="tour-icon" src="<?php echo $fields['app_image']["url"]; ?>">
+                <img class="tour-icon" src="<?php echo $fields['app_image_athletes_3']["url"]; ?>">
                 <div class="text-wrapper">
                     <h3>Take controll over your career</h3>
                     <p>Connect with agents, coaches, <br>
@@ -111,7 +111,7 @@
         <!-- FANS -->
         <div class="app-image" data-key="fans">
             <div class="wrapper">
-                <img class="tour-icon" src="<?php echo $fields['app_image']["url"]; ?>">
+                <img class="tour-icon" src="<?php echo $fields['app_image_fans_1']["url"]; ?>">
                 <div class="text-wrapper">
                     <h3>test</h3> <br>
                     <p>Connect with your team and <br>
@@ -120,7 +120,7 @@
                 </div>
             </div>
             <div class="wrapper">
-                <img class="tour-icon" src="<?php echo $fields['app_image']["url"]; ?>">
+                <img class="tour-icon" src="<?php echo $fields['app_image_fans_2']["url"]; ?>">
                 <div class="text-wrapper">
                     <h3>test</h3>
                     <p>Connect your social networks to <br>
@@ -129,7 +129,7 @@
                 </div>
             </div>
             <div class="wrapper">
-                <img class="tour-icon" src="<?php echo $fields['app_image']["url"]; ?>">
+                <img class="tour-icon" src="<?php echo $fields['app_image_fans_3']["url"]; ?>">
                 <div class="text-wrapper">
                     <h3>test</h3>
                     <p>Connect with agents, coaches, <br>
@@ -140,7 +140,7 @@
         </div>
         <div class="app-image" data-key="coaches">
             <div class="wrapper">
-                <img class="tour-icon" src="<?php echo $fields['app_image']["url"]; ?>">
+                <img class="tour-icon" src="<?php echo $fields['app_image_coaches_1']["url"]; ?>">
                 <div class="text-wrapper">
                     <h3>kebab</h3> <br>
                     <p>Connect with your team and <br>
@@ -149,7 +149,7 @@
                 </div>
             </div>
             <div class="wrapper">
-                <img class="tour-icon" src="<?php echo $fields['app_image']["url"]; ?>">
+                <img class="tour-icon" src="<?php echo $fields['app_image_coaches_2']["url"]; ?>">
                 <div class="text-wrapper">
                     <h3>kebab</h3>
                     <p>Connect your social networks to <br>
@@ -158,7 +158,7 @@
                 </div>
             </div>
             <div class="wrapper">
-                <img class="tour-icon" src="<?php echo $fields['app_image']["url"]; ?>">
+                <img class="tour-icon" src="<?php echo $fields['app_image_coaches_3']["url"]; ?>">
                 <div class="text-wrapper">
                     <h3>kebab</h3>
                     <p>Connect with agents, coaches, <br>

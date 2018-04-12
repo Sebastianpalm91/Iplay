@@ -9,7 +9,6 @@ cont.addEventListener('scroll', () => {
     navcolor.classList.add('nav-color-scroll');
   } else if (scroll < 50 ){
     nav.classList.remove('menu-container');
-    navcolor.classList.remove('nav-color-scroll')
-
+    navcolor.classList.remove('nav-color-scroll');
   }
 });
