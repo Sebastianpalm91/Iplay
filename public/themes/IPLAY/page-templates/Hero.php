@@ -63,10 +63,10 @@
         <div class="app-text">
             <h2>The
                  <ul>
-                     <li data-key='athletes' class="list-item">ATHLETES
                          <ul>
-                             <li data-key='fans' class="list-item">FANS</li>
-                             <li data-key='coaches' class="list-item">COACHES</li>
+                             <li data-key="athletes" class="list-item">ATHLETES
+                             <li data-key="fans" class="list-item">FANS</li>
+                             <li data-key="coaches" class="list-item">COACHES</li>
                          </ul>
                      </li>
                  </ul>
@@ -76,8 +76,8 @@
             </p>
 
         </div>
-        <div class="app-image active" data-key='athletes'>
-            <div class="wrapper active">
+        <div class="app-image" data-key="athletes">
+            <div class="wrapper">
                 <img class="tour-icon" src="<?php echo $fields['app_image']["url"]; ?>">
                 <div class="text-wrapper">
                     <h3>Chat with your teammates</h3> <br>
@@ -95,7 +95,7 @@
                         communication in one place.</p>
                 </div>
             </div>
-            <div class="wrappers">
+            <div class="wrapper">
                 <img class="tour-icon" src="<?php echo $fields['app_image']["url"]; ?>">
                 <div class="text-wrapper">
                     <h3>Take controll over your career</h3>
@@ -105,7 +105,7 @@
                 </div>
             </div>
         </div>
-        <div class="app-image" data-key='fans'>
+        <div class="app-image" data-key="fans">
             <div class="wrapper">
                 <img class="tour-icon" src="<?php echo $fields['app_image']["url"]; ?>">
                 <div class="text-wrapper">
@@ -134,7 +134,7 @@
                 </div>
             </div>
         </div>
-        <div class="app-image" data-key='coaches'>
+        <div class="app-image" data-key="coaches">
             <div class="wrapper">
                 <img class="tour-icon" src="<?php echo $fields['app_image']["url"]; ?>">
                 <div class="text-wrapper">
