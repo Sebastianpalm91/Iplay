@@ -29,7 +29,6 @@
 
         </div>
         </div>
-
     </div>
 
     <div class="uniting-sport">
@@ -166,6 +165,53 @@
                         could be your future employers.</p>
                 </div>
             </div>
+        </div>
+    </div>
+
+    <div class="sportsoniplay">
+        <div class="sportscontainer">
+            <p class="hero-text"> Sports on IPLAY </p>
+        </div>
+
+        <div class="avaliable-now">
+            <p><strong>Avaliable right now:</strong></p>
+        </div>
+
+        <div class="sportsiconwrapper">
+            <div class="sport1"></div>
+            <div class="sport2"></div>
+            <div class="sport3"></div>
+            <div class="sport4"></div>
+        </div>
+        <div class="icons-text">
+            <p>Fotball</p>
+            <p>Handball</p>
+            <p>Basketball</p>
+            <p>Bandy</p>
+        </div>
+
+        <div class="coming-soon">
+            <p><strong>Coming soon:</strong></p>
+        </div>
+
+        <div class="coming-sports-wrapper">
+            <div class="coming-sports">
+                <div class="sport5"></div>
+                <div class="sport6"></div>
+                <div class="sport7"></div>
+                <div class="sport8"></div>
+                <div class="sport9"></div>
+                <div class="sport10"></div>
+            </div>
+        </div>
+
+        <div class="coming-soon-text">
+            <p>Hockey</p>
+            <p>E-sports</p>
+            <p>Skiing</p>
+            <p>Floorball</p>
+            <p>Horse Sports</p>
+            <p>Sailing</p>
         </div>
     </div>
 </div>

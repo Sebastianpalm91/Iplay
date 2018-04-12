@@ -1,0 +1,213 @@
+.sportsoniplay {
+  height: 100vh;
+  width: 100%;
+  margin-top: 20vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.sportscontainer {
+  height: 5vh;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+    p {
+      height: 32px;
+      width: 313px;
+      color: #3FBF55;
+      font-family: Helvetica;
+      font-size: 40px;
+      font-weight: bold;
+      line-height: 32px;
+      margin-left: 1vw;
+    }
+}
+
+.avaliable-now {
+  height: 5vh;
+  width: 16vw;
+  margin-left: 15.5vw;
+  margin-top: 45px;
+  color: #424242;
+  font-family: Helvetica;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 24px;
+    p {
+      margin-left: 1vw;
+    }
+}
+
+.sportsiconwrapper {
+  margin-top: 35px;
+  display: flex;
+  height: 15vh;
+  margin-left: 1vw;
+}
+
+.sport1 {
+  background-image: url('../../../public/themes/IPLAY/images/1_football_sports_icon.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 64px;
+  width: 64px;
+  margin-right: 7.222222222222222vw;
+  margin-left: 15.972222vw;
+}
+
+.sport2 {
+  background-image: url('../../../public/themes/IPLAY/images/2_handball_sports_icon.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 64px;
+  width: 64px;
+  margin-right: 7.222222222222222vw;
+}
+
+.sport3 {
+  background-image: url('../../../public/themes/IPLAY/images/4_basketball_sports_icon.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 64px;
+  width: 64px;
+  margin-right: 7.222222222222222vw;
+}
+
+.sport4 {
+  background-image: url('../../../public/themes/IPLAY/images/3_bandy_sports_icon.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 64px;
+  width: 64px;
+  margin-right: 7.222222222222222vw;
+}
+
+.icons-text {
+  width: 100%;
+  height: 40px;
+  display: flex;
+  margin-left: 1vw;
+    p {
+      margin-left: 16vw;
+      margin-right: -14vw;
+      height: 26px;
+      width: 136px;
+      color: #424242;
+      font-family: Helvetica;
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 26px;
+    }
+}
+
+.coming-soon {
+  height: 5vh;
+  width: 16vw;
+  margin-left: 15.5vw;
+  margin-top: 45px;
+  color: #424242;
+  font-family: Helvetica;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 24px;
+    p {
+      margin-left: 1vw;
+    }
+}
+
+.coming-sports {
+  margin-top: 35px;
+  display: flex;
+  height: 15vh;
+  margin-left: 1vw;
+}
+
+.sport5 {
+  background-image: url('../../../public/themes/IPLAY/images/5_hockey_sports_icon.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 64px;
+  width: 64px;
+  margin-right: 7.222222222222222vw;
+  margin-left: 15.972222vw;
+  opacity: .5;
+}
+
+.sport6 {
+  background-image: url('../../../public/themes/IPLAY/images/6_esports_sports_icon.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 64px;
+  width: 64px;
+  margin-right: 104px;
+  opacity: .5;
+}
+
+.sport7 {
+  background-image: url('../../../public/themes/IPLAY/images/7_skiing_sports_icon.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 64px;
+  width: 64px;
+  margin-right: 104px;
+  opacity: .5;
+}
+
+.sport8 {
+  background-image: url('../../../public/themes/IPLAY/images/8_floorball_sports_icon.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 64px;
+  width: 64px;
+  margin-right: 104px;
+  opacity: .5;
+}
+
+.sport9 {
+  background-image: url('../../../public/themes/IPLAY/images/10_horsesports_sports_icon.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 64px;
+  width: 64px;
+  margin-right: 104px;
+  opacity: .5;
+}
+
+.sport10 {
+  background-image: url('../../../public/themes/IPLAY/images/9_sailing_sports_icon.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 64px;
+  width: 64px;
+  margin-right: 104px;
+  opacity: .5;
+}
+
+.coming-soon-text {
+  width: 100%;
+  height: 40px;
+  display: flex;
+  margin-left: 1vw;
+    p {
+      margin-left: 16vw;
+      margin-right: -14vw;
+      height: 26px;
+      width: 136px;
+      color: #424242;
+      font-family: Helvetica;
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 26px;
+      opacity: .5;
+    }
+}
