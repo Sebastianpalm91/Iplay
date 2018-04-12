@@ -8,15 +8,21 @@
   padding-bottom: 20px;
 }
 
+.section-wrapper {
+  display: flex;
+  height: 60%;
+  width: 100%;
+  border-bottom: 2px solid grey;
+}
+
 .section1 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-left: 100px;
+  margin-left: 6.944444444444445vw;
   height: 340px;
   width: 25%;
   background-color: #424242;
-  border-bottom: 2px solid #A0A0A0;
 }
 
 .footer-logo {
@@ -26,7 +32,7 @@
   background-size: contain;
   margin-right: 195px;
   margin-bottom: 16px;
-  margin-top: 100px;
+  margin-top: 6.944444444444445vw;
   margin-left: 140px;
   height: 60px;
   width: 200px;
@@ -46,15 +52,15 @@
 .section2 {
   display: flex;
   flex-direction: column;
-  margin-top: 100px;
+  margin-top: 6.52991vw;
   height: 240px;
   width: 15%;
   background-color: #424242;
-  border-bottom: 2px solid #A0A0A0;
     ul {
-      font-size: 16px;
+      font-size: 24px;
       font-family: Helvetica;
       line-height: 32px;
+      font-weight: 500;
       color: #A0A0A0;
       list-style: none;
       height: 265px;
@@ -74,12 +80,11 @@
   height: 340px;
   width: 25%;
   background-color: #424242;
-  border-bottom: 2px solid #A0A0A0;
     h2 {
-      margin-top: 100px;
+      margin-top: 6.444444444444445vw;
       margin-bottom: 20px;
       line-height: 32px;
-      font-size: 16px;
+      font-size: 24px;
       color: #A0A0A0;
       font-family: Helvetica;
     }
@@ -140,12 +145,11 @@
   width: 24%;
   margin-left: -80px;
   background-color: #424242;
-  border-bottom: 2px solid #A0A0A0;
     h2 {
-      margin-top: 100px;
+      margin-top: 6.444444444444445vw;
       margin-bottom: 20px;
       line-height: 32px;
-      font-size: 16px;
+      font-size: 24px;
       color: #A0A0A0;
       font-family: Helvetica;
     }
@@ -186,6 +190,68 @@
       font-size: 16px;
       line-height: 24px;
       transform: skew(25deg);
-
     }
+}
+
+.icon-wrapper {
+  display: flex;
+  margin-left: 12vw;
+  width: 100%;
+  height: 38%;
+  position: absolute;
+  bottom: 0;
+}
+
+.partners {
+  margin-right: 2vw;
+  color: white;
+  height: 26px;
+  width: 94px;
+  color: #FFFEFC;
+  font-family: Helvetica;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 26px;
+}
+
+.barca {
+  margin-right: 2vw;
+  background-image: url('../../../public/themes/IPLAY/images/iplay-footer-fcbarcelona.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 79.78px;
+  width: 77.88px;
+}
+
+.jl {
+  margin-top: 4vh;
+  margin-right: 2vw;
+  background-image: url('../../../public/themes/IPLAY/images/iplay-footer-jlindeberg.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 20px;
+  width: 193px;
+}
+
+.xps {
+  margin-top: 4vh;
+  background-image: url('../../../public/themes/IPLAY/images/iplay-footer-sportcompetence.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 26px;
+  width: 160px;
+}
+
+.sportcomp {
+  margin-top: 4vh;
+  margin-right: 2vw;
+  background-image: url('../../../public/themes/IPLAY/images/iplay-footer-xps.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 284px;
+  height: 32px;
 }
