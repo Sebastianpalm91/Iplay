@@ -10,6 +10,12 @@ $('.hamburger').click(function(e){
   $(this).toggleClass('open');
 });
 
+const forwho = document.querySelector('.menu-item-has-children a');
+const sub = document.querySelector('.sub-menu');
+forwho.addEventListener('click', () => {
+  sub.classList.toggle("is-active");
+})
+
 // const menu91 = document.getElementById('menu-item-90');
 // menu91.addEventListener('click', () => {
 //   const menu94 = document.getElementById('menu-item-94');

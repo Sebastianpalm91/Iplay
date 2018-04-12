@@ -36,49 +36,72 @@
   }
   .app-text {
     display: flex;
-    height: 10%;
+    height: 120px;
     color: #3FBF55;
     font-size: 32px;
     line-height: 32px;
       ul {
+        z-index: 99;
+        color: #3FBF55;
         margin: 0;
         padding: 0;
         display: inline-block;
-          &:hover {
-            background-color: green;
-              li {
-                display: block;
-                  ul {
-                    display: flex;
-                    flex-direction: column;
-                      &:hover li {
-                        background-color: green;
-                      }
-                  }
-              }
-          }
+        cursor: pointer;
+          // &:hover {
+          //     li {
+          //       display: block;
+          //         ul {
+          //           background-color: black;
+          //           display: flex;
+          //           flex-direction: column;
+          //
+          //         }
+          //     }
+          // }
       }
   }
+  .app-text ul ul li{
+    display: none;
+    transition: all 500ms ease;
+  }
+  // .app-text ul ul {
+  //   transform: skewX(-20deg);
+  // }
+  // .app-text ul ul li{
+  //   transform: skewX(20deg);
+  // }
+  .app-text ul:hover ul li  {
+    display: block;
 
-  .app-text h2 ul li {
-    height: 10%;
-    color: #3FBF55;
-    font-size: 32px;
-    line-height: 32px;
     list-style: none;
-    display: inline-block;
-      ul {
-        max-height: 0;
-      }
-      li {
-        display: flex;
-        flex-direction: column;
-        display: none;
-        opacity: 1;
-      }
+  }
+
+  .app-text ul ul li:hover  {
+    background-color: black;
+  }
+  .app-text ul li {
+    display: flex;
+    align-items: baseline;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 3px;
+  }
+  .app-text ul li:hover {
+    background-color: black;
+  }
+
+  .the-tour {
+    margin: 0px;
+  }
+
+  .app-text-container {
+    display: flex;
+    flex-direction: row;
   }
 
   .app-text p {
+    // position: absolute;
+    // margin-top: 50px;
     color: #424242;
   	font-family: Helvetica;
   	font-size: 16px;
@@ -103,4 +126,8 @@
   }
 }
 
+.active {
+  display: block!important;
+}
+.app-image.app-image { display: none; }
 .app-image.app-image--active { display: block; }
