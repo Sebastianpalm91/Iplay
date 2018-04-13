@@ -2,6 +2,7 @@
 
 .app-tour {
   display: flex;
+  margin: 80px 0px 150px 0px;
   @include bp(small) {
     justify-content: center;
     flex-direction: column;
