@@ -33,8 +33,9 @@
 
     <div class="uniting-sport">
         <div class="uniting-text-wrapper">
-            <p class="uniting-text-title"> <?php echo $fields['uniting_text_title'] ?></p>
-            <p class="uniting-text-content"> <?php echo $fields['uniting_text_content'] ?></p>
+            <p class="uniting-text-title"> <?php echo $fields['uniting_text_title']; ?></p>
+            <p class="uniting-text-subtitle"> <?php echo $fields['uniting_text_subtitle']; ?></p>
+            <p class="uniting-text-content"> <?php echo $fields['uniting_text_content']; ?></p>
         </div>
         <div class="uniting-user-icons">
             <!-- 1ST -->
@@ -165,6 +166,10 @@
                         could be your future employers.</p>
                 </div>
             </div>
+        </div>
+        <div class="uniting-buy">
+            <div class="uniting-text-sub-apple" alt=""></div>
+            <div class="uniting-text-sub-google" alt=""></div>
         </div>
     </div>
 

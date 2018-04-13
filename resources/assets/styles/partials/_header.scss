@@ -55,6 +55,7 @@ a {
   .facebook,
   .youtube,
   .instagram {
+    transition: all 500ms ease;
     background-position: center;
     background-repeat: no-repeat;
     background-color: none;
@@ -73,6 +74,30 @@ a {
   }
   .instagram {
     background-image: url('../../../public/themes/IPLAY/images/instagram-header-iplay.svg');
+  }
+  .twitter-black,
+  .facebook-black,
+  .youtube-black,
+  .instagram-black {
+    transition: all 500ms ease;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: none;
+    height: 21px;
+    width: 19px;
+    margin: 10px;
+  }
+  .twitter-black {
+    background-image: url('../../../public/themes/IPLAY/images/twitter-header-iplay-black.svg');
+  }
+  .facebook-black {
+    background-image: url('../../../public/themes/IPLAY/images/facebook-header-iplay-black.svg');
+  }
+  .youtube-black {
+    background-image: url('../../../public/themes/IPLAY/images/youtube-header-iplay-black.svg');
+  }
+  .instagram-black {
+    background-image: url('../../../public/themes/IPLAY/images/instagram-header-iplay-black.svg');
   }
 }
 
