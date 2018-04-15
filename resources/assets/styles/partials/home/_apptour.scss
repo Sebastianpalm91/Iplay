@@ -81,20 +81,16 @@
     display: none;
     transition: all 500ms ease;
   }
-  // .app-text ul ul {
-  //   transform: skewX(-20deg);
-  // }
-  // .app-text ul ul li{
-  //   transform: skewX(20deg);
-  // }
   .app-text ul:hover ul li  {
     display: block;
-
     list-style: none;
+    text-decoration: none;
+    text-decoration-color: none;
   }
 
   .app-text ul ul li:hover  {
-    background-color: black;
+    text-decoration: none;
+    text-decoration-color: none;
   }
   .app-text ul li {
     display: flex;
@@ -102,9 +98,43 @@
     padding-left: 10px;
     padding-right: 10px;
     padding-top: 3px;
+    text-decoration: underline;
+    text-decoration-color: black;
   }
   .app-text ul li:hover {
-    background-color: black;
+    color: white;
+    text-decoration: none;
+  }
+
+  .skew{
+    transform: skew(-25deg, 0deg);
+    transition: all 500ms ease;
+  }
+  .skew:hover {
+    background-color: #74E493;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  .skew-fans{
+    transform: skew(-25deg, 0deg);
+    transition: all 500ms ease;
+  }
+  .skew-fans:hover {
+    background-color: #74E493;
+  }
+  .skew-coaches{
+    transform: skew(-25deg, 0deg);
+    transition: all 500ms ease;
+  }
+  .skew-coaches:hover {
+    background-color: #74E493;
+  }
+  .app-text ul li {
+      transform: skew(25deg, 0deg);
+    }
+
+  .app-text ul ul li {
+      transform: skew(25deg, 0deg);
   }
 
   .the-tour {
@@ -116,9 +146,8 @@
     flex-direction: row;
   }
 
+
   .app-text p {
-    // position: absolute;
-    // margin-top: 50px;
     color: #424242;
   	font-family: Helvetica;
   	font-size: 16px;

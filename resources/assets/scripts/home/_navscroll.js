@@ -2,25 +2,6 @@ const nav = document.querySelector('.fixed-position');
 
 const hamburger = document.querySelector('.hamburger-inner');
 
-
-// const icon = document.querySelector('.icon-container');
-// icon.childNodes.forEach( function(item){
-//   console.log(item.classList.contains('twitter'));
-// });
-
-const icon = document.querySelector('.navigation-bar ul li ');
-icon.childNodes.forEach( function(item){
-  console.log(item);
-  // item.classList.add("nav-color-scroll");
-});
-// const navcolor = document.querySelectorAll('.navigation-bar ul li a')
-// const navcolor1 = document.querySelector('.navigation-bar ul li ')
-// const navcolor2 = document.querySelector('.navigation-bar ul li a')
-// const menu147 = document.querySelector('menu-item-147')
-// const menu93 = document.querySelector('.menu-item-93');
-// const menu89 = document.querySelector('.menu-item-89')
-// console.log(menu147);;
-// menu147.style.color = "black";
 const twitter = document.querySelector('.twitter');
 const instagram = document.querySelector('.instagram');
 const facebook = document.querySelector('.facebook');
@@ -30,8 +11,11 @@ cont.addEventListener('scroll', () => {
   let scroll = cont.scrollTop;
   if (scroll >= 50) {
     nav.classList.add('menu-container');
-    // menu147.classList.add('nav-color-scroll');
-
+    const icon = document.querySelectorAll('.navigation-bar ul li a');
+    console.log(icon);
+    icon.forEach((e) => {
+        e.classList.add('nav-color-scroll');
+    })
     hamburger.classList.add('hamburger-color-scroll');
     // ICONS WHITE
     twitter.classList.remove('twitter');
@@ -44,7 +28,10 @@ cont.addEventListener('scroll', () => {
     facebook.classList.add('facebook-black');
     youtube.classList.add('youtube-black');
   } else if (scroll < 50 ){
-    // navcolor.classList.remove('nav-color-scroll');
+      const icon = document.querySelectorAll('.navigation-bar ul li a');
+      icon.forEach((e) => {
+          e.classList.remove('nav-color-scroll');
+      })
     hamburger.classList.remove('hamburger-color-scroll');
     // ICONS WHITE
     twitter.classList.add('twitter');

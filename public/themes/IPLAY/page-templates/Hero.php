@@ -64,10 +64,18 @@
             <div class="app-text-container">
             <h2 class="the-tour">The</h2>
                  <ul>
-                     <li data-key="athletes" class="list-item">ATHLETES</li>
+                     <div class="skew">
+                         <li data-key="athletes" class="list-item">ATHLETES</li>
+                     </div>
                          <ul>
+                             <div class="skew-fans">
                              <li data-key="fans" class="list-item">FANS</li>
+                         </div>
+                         <div class="skew-coaches">
+
                              <li data-key="coaches" class="list-item">COACHES</li>
+                         </div>
+
                          </ul>
                  </ul>
                  <h2 class="the-tour">tour</h2>

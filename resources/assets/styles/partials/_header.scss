@@ -11,6 +11,7 @@
 }
 
 .nav-color-scroll {
+  transition: all 500ms ease;
   color: black!important;
 }
 // .navigation {
@@ -148,6 +149,7 @@ a {
 }
 .navigation-bar ul li ul > .sub-menu{
   background-color: #74E493!important;
+
 }
 .navigation-bar ul li:hover ul li {
   display: block;
@@ -160,6 +162,7 @@ a {
   flex-direction: row;
   flex-wrap: wrap;
   width: 40vw;
+
 }
 
 .navigation-bar li:hover > .sub-menu  {
