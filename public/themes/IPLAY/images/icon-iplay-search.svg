@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="26px" height="26px" viewBox="0 0 26 26" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>ion-search - Ionicons Copy</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M440.859375,26.140625 C441.078126,26.3593761 441.078126,26.5781239 440.859375,26.796875 L438.84375,28.859375 C438.75,28.9531255 438.625001,29 438.46875,29 C438.343749,29 438.234375,28.9531255 438.140625,28.859375 L434.203125,24.828125 C433.015619,25.5468786 431.765632,25.90625 430.453125,25.90625 C428.421865,25.90625 426.671882,25.1796948 425.203125,23.7265625 C423.734368,22.2734302 423,20.5156353 423,18.453125 C423,16.3906147 423.734368,14.6328198 425.203125,13.1796875 C426.671882,11.7265552 428.421865,11 430.453125,11 C432.484385,11 434.226555,11.7265552 435.679688,13.1796875 C437.13282,14.6328198 437.859375,16.3906147 437.859375,18.453125 C437.859375,19.7656316 437.531253,20.9843694 436.875,22.109375 L440.859375,26.140625 Z M430.453125,13.90625 C429.203119,13.90625 428.132817,14.351558 427.242188,15.2421875 C426.351558,16.132817 425.90625,17.2031188 425.90625,18.453125 C425.90625,19.7031312 426.351558,20.773433 427.242188,21.6640625 C428.132817,22.554692 429.203119,23 430.453125,23 C431.703131,23 432.765621,22.554692 433.640625,21.6640625 C434.515629,20.773433 434.953125,19.7031312 434.953125,18.453125 C434.953125,17.2031188 434.515629,16.132817 433.640625,15.2421875 C432.765621,14.351558 431.703131,13.90625 430.453125,13.90625 Z" id="path-1"></path>
+        <filter x="-38.8%" y="-27.8%" width="177.7%" height="177.8%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Design" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Player-catalogue---Desktop" transform="translate(-910.000000, -201.000000)">
+            <g id="Group-4" transform="translate(491.000000, 192.000000)">
+                <g id="ion-search---Ionicons-Copy">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use fill="#3FBF55" fill-rule="evenodd" xlink:href="#path-1"></use>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

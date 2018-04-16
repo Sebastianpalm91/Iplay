@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="87px" height="25px" viewBox="0 0 87 25" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 5</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Design" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Player-catalogue---Desktop" transform="translate(-378.000000, -360.000000)">
+            <g id="Group-5" transform="translate(378.000000, 360.000000)">
+                <path d="M86.4178711,0 L74.840951,24.040404 L0,24.040404 L11.57692,0 L86.4178711,0 Z" id="Combined-Shape-Copy" fill="#085F7A"></path>
+                <text id="Handball" font-family="HelveticaNeue-Medium, Helvetica Neue" font-size="12" font-weight="400" fill="#FFFEFC">
+                    <tspan x="12.656" y="16">Handball</tspan>
+                </text>
+                <text id="ion-close---Ionicons" font-family="Ionicons" font-size="10" font-weight="400" fill="#FFFEFC">
+                    <tspan x="66" y="16"></tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>
