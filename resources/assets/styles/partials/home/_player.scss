@@ -33,6 +33,8 @@
 }
 
 .top-search-bar input {
+  border: 0px solid;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   height: 32px;
   width: 288px;
   margin-top: 23px;
@@ -45,6 +47,8 @@
 }
 
 .top-search-bar button {
+  border: none;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   height: 32px;
   width: 32px;
   margin-top: 23px;
@@ -70,6 +74,9 @@
 }
 
 .filter {
+  @media screen and (min-width: 500px) {
+    display: none;
+  }
   margin-left: 16px;
   width: 50%;
   height: 40px;
@@ -82,6 +89,9 @@
 }
 
 .sort {
+  @media screen and (min-width: 500px) {
+    display: none;
+  }
   width: 50%;
   height: 40px;
   display: flex;
@@ -101,6 +111,9 @@
 }
 
 .handball {
+  @media screen and (min-width: 500px) {
+    display: none;
+  }
   margin-left: 16px;
   height: 24px;
   width: 87px;
@@ -108,6 +121,9 @@
 }
 
 .age {
+  @media screen and (min-width: 500px) {
+    display: none;
+  }
   margin-left: 16px;
   height: 24px;
   width: 97px;
@@ -133,15 +149,25 @@
 }
 
 .player1 {
+  @media screen and (min-width: 500px) {
+    height: 232px;
+    width: 219px;
+    border: solid 1px rgba(160,160,160,0.21);
+  }
   margin-left: 16px;
   height: 144px;
   width: 136px;
-  background-image: url('../../../public/themes/IPLAY/images/athlete-card-desktop-nathaliehagman.svg');
+  background-image: url('../../../public/themes/IPLAY/images/img-player-iplay-mobile-nathaliehagman.svg');
   background-repeat: no-repeat;
   background-size: contain;
 }
 
 .player2 {
+  @media screen and (min-width: 500px) {
+    height: 232px;
+    width: 219px;
+    border: solid 1px rgba(160,160,160,0.21);
+  }
   height: 144px;
   width: 136px;
   margin-left: 16px;
@@ -157,7 +183,11 @@
 }
 
 .player3 {
-  margin-left: 16px;
+  @media screen and (min-width: 500px) {
+    height: 232px;
+    width: 219px;
+    border: solid 1px rgba(160,160,160,0.21);
+  }
   height: 144px;
   width: 136px;
   background-image: url('../../../public/themes/IPLAY/images/athlete-card-desktop-niklasekberg.svg');
@@ -166,6 +196,11 @@
 }
 
 .player4 {
+  @media screen and (min-width: 500px) {
+    height: 232px;
+    width: 219px;
+    border: solid 1px rgba(160,160,160,0.21);
+  }
   height: 144px;
   width: 136px;
   margin-left: 16px;
@@ -181,6 +216,11 @@
 }
 
 .player5 {
+  @media screen and (min-width: 500px) {
+    height: 232px;
+    width: 219px;
+    border: solid 1px rgba(160,160,160,0.21);
+  }
   margin-left: 16px;
   height: 144px;
   width: 136px;
@@ -190,6 +230,11 @@
 }
 
 .player6 {
+  @media screen and (min-width: 500px) {
+    height: 232px;
+    width: 219px;
+    border: solid 1px rgba(160,160,160,0.21);
+  }
   height: 144px;
   width: 136px;
   margin-left: 16px;
@@ -205,7 +250,11 @@
 }
 
 .player7 {
-  margin-left: 16px;
+  @media screen and (min-width: 500px) {
+    height: 232px;
+    width: 219px;
+    border: solid 1px rgba(160,160,160,0.21);
+  }
   height: 144px;
   width: 136px;
   background-image: url('../../../public/themes/IPLAY/images/athlete-card-desktop-tobiaskarlsson.svg');
@@ -214,10 +263,89 @@
 }
 
 .player8 {
+  @media screen and (min-width: 500px) {
+    height: 232px;
+    width: 219px;
+    border: solid 1px rgba(160,160,160,0.21);
+  }
   height: 144px;
   width: 136px;
   margin-left: 16px;
   background-image: url('../../../public/themes/IPLAY/images/athlete-card-desktop-kenttonnesen.svg');
   background-repeat: no-repeat;
   background-size: contain;
+}
+
+//DESKTOP
+
+.function-bar {
+  @media screen and (min-width: 500px) {
+  width: 100%;
+  background-color: red;
+  height: 80px;
+  }
+}
+
+.filter-sort {
+  p {
+    @media screen and (min-width: 500px) {
+      display: block;
+      width: 106px;
+      height: 10px;
+    }
+    display: none;
+  }
+}
+
+.desktop-handball {
+  @media screen and (min-width: 500px) {
+    width: 87px;
+    height: 24px;
+    background-image: url('../../../public/themes/IPLAY/images/button-iplay-filter-handball.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}
+
+.desktop-age {
+  @media screen and (min-width: 500px) {
+    width: 97px;
+    height: 24px;
+    background-image: url('../../../public/themes/IPLAY/images/button-iplay-filter-age.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}
+
+.filter-applied {
+  @media screen and (min-width: 500px) {
+    display: flex;
+    margin-left: 257px;
+    align-items: center;
+    margin-right: 15px;
+    width: 100%;
+    p {
+      margin-bottom: 0;
+    }
+  }
+}
+
+.desktop-wrapper {
+  @media screen and (min-width: 500px) {
+  display: flex;
+  margin-left: 257px;
+  }
+}
+
+.sorting-by-desktop {
+    ul {
+      list-style: none;
+      display: block;
+      margin-bottom: 0;
+    }
+  @media screen and (min-width: 500px) {
+    margin-left: 550px;
+    display: flex;
+    justify-content: flex-end;
+  }
 }
