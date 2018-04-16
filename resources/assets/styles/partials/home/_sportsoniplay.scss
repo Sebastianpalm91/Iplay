@@ -1,12 +1,14 @@
 .sportsoniplay {
-  height: 100vh;
+  height: 70vh;
   width: 100%;
   margin-top: 20vh;
   display: flex;
   flex-direction: column;
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 800px) {
     margin-bottom: 15vh;
-    height: 150vh;
+  }
+  @media screen and (max-width: 600px) {
+    height: 100vh;
   }
 }
 
@@ -198,6 +200,10 @@
   @media screen and (max-width: 600px) {
     margin-right: 27vw;
   }
+}
+
+.sport-text {
+  opacity: .5;
 }
 
 .sport6-picture {
