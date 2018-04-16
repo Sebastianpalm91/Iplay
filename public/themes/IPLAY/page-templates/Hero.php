@@ -62,7 +62,7 @@
     <div class="app-tour">
         <div class="app-text">
             <div class="app-text-container">
-            <h2 class="the-tour">The</h2>
+            <h2 class="tour-title-the">The</h2>
                  <ul>
                      <div class="skew">
                          <li data-key="athletes" class="list-item">ATHLETES</li>
@@ -78,7 +78,8 @@
 
                          </ul>
                  </ul>
-                 <h2 class="the-tour">tour</h2>
+                 <h2 class="tour-title-tour">tour</h2>
+
             </div>
               <br>
             <p>Take a tour through the Iplay Sport App <br>

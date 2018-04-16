@@ -103,6 +103,9 @@
     .uniting-image-companies:hover, {
       width: 170px;
       transition: all 400ms ease;
+      @include bp(small) {
+        width: 135px;
+      }
     }
     img.uniting-image-athletes, {
       transform: translateX(80px);

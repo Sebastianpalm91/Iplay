@@ -18,7 +18,6 @@ cont.addEventListener('scroll', () => {
         e.classList.add('nav-color-scroll');
     })
     const li = document.querySelectorAll('.navigation-bar ul li ul li a');
-    console.log(li);
     li.forEach((e) => {
         e.classList.add('sub-menu-scroll')
     })
