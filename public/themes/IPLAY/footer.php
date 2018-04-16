@@ -4,12 +4,12 @@
     <div class="section-wrapper">
         <div class="section1">
             <div class="footer-logo"></div>
-            <div class="text-under-logo">
-                <p>The Social Platform for Sports. <br>
+                <div class="text-under-logo">
+                    <p>The Social Platform for Sports. <br>
                     <br>
                     © 2016 All rights reserved. IPY Holding AB</p>
                 </div>
-            </div>
+        </div>
 
             <div class="section2">
                 <ul> <p style="color: white;"><strong>Info</strong></p>

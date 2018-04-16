@@ -220,31 +220,31 @@
                 <div class="sport56-wrap">
                     <div class="sport5">
                         <div class="sport5-picture"></div>
-                        <div class="sport5-text"><p>Hockey</p></div>
+                        <div class="sport-text"><p>Hockey</p></div>
                     </div>
                     <div class="sport6">
                         <div class="sport6-picture"></div>
-                        <div class="sport6-text"><p>E-sports</p></div>
+                        <div class="sport-text"><p>E-sports</p></div>
                     </div>
                 </div>
                 <div class="sport78-wrap">
                     <div class="sport7">
                         <div class="sport7-picture"></div>
-                        <div class="sport7-text"><p>E-Skiing</p></div>
+                        <div class="sport-text"><p>E-Skiing</p></div>
                     </div>
                     <div class="sport8">
                         <div class="sport8-picture"></div>
-                        <div class="sport8-text"><p>Floorball</p></div>
+                        <div class="sport-text"><p>Floorball</p></div>
                     </div>
                 </div>
                 <div class="sport910-wrap">
                     <div class="sport9">
                         <div class="sport9-picture"></div>
-                        <div class="sport9-text"><p>Horse Sports</p></div>
+                        <div class="sport-text"><p>Horse Sports</p></div>
                     </div>
                     <div class="sport10">
                         <div class="sport10-picture"></div>
-                        <div class="sport10-text"><p>Sailing</p></div>
+                        <div class="sport-text"><p>Sailing</p></div>
                     </div>
                 </div>
         </div>
