@@ -58,6 +58,10 @@
       text-align: left;
       }
       ul {
+        background-image: url('../../../public/themes/IPLAY/images/arrows/icon-iplay-arrow-black.svg');
+        background-position: right;
+        background-repeat: no-repeat;
+
         z-index: 99;
         color: #3FBF55;
         margin: 0;
@@ -139,6 +143,7 @@
 
   .the-tour {
     margin: 0px;
+    padding-left: 10px;
   }
 
   .app-text-container {

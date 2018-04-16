@@ -30,6 +30,11 @@ a {
 // .skew2 {
 //   transform: skewX(25deg);
 // }
+.black-arrow {
+  background-image: url('../../../public/themes/IPLAY/images/arrows/icon-iplay-arrow-black.svg');
+  background-position: right;
+  background-repeat: no-repeat;
+}
 .skew:hover {
   background-color: #74E493;
   color: #FFFEFC;

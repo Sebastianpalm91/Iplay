@@ -1,4 +1,5 @@
 const nav = document.querySelector('.fixed-position');
+// const blackarrow = document.querySelector('.black')
 const twitter = document.querySelector('.twitter');
 const instagram = document.querySelector('.instagram');
 const facebook = document.querySelector('.facebook');
@@ -9,6 +10,8 @@ cont.addEventListener('scroll', () => {
   let scroll = cont.scrollTop;
   if (scroll >= 50) {
     nav.classList.add('menu-container');
+    // blackarrow.classList.remove('black');
+    // blackarrow.classList.add('black-arrow');
     // NAVIGATION MENU BLACK
     const icon = document.querySelectorAll('.navigation-bar ul li a');
     icon.forEach((e) => {
