@@ -10,7 +10,10 @@
 }
 
 .sportscontainer {
-  height: 5vh;
+  @media screen and (max-width: 780px) {
+    margin-left: 16px;
+  }
+  height: 32px;
   width: 100%;
   display: flex;
   justify-content: baseline;
@@ -27,8 +30,8 @@
 }
 
 .avaliable-now {
-  height: 5vh;
-  width: 16vw;
+  height: 24px;
+  width: 150px;
   margin-left: 15.5vw;
   margin-top: 45px;
   color: #424242;
@@ -37,7 +40,8 @@
   font-weight: bold;
   line-height: 24px;
   @media screen and (max-width: 600px) {
-    margin-bottom: 20px;
+    margin-bottom: 19px;
+    margin-left: 17px;
   }
 }
 
@@ -56,6 +60,8 @@
   display: flex;
   @media screen and (max-width: 600px) {
     margin-bottom: 20px;
+    margin-left: 28px;
+    margin-right: 143px;
   }
 }
 
@@ -63,6 +69,7 @@
   display: flex;
   @media screen and (max-width: 600px) {
     margin-bottom: 20px;
+    margin-left: 28px;
   }
 }
 
@@ -129,6 +136,10 @@
   font-size: 16px;
   font-weight: bold;
   line-height: 24px;
+  @media screen and (max-width: 600px) {
+    margin-bottom: 19px;
+    margin-left: 17px;
+  }
 }
 
 .coming-sports {
@@ -145,6 +156,8 @@
   display: flex;
   @media screen and (max-width: 600px) {
     margin-bottom: 20px;
+    margin-left: 28px;
+    margin-right: 143px;
   }
 }
 
@@ -152,6 +165,8 @@
   display: flex;
   @media screen and (max-width: 600px) {
     margin-bottom: 20px;
+    margin-left: 28px;
+    margin-right: 143px;
   }
 }
 
@@ -159,6 +174,8 @@
   display: flex;
   @media screen and (max-width: 600px) {
     margin-bottom: 20px;
+    margin-left: 28px;
+    margin-right: 143px;
   }
 }
 
