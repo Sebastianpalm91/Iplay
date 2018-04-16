@@ -48,8 +48,8 @@
                 <div class="partners">Partners</div>
                 <div class="barca"></div>
                 <div class="jl"></div>
-                <div class="xps"></div>
                 <div class="sportcomp"></div>
+                <div class="xps"></div>
             </div>
     </div>
 </div>

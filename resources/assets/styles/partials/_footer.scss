@@ -357,6 +357,11 @@
 }
 
 .barca {
+  @media screen and (max-width: 780px) {
+    margin-bottom: 40px;
+    width: 77.88px;
+    height: 79.78px;
+  }
   margin-right: 2vw;
   background-image: url('../../../public/themes/IPLAY/images/iplay-footer-fcbarcelona.svg');
   background-position: center;
@@ -367,6 +372,12 @@
 }
 
 .jl {
+  @media screen and (max-width: 780px) {
+    margin-bottom: 40px;
+    margin-top: 0;
+    width: 243px;
+    height: 24px;
+  }
   margin-top: 4vh;
   margin-right: 2vw;
   background-image: url('../../../public/themes/IPLAY/images/iplay-footer-jlindeberg.svg');
@@ -379,12 +390,13 @@
 
 .xps {
   @media screen and (max-width: 780px) {
-    margin-top: 4vh;
+    margin-top: 0;
+    margin-bottom: 40px;
     background-image: url('../../../public/themes/IPLAY/images/iplay-footer-sportcompetence.svg');
     background-position: center;
     background-repeat: no-repeat;
     height: 45px;
-    width: 200px;
+    width: 170px;
   }
   margin-top: 4vh;
   background-image: url('../../../public/themes/IPLAY/images/iplay-footer-sportcompetence.svg');
@@ -397,8 +409,10 @@
 
 .sportcomp {
   @media screen and (max-width: 780px) {
-    width: 174px;
+    width: 180px;
     height: 32px;
+    margin-bottom: 50px;
+    margin-top: 0;
   }
   margin-top: 4vh;
   margin-right: 2vw;
