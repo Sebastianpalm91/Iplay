@@ -4,13 +4,17 @@
   margin-top: 20vh;
   display: flex;
   flex-direction: column;
+  @media screen and (max-width: 600px) {
+    margin-bottom: 10vh;
+  }
 }
 
 .sportscontainer {
   height: 5vh;
   width: 50%;
   display: flex;
-  justify-content: center;
+  justify-content: baseline;
+  margin-left: 15vw;
     p {
       height: 32px;
       width: 313px;
@@ -19,7 +23,6 @@
       font-size: 40px;
       font-weight: bold;
       line-height: 32px;
-      margin-left: 1vw;
     }
 }
 
@@ -33,19 +36,37 @@
   font-size: 16px;
   font-weight: bold;
   line-height: 24px;
-    p {
-      margin-left: 1vw;
-    }
+  @media screen and (max-width: 600px) {
+    margin-bottom: 20px;
+  }
 }
 
 .sportsiconwrapper {
   margin-top: 35px;
   display: flex;
   height: 15vh;
-  margin-left: 1vw;
+  margin-left: 15vw;
+  flex-wrap: wrap;
+  @media screen and (max-width: 600px) {
+  margin-bottom: 50px;
+  }
 }
 
-.sport1 {
+.sport12-wrap {
+  display: flex;
+  @media screen and (max-width: 600px) {
+    margin-bottom: 20px;
+  }
+}
+
+.sport34-wrap {
+  display: flex;
+  @media screen and (max-width: 600px) {
+    margin-bottom: 20px;
+  }
+}
+
+.sport1-picture {
   background-image: url('../../../public/themes/IPLAY/images/1_football_sports_icon.svg');
   background-position: center;
   background-repeat: no-repeat;
@@ -53,10 +74,13 @@
   height: 64px;
   width: 64px;
   margin-right: 7.222222222222222vw;
-  margin-left: 15.972222vw;
+  margin-bottom: 10px;
+  @media screen and (max-width: 600px) {
+    margin-right: 27vw;
+  }
 }
 
-.sport2 {
+.sport2-picture {
   background-image: url('../../../public/themes/IPLAY/images/2_handball_sports_icon.svg');
   background-position: center;
   background-repeat: no-repeat;
@@ -64,9 +88,13 @@
   height: 64px;
   width: 64px;
   margin-right: 7.222222222222222vw;
+  margin-bottom: 10px;
+  @media screen and (max-width: 600px) {
+    margin-right: 27vw;
+  }
 }
 
-.sport3 {
+.sport3-picture {
   background-image: url('../../../public/themes/IPLAY/images/4_basketball_sports_icon.svg');
   background-position: center;
   background-repeat: no-repeat;
@@ -74,9 +102,13 @@
   height: 64px;
   width: 64px;
   margin-right: 7.222222222222222vw;
+  margin-bottom: 10px;
+  @media screen and (max-width: 600px) {
+    margin-right: 27vw;
+  }
 }
 
-.sport4 {
+.sport4-picture {
   background-image: url('../../../public/themes/IPLAY/images/3_bandy_sports_icon.svg');
   background-position: center;
   background-repeat: no-repeat;
@@ -84,49 +116,53 @@
   height: 64px;
   width: 64px;
   margin-right: 7.222222222222222vw;
-}
-
-.icons-text {
-  width: 100%;
-  height: 40px;
-  display: flex;
-  margin-left: 1vw;
-    p {
-      margin-left: 16vw;
-      margin-right: -14vw;
-      height: 26px;
-      width: 136px;
-      color: #424242;
-      font-family: Helvetica;
-      font-size: 16px;
-      font-weight: 500;
-      line-height: 26px;
-    }
+  margin-bottom: 10px;
 }
 
 .coming-soon {
   height: 5vh;
   width: 16vw;
-  margin-left: 15.5vw;
+  margin-left: 15vw;
   margin-top: 45px;
   color: #424242;
   font-family: Helvetica;
   font-size: 16px;
   font-weight: bold;
   line-height: 24px;
-    p {
-      margin-left: 1vw;
-    }
 }
 
 .coming-sports {
   margin-top: 35px;
   display: flex;
   height: 15vh;
-  margin-left: 1vw;
+  margin-left: 15vw;
+  @media screen and (max-width: 920px) {
+  flex-wrap: wrap;
+  }
 }
 
-.sport5 {
+.sport56-wrap {
+  display: flex;
+  @media screen and (max-width: 600px) {
+    margin-bottom: 20px;
+  }
+}
+
+.sport78-wrap {
+  display: flex;
+  @media screen and (max-width: 600px) {
+    margin-bottom: 20px;
+  }
+}
+
+.sport910-wrap {
+  display: flex;
+  @media screen and (max-width: 600px) {
+    margin-bottom: 20px;
+  }
+}
+
+.sport5-picture {
   background-image: url('../../../public/themes/IPLAY/images/5_hockey_sports_icon.svg');
   background-position: center;
   background-repeat: no-repeat;
@@ -134,63 +170,83 @@
   height: 64px;
   width: 64px;
   margin-right: 7.222222222222222vw;
-  margin-left: 15.972222vw;
   opacity: .5;
+  margin-bottom: 10px;
+  @media screen and (max-width: 600px) {
+    margin-right: 27vw;
+  }
 }
 
-.sport6 {
+.sport6-picture {
   background-image: url('../../../public/themes/IPLAY/images/6_esports_sports_icon.svg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
   height: 64px;
   width: 64px;
-  margin-right: 104px;
+  margin-right: 7.222222222222222vw;
   opacity: .5;
+  margin-bottom: 10px;
+  @media screen and (max-width: 600px) {
+    margin-right: 27vw;
+  }
 }
 
-.sport7 {
+.sport7-picture {
   background-image: url('../../../public/themes/IPLAY/images/7_skiing_sports_icon.svg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
   height: 64px;
   width: 64px;
-  margin-right: 104px;
+  margin-right: 7.222222222222222vw;
   opacity: .5;
+  margin-bottom: 10px;
+  @media screen and (max-width: 600px) {
+    margin-right: 27vw;
+  }
 }
 
-.sport8 {
+.sport8-picture {
   background-image: url('../../../public/themes/IPLAY/images/8_floorball_sports_icon.svg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
   height: 64px;
   width: 64px;
-  margin-right: 104px;
+  margin-right: 7.222222222222222vw;
   opacity: .5;
+  margin-bottom: 10px;
+  @media screen and (max-width: 600px) {
+    margin-right: 27vw;
+  }
 }
 
-.sport9 {
+.sport9-picture {
   background-image: url('../../../public/themes/IPLAY/images/10_horsesports_sports_icon.svg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
   height: 64px;
   width: 64px;
-  margin-right: 104px;
+  margin-right: 7.222222222222222vw;
   opacity: .5;
+  margin-bottom: 10px;
+  @media screen and (max-width: 600px) {
+    margin-right: 27vw;
+  }
 }
 
-.sport10 {
+.sport10-picture {
   background-image: url('../../../public/themes/IPLAY/images/9_sailing_sports_icon.svg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
   height: 64px;
   width: 64px;
-  margin-right: 104px;
+  margin-right: 7.222222222222222vw;
   opacity: .5;
+  margin-bottom: 10px;
 }
 
 .coming-soon-text {
