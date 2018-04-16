@@ -215,10 +215,8 @@
 
         <div class="coming-soon">
             <p><strong>Coming soon:</strong></p>
-        </div>
 
         <div class="coming-sports-wrapper">
-            <div class="coming-sports">
                 <div class="sport56-wrap">
                     <div class="sport5">
                         <div class="sport5-picture"></div>
@@ -249,8 +247,9 @@
                         <div class="sport10-text"><p>Sailing</p></div>
                     </div>
                 </div>
-            </div>
         </div>
+    </div>
+
 
     </div>
 </div>
