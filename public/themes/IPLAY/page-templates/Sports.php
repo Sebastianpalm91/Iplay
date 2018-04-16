@@ -24,7 +24,7 @@
             </div>
         </div>
     </div>
-    <p class="">?></p>
 
+
+    <?php get_footer(); ?>
 </div>
-<?php get_footer(); ?>
