@@ -46,14 +46,15 @@ a {
 .menu-container {
   background-color: rgba(255, 255, 255, 0.64);
   .hamburger-inner {
-    background-color: #424242;
+    background-color: #e50279;
     &::after,
     &::before {
-      background-color: #424242;
+      background-color: #e50279;
 
     }
   }
 }
+
 .icon-container {
   display: flex;
   flex-direction: row;
@@ -127,6 +128,11 @@ a {
     display: none;
   }
 }
+.black {
+  background-image: url('../../../public/themes/IPLAY/images/arrows/icon-iplay-arrow.svg');
+  background-repeat: no-repeat;
+  background-position: right;
+}
 .navigation-bar ul li {
   float: left;
   width: 120px;
@@ -157,7 +163,6 @@ a {
 }
 .navigation-bar ul li ul > .sub-menu{
   background-color: #74E493!important;
-
 }
 .navigation-bar ul li:hover ul li {
   display: block;
@@ -168,10 +173,21 @@ a {
 .navigation-bar ul li:hover > .sub-menu {
   display: flex;
   flex-direction: row;
+  align-self: center;
   flex-wrap: wrap;
   width: 40vw;
 }
+.navigation-bar ul li .sub-menu li {
+  background-color: rgba(45, 45, 45, 0.88);
+}
 
+.sub-menu-scroll {
+  color: white!important;
+}
+.navigation-bar ul li .sub-menu li:hover {
+  cursor: pointer;
+  background-color: #74E493;
+}
 .navigation-bar li:hover > .sub-menu  {
   transform: skew(25deg, 0deg);
 }

@@ -4,6 +4,7 @@ const instagram = document.querySelector('.instagram');
 const facebook = document.querySelector('.facebook');
 const youtube = document.querySelector('.youtube');
 const cont = document.querySelector('body');
+console.log("sd");
 cont.addEventListener('scroll', () => {
   let scroll = cont.scrollTop;
   if (scroll >= 50) {
@@ -12,6 +13,11 @@ cont.addEventListener('scroll', () => {
     const icon = document.querySelectorAll('.navigation-bar ul li a');
     icon.forEach((e) => {
         e.classList.add('nav-color-scroll');
+    })
+    const li = document.querySelectorAll('.navigation-bar ul li ul li a');
+    console.log(li);
+    li.forEach((e) => {
+        e.classList.add('sub-menu-scroll')
     })
     // ICONS WHITE
     twitter.classList.remove('twitter');

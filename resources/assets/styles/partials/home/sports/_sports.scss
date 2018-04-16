@@ -2,7 +2,6 @@
   background-image: url('../../../public/themes/IPLAY/images/sportspage_bg/iplay-sports-bg-desktop.png');
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100%;
   width: 100vw;
   @include bp(small) {
     background-image: url('../../../public/themes/IPLAY/images/sportspage_bg/iplay-sports-bg-mobile-v03.png');
@@ -18,6 +17,10 @@
   background-size: cover;
   height: 100%;
   margin-bottom: 450px;
+  @include bp(small) {
+    padding-top: 35%;
+    margin-bottom: 250px;
+  }
   .sports-text-wrapper {
     display: flex;
     flex-grow: 1;
@@ -31,7 +34,7 @@
       justify-content: center;
       height: 100vh;
       width: 100vw;
-      padding-top: 15%;
+      margin-top: 0px;
       padding-left: 18px;
       padding-right: 18px;
     }

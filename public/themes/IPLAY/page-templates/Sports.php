@@ -1,6 +1,6 @@
 <?php /* Template Name: Sports */ ?>
-<div class="sports-background">
     <?php get_header(); ?>
+    <div class="sports-background">
 
     <?php $fields = get_fields(); ?>
     <div class="sports">
