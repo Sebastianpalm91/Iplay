@@ -1,5 +1,4 @@
 // FOOTER/MENU STYLE
-
 .footer-container {
   @media screen and (max-width: 780px){
     border: none;
@@ -10,7 +9,6 @@
   width: 100%;
   background-color: #424242;
 }
-
 .section-wrapper {
   @media screen and (max-width: 780px){
     flex-direction: column;
@@ -21,7 +19,6 @@
   width: 100%;
   border-bottom: 2px solid grey;
 }
-
 .section1 {
   @media screen and (max-width: 780px) {
     border-top: 2px solid grey;
@@ -40,7 +37,6 @@
   background-color: #424242;
   order: 1;
 }
-
 .footer-logo {
   @media screen and (max-width: 780px) {
     background-image: url('../../../public/themes/IPLAY/images/iplay-footer-logo.svg');
@@ -63,7 +59,6 @@
   height: 60px;
   width: 13.88888888888889vw;
 }
-
 .text-under-logo {
   height: 132px;
   width: 219px;
@@ -83,7 +78,6 @@
       line-height: 24px;
     }
 }
-
 .section2 {
   @media screen and (max-width: 780px) {
     height: 250px;
@@ -123,20 +117,18 @@
             text-decoration: underline;
             line-height: 32px;
             font-size: 16px;
-          	color: #A0A0A0;
+            color: #A0A0A0;
             font-family: Helvetica;
             margin-bottom: 20px;
           }
           text-decoration: underline;
           line-height: 32px;
           font-size: 1.1111111111111112vw;
-        	color: #A0A0A0;
+            color: #A0A0A0;
           font-family: Helvetica;
         }
     }
 }
-
-
 .section3 {
   @media screen and (max-width: 780px) {
     height: 100%;
@@ -171,7 +163,6 @@
       font-family: Helvetica;
     }
 }
-
 .footer-icons {
   @media screen and (max-width: 780px) {
     display: flex;
@@ -184,7 +175,6 @@
   width: 11.458333333333334vw;
   height: 18px;
 }
-
 .icon1 {
   background-image: url('../../../public/themes/IPLAY/images/twitter-footer-iplay.svg');
   background-position: center;
@@ -198,7 +188,6 @@
     width: 24px;
   }
 }
-
 .icon2 {
   background-image: url('../../../public/themes/IPLAY/images/facebook-footer-iplay.svg');
   background-position: center;
@@ -212,7 +201,6 @@
     width: 24px;
   }
 }
-
 .icon3 {
   background-image: url('../../../public/themes/IPLAY/images/instagram-footer-iplay.svg');
   background-position: center;
@@ -226,7 +214,6 @@
     width: 24px;
   }
 }
-
 .icon4 {
   background-image: url('../../../public/themes/IPLAY/images/youtube-footer-iplay.svg');
   background-position: center;
@@ -239,9 +226,6 @@
     width: 24px;
   }
 }
-
-
-
 .section4 {
   @media screen and (max-width: 780px){
     border: none;
@@ -282,7 +266,6 @@
     font-family: Helvetica;
     }
 }
-
 .input-field {
   display: flex;
   @media screen and (max-width: 780px) {
@@ -290,14 +273,12 @@
   height: 40px;
   }
 }
-
 .input {
   background-color: #FFFEFC;
   width: 200px;
   height: 40px;
   border: 0;
 }
-
 .button {
   margin-left: -10px;
   transform: skew(-25deg);
@@ -317,8 +298,6 @@
       transform: skew(25deg);
     }
 }
-
-
 .icon-wrapper {
   @media screen and (max-width: 780px){
     flex-direction: column;
@@ -333,7 +312,6 @@
   position: absolute;
   bottom: 0;
 }
-
 .partners {
   @media screen and (max-width: 780px) {
     margin-bottom: 20px;
@@ -348,7 +326,6 @@
   font-weight: 500;
   line-height: 26px;
 }
-
 .barca {
   @media screen and (max-width: 780px) {
     margin-bottom: 40px;
@@ -363,7 +340,6 @@
   height: 79.78px;
   width: 77.88px;
 }
-
 .jl {
   @media screen and (max-width: 780px) {
     margin-bottom: 40px;
@@ -380,7 +356,6 @@
   height: 20px;
   width: 193px;
 }
-
 .xps {
   @media screen and (max-width: 780px) {
     margin-top: 0;
@@ -399,7 +374,6 @@
   height: 26px;
   width: 160px;
 }
-
 .sportcomp {
   @media screen and (max-width: 780px) {
     width: 180px;

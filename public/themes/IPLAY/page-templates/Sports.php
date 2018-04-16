@@ -55,37 +55,37 @@
             </div>
         </div>
 
-        <div class="coming-soon">
-            <p><strong>Coming soon:</strong></p>
+        <div class="coming-soon-text-wrapper">
+            <p class="coming-soon-text">Coming soon:</p>
         </div>
 
         <div class="sports-icon-coming-wrapper">
 
-                    <div class="sport5">
+                    <div class="hockey-container">
                         <img class="sport-hockey-picture" src="<?php echo $fields['sports_icons_hockey']["url"]; ?>" alt="">
-                        <div class="sport5-text"><p>Hockey</p></div>
+                        <div class="hockey-icon-text"><p>Hockey</p></div>
                     </div>
-                    <div class="sport6">
+                    <div class="esports-container">
                         <img class="sport-esports-picture" src="<?php echo $fields['sports_icons_e-sports']["url"]; ?>" alt="">
-                        <div class="sport6-text"><p>E-sports</p></div>
+                        <div class="esports-icon-text"><p>E-sports</p></div>
                     </div>
 
-                    <div class="sport7">
+                    <div class="skiing-container">
                         <img class="sport-skiing-picture" src="<?php echo $fields['sports_icons_skiing']["url"]; ?>" alt="">
-                        <div class="sport7-text"><p>E-Skiing</p></div>
+                        <div class="skiing-icon-text"><p>E-Skiing</p></div>
                     </div>
-                    <div class="sport8">
+                    <div class="floorball-container">
                         <img class="sport-floorball-picture" src="<?php echo $fields['sports_icons_floorball']["url"]; ?>" alt="">
-                        <div class="sport8-text"><p>Floorball</p></div>
+                        <div class="floorball-icon-text"><p>Floorball</p></div>
                     </div>
 
-                    <div class="sport9">
-                        <img class="sport-horsesports-picture" src="<?php echo $fields['sports_icons_horsesports']["url"]; ?>" alt="">
-                        <div class="sport9-text"><p>Horse Sports</p></div>
+                    <div class="horsesports-container">
+                        <img class="sport-horsesports-picture" src="<?php echo $fields['sports_icons_horse-sports']["url"]; ?>" alt="">
+                        <div class="horsesports-icon-text"><p>Horse Sports</p></div>
                     </div>
-                    <div class="sport10">
+                    <div class="sailing-container">
                         <img class="sport-sailing-picture" src="<?php echo $fields['sports_icons_sailing']["url"]; ?>" alt="">
-                        <div class="sport10-text"><p>Sailing</p></div>
+                        <div class="sailing-icon-text"><p>Sailing</p></div>
                     </div>
 
         </div>

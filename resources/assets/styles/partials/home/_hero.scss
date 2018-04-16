@@ -64,7 +64,6 @@
   .hero-text-sub-wrapper {
     display: flex;
     justify-content: center;
-    width: 100%;
     margin-left: 150px;
     @include bp(small) {
       margin: auto;
