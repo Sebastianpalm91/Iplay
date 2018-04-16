@@ -9,6 +9,7 @@
 @import "partials/home/apptour";
 @import "partials/home/sportsoniplay";
 @import "partials/home/sports/sports";
+@import "partials/home/sports/sports_comingsoon";
 @import "hamburgers/hamburgers";
 
 
@@ -23,7 +24,6 @@
 
 body, html{
   line-height: 0px!important;
-  overflow-x: hidden;
   height: 100%;
   width: 100%;
 }

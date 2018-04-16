@@ -6,8 +6,8 @@
   cursor: pointer;
 
   transition-property: opacity, filter;
-  transition-duration: $hamburger-hover-transition-duration;
-  transition-timing-function: $hamburger-hover-transition-timing-function;
+  // transition-duration: $hamburger-hover-transition-duration;
+  // transition-timing-function: $hamburger-hover-transition-timing-function;
 
   // Normalize (<button>)
   font: inherit;
@@ -48,9 +48,9 @@
     background-color: $hamburger-layer-color;
     border-radius: $hamburger-layer-border-radius;
     position: absolute;
-    transition-property: transform;
-    transition-duration: 0.15s;
-    transition-timing-function: ease;
+    // transition-property: transform;
+    // transition-duration: 0.15s;
+    // transition-timing-function: ease;
   }
 
   &::before,

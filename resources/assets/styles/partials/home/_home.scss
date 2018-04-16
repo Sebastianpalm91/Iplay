@@ -1,9 +1,12 @@
 .home-backgorund {
-  background-image: url('../../../public/themes/IPLAY/images/iplay-home-bg-v01.png.png');
+  background-image: url('../../../public/themes/IPLAY/images/homepage_bg/iplay-home-bg-desktop.png');
   background-repeat: no-repeat;
   background-size: cover;
   height: 100%;
   width: 100vw;
+  @include bp(small) {
+    background-image: url('../../../public/themes/IPLAY/images/homepage_bg/iplay-home-bg-mobile.png');
+  }
 }
 
 .home-container {
