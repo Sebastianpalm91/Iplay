@@ -8,7 +8,6 @@ const cont = document.querySelector('body');
 console.log("sd");
 cont.addEventListener('scroll', () => {
   let scroll = cont.scrollTop;
-  console.log(scroll);
   if (scroll >= 50) {
     nav.classList.add('menu-container');
     // blackarrow.classList.remove('black');

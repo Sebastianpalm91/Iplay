@@ -1,0 +1,173 @@
+.athlete-background {
+  background-image: url('../../../public/themes/IPLAY/images/athletepage_bg/iplay-athletes-bg-desktop.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  @include bp(small) {
+    background-image: url('../../../public/themes/IPLAY/images/athletepage_bg/iplay-athletes-bg-mobile.png');
+  }
+}
+
+.athlete {
+  display: flex;
+  flex-direction: column;
+  // background-image: url('../../../../public/themes/IPLAY/images/screenshot2.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  margin-bottom: 450px;
+  @include bp(small) {
+    padding-top: 35%;
+    margin-bottom: 0px;
+  }
+  .athlete-text-wrapper {
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 250px;
+    margin-right: 150px;
+    @include bp(small) {
+      display: flex;
+      justify-content: center;
+      height: 100vh;
+      width: 100vw;
+      margin-top: 0px;
+      padding-left: 18px;
+      padding-right: 18px;
+    }
+    .athlete-buy {
+      display: flex;
+      flex-direction: row;
+      width: 55vw;
+      justify-content: flex-start;
+      margin-top: 60px;
+      @include bp(small) {
+        justify-content: space-between;
+        width: 100%;
+        margin: 50px 0px 200px 0px;
+        padding-left: 16px;
+        padding-right: 16px;
+      }
+      .athlete-text-sub-apple,
+      .athlete-text-sub-google {
+        background-repeat: no-repeat;
+        height: 45px;
+        width: 140px;
+      }
+      .athlete-text-sub-apple {
+        background-image: url('../../../public/themes/IPLAY/images/storebadges/Download_on_the_App_Store_Badge_US-UK_blk_092917.svg');
+      }
+      .athlete-text-sub-google {
+        background-image: url('../../../public/themes/IPLAY/images/storebadges/google-play-badge.svg');
+      }
+    }
+    .athlete-text-title {
+      font-family: HelveticaTitle;
+      line-height: 70px;
+      letter-spacing: 1px;
+      color: #FFFEFC;
+      width: 55vw;
+      font-weight: 200;
+      word-break: normal;
+      font-size: calc(1rem + ((1.8vw - 3px) * 1.1111));
+      @include bp(small) {
+        line-height: 28px;
+        color: #FFFEFC;
+        width: 100%;
+        height: auto;
+        font-size: calc(1rem + ((3.8vw - 3px) * 1.1111));
+        font-weight: bold;
+      }
+      // @include bp(xsmall) {
+      //   line-height: 36px;
+      // }
+    }
+    .athlete-text-content-wrapper {
+      margin-left: 250px;
+      align-self: flex-start;
+      @include bp(small) {
+        margin: 0px;
+        height: 300px;
+        width: 100%;
+        flex-direction: column;
+      }
+      .athlete-text-content {
+        width: 34vw;
+        font-size: calc(1rem + ((0.5vw - 6.8px) * 1.1111));
+        line-height: 24px;
+        color: #FFFFFF;
+        font-family: HelveticaText;
+        @include bp(small) {
+          font-size: calc(1rem + ((0.8vw - 6.8px) * 1.1111));
+          width: 100%;
+          margin-bottom: 15px;
+          line-height: 17px;
+        }
+      }
+      .athlete-text-content3 {
+        width: 20vw;
+        font-size: calc(1rem + ((0.5vw - 6.8px) * 1.1111));
+        line-height: 24px;
+        color: #FFFFFF;
+        font-family: HelveticaText;
+        @include bp(small) {
+          width: 100%;
+          line-height: 13px;
+        }
+      }
+    }
+  }
+  .bread-crumbs {
+    display: flex;
+    justify-content: flex-start;
+    width: 55vw;
+    font-size: calc(1rem + ((0.5vw - 6.8px) * 1.1111));
+    color: #FFFFFF;
+    @include bp(small) {
+      width: 100%;
+      margin: 0px 0px 30px 0px;
+    }
+  }
+  .athlete-image-sub-carousel {
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-top: 140px;
+    margin-left: 300px;
+    @include bp(small) {
+      transform: scale(0.68);
+      display: flex;
+      justify-content: center;
+      margin: 50px 0px 20px 0px;
+    }
+    .athlete-image-badge {
+      position: absolute;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      opacity: 0;
+      height: 50vh;
+      transition: all 600ms ease;
+    }
+    img[data-position="1"] {
+      opacity: 0.75;
+      transform: translateX(80%);
+    }
+    img[data-position="2"]{
+      transform: translateX(0) scale(1.25);
+      z-index: 1;
+      opacity: 1;
+
+    }
+    img[data-position="3"] {
+      transform: translateX(-80%);
+      opacity: 0.75;
+    }
+  }
+  .empty-div {
+    margin: 100px 0px 100px 0px;
+  }
+}

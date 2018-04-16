@@ -32,7 +32,7 @@
             </div>
             <!-- DESKTOP MENU -->
             <div class="menu-wrapper">
-                <div class="logo"></div>
+                <a href="home"><div class="logo"></div></a>
                 <div class="navigation">
                     <ul class="navigation-bar">
 
