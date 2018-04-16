@@ -8,7 +8,8 @@
     margin-bottom: 15vh;
   }
   @media screen and (max-width: 600px) {
-    height: 100vh;
+    height: 130vh;
+    width: 90vw;
   }
 }
 
@@ -52,7 +53,7 @@
   margin-top: 35px;
   display: flex;
   height: 15vh;
-  margin-left: 15vw;
+  width: 90vw;
   flex-wrap: wrap;
   @media screen and (max-width: 600px) {
   margin-bottom: 50px;
@@ -86,7 +87,9 @@
   margin-right: 7.222222222222222vw;
   margin-bottom: 20px;
   @media screen and (max-width: 600px) {
-    margin-right: 27vw;
+    margin-left: 50px;
+    height: 64px;
+    width: 64px;
   }
 }
 
@@ -100,7 +103,9 @@
   margin-right: 7.222222222222222vw;
   margin-bottom: 20px;
   @media screen and (max-width: 600px) {
-    margin-right: 0;
+    margin-left: 50px;
+    height: 64px;
+    width: 64px;
   }
 }
 
@@ -114,7 +119,9 @@
   margin-right: 7.222222222222222vw;
   margin-bottom: 20px;
   @media screen and (max-width: 600px) {
-    margin-right: 27vw;
+    margin-left: 50px;
+    height: 64px;
+    width: 64px;
   }
 }
 
@@ -127,8 +134,10 @@
   width: 64px;
   margin-right: 7.222222222222222vw;
   margin-bottom: 20px;
-  @media screen and (max-width: 780px) {
-    margin-right: 0;
+  @media screen and (max-width: 600px) {
+    margin-left: 50px;
+    height: 64px;
+    width: 64px;
   }
 }
 
@@ -154,9 +163,9 @@
   height: 108px;
   display: flex;
   @media screen and (max-width: 800px) {
-    margin-left: 15vw;
     display: flex;
     flex-wrap: wrap;
+    width: 90vw;
   }
 }
 
@@ -164,8 +173,7 @@
   display: flex;
   @media screen and (max-width: 600px) {
     margin-bottom: 20px;
-    margin-left: 28px;
-    margin-right: 143px;
+    margin-left: 20px;
   }
 }
 
@@ -173,8 +181,7 @@
   display: flex;
   @media screen and (max-width: 600px) {
     margin-bottom: 20px;
-    margin-left: 28px;
-    margin-right: 143px;
+    margin-left: 20px;
   }
 }
 
@@ -182,8 +189,7 @@
   display: flex;
   @media screen and (max-width: 600px) {
     margin-bottom: 20px;
-    margin-left: 28px;
-    margin-right: 143px;
+    margin-left: 20px;
   }
 }
 
@@ -198,12 +204,21 @@
   opacity: .5;
   margin-bottom: 20px;
   @media screen and (max-width: 600px) {
-    margin-right: 27vw;
+    margin-left: 50px;
+    height: 64px;
+    width: 64px;
   }
 }
 
 .sport-text {
   opacity: .5;
+  margin-left: 50px;
+}
+
+.sport-text1 {
+  @media screen and (max-width: 600px) {
+    margin-left: 50px;
+  }
 }
 
 .sport6-picture {
@@ -217,7 +232,9 @@
   opacity: .5;
   margin-bottom: 20px;
   @media screen and (max-width: 600px) {
-    margin-right: 0;
+    margin-left: 50px;
+    height: 64px;
+    width: 64px;
   }
 }
 
@@ -232,7 +249,9 @@
   opacity: .5;
   margin-bottom: 20px;
   @media screen and (max-width: 600px) {
-    margin-right: 27vw;
+    margin-left: 50px;
+    height: 64px;
+    width: 64px;
   }
 }
 
@@ -247,7 +266,9 @@
   opacity: .5;
   margin-bottom: 20px;
   @media screen and (max-width: 600px) {
-    margin-right: 0;
+    margin-left: 50px;
+    height: 64px;
+    width: 64px;
   }
 }
 
@@ -262,7 +283,9 @@
   opacity: .5;
   margin-bottom: 20px;
   @media screen and (max-width: 600px) {
-    margin-right: 27vw;
+    margin-left: 50px;
+    height: 64px;
+    width: 64px;
   }
 }
 
@@ -276,8 +299,10 @@
   margin-right: 7.222222222222222vw;
   opacity: .5;
   margin-bottom: 20px;
-  @media screen and (max-width: 780px) {
-    margin-right: 0;
+  @media screen and (max-width: 600px) {
+    margin-left: 50px;
+    height: 64px;
+    width: 64px;
   }
 }
 

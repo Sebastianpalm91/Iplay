@@ -194,21 +194,21 @@
             <div class="sport12-wrap">
                 <div class="sport1">
                     <div class="sport1-picture"></div>
-                    <div class="sport1-text"><p>Fotball</p></div>
+                    <div class="sport-text1"><p>Fotball</p></div>
                 </div>
                 <div class="sport2">
                     <div class="sport2-picture"></div>
-                    <div class="sport2-text"><p>Handball</p></div>
+                    <div class="sport-text1"><p>Handball</p></div>
                 </div>
             </div>
             <div class="sport34-wrap">
                 <div class="sport3">
                     <div class="sport3-picture"></div>
-                    <div class="sport3-text"><p>Basketball</p></div>
+                    <div class="sport-text1"><p>Basketball</p></div>
                 </div>
                 <div class="sport4">
                     <div class="sport4-picture"></div>
-                    <div class="sport4-text"><p>Bandy</p></div>
+                    <div class="sport-text1"><p>Bandy</p></div>
                 </div>
             </div>
         </div>
