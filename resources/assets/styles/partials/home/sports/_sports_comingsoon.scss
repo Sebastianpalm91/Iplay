@@ -1,13 +1,9 @@
 .sportsoniplay-container {
-  height: 100%;
   width: 100%;
   display: flex;
   flex-direction: column;
   padding-left: 16px;
   padding-right: 16px;
-  @include bp(small) {
-
-  }
   .iplaysports-text-wrapper {
     width: 100%;
     padding: 0px 0px 10px 0px;
@@ -19,10 +15,12 @@
       color: #3FBF55;
     }
   }
-  .iplaysports-sub-text-wrapper {
+  .iplaysports-sub-text-wrapper,
+  .coming-soon-text-wrapper {
     width: 100%;
     padding-bottom: 20px;
-    .iplaysports-sub-text {
+    .iplaysports-sub-text,
+    .coming-soon-text {
       font-size: calc(1rem + ((1.5vw - 3px) * 1.1111));
       font-family: Helvetica;
       color: #085F7A;
@@ -30,14 +28,24 @@
       font-weight: bold;
     }
   }
-  .sports-icon-avaliable-wrapper {
+  .sports-icon-coming-wrapper {
+    opacity: 0.5;
+  }
+  .sports-icon-avaliable-wrapper,
+  .sports-icon-coming-wrapper, {
     display: flex;
     flex-wrap: wrap;
     flex-grow: 1;
     .football-container,
     .handball-container,
     .basketball-container,
-    .bandy-container {
+    .bandy-container,
+    .hockey-container,
+    .esports-container,
+    .skiing-container,
+    .floorball-container,
+    .horsesports-container,
+    .sailing-container, {
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -45,7 +53,14 @@
       .sport-football-picture,
       .sport-handball-picture,
       .sport-basketball-picture,
-      .sport-bandy-picture {
+      .sport-bandy-picture,
+      .sport-hockey-picture
+      .sport-esports-picture,
+      .sport-skiing-picture,
+      .sport-floorball-picture,
+      .sport-horsesports-picture,
+      .sport-sailing-picture,
+       {
         height: 104px;
         width: 104px;
       }
@@ -53,7 +68,13 @@
     .football-icon-text,
     .handball-icon-text,
     .basketball-icon-text,
-    .bandy-icon-text {
+    .bandy-icon-text,
+    .hockey-icon-text,
+    .esports-icon-text,
+    .skiing-icon-text,
+    .floorball-icon-text,
+    .horsesports-icon-text,
+    .sailing-icon-text, {
       font-size: calc(1rem + ((1.5vw - 3px) * 1.1111));
       color: #424242;
       text-align: center;
