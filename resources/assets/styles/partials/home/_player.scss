@@ -3,10 +3,15 @@
   justify-content: center;
 }
 
+.container-page {
+  background-color: #F5F5F5;
+}
+
 .top-search-bar {
   width: 320px;
-  margin-top: 84px;
+  margin-top: 115px;
   margin-left: 16px;
+  margin-bottom: 16px;
   @media screen and (min-width: 500px) {
     display: flex;
     justify-content: center;
@@ -18,10 +23,14 @@
 }
 
 .search-field {
+  width: 288px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   @media screen and (min-width: 500px) {
     display: flex;
     justify-content: center;
-    width: 457px;
+    width: 395px;
     height: 40px;
     margin-left: 491px;
     margin-bottom: 42px;
@@ -29,12 +38,14 @@
 }
 
 .top-search-bar h1 {
+  @media screen and (min-width: 500px) {
+    width: 225px;
+  }
   color: #3FBF55;
   font-family: Helvetica;
   height: 24px;
   width: 95px;
   margin-bottom: 15px;
-  margin-left: 17px;
 }
 
 .search-field form {
@@ -49,11 +60,9 @@
   border: 0px solid;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   height: 32px;
-  width: 288px;
-  margin-left: 17px;
   @media screen and (min-width: 500px) {
+    width: 417px;
     margin-top: 21px;
-    width: 457px;
     height: 40px;
   }
 }
@@ -63,14 +72,15 @@
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   height: 32px;
   width: 32px;
-  margin-top: 23px;
   background-image: url('../../../public/themes/IPLAY/images/icon-iplay-search.svg');
   background-repeat: no-repeat;
   background-size: contain;
+  background-color: white;
   @media screen and (min-width: 500px) {
     height: 40px;
+    background-color: white;
     width: 40px;
-    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.1);
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
   }
 }
 
@@ -160,7 +170,7 @@
   @media screen and (min-width: 500px) {
     height: 232px;
     width: 219px;
-    border: solid 1px rgba(160,160,160,0.21);
+    background-color: white;
   }
   margin-left: 16px;
   height: 144px;
@@ -174,7 +184,7 @@
   @media screen and (min-width: 500px) {
     height: 232px;
     width: 219px;
-    border: solid 1px rgba(160,160,160,0.21);
+    background-color: white;
   }
   height: 144px;
   width: 136px;
@@ -198,7 +208,7 @@
   @media screen and (min-width: 500px) {
     height: 232px;
     width: 219px;
-    border: solid 1px rgba(160,160,160,0.21);
+    background-color: white;
   }
   height: 144px;
   width: 136px;
@@ -211,7 +221,7 @@
   @media screen and (min-width: 500px) {
     height: 232px;
     width: 219px;
-    border: solid 1px rgba(160,160,160,0.21);
+    background-color: white;
   }
   height: 144px;
   width: 136px;
@@ -231,7 +241,7 @@
   @media screen and (min-width: 500px) {
     height: 232px;
     width: 219px;
-    border: solid 1px rgba(160,160,160,0.21);
+    background-color: white;
   }
   margin-left: 16px;
   height: 144px;
@@ -245,7 +255,7 @@
   @media screen and (min-width: 500px) {
     height: 232px;
     width: 219px;
-    border: solid 1px rgba(160,160,160,0.21);
+    background-color: white;
   }
   height: 144px;
   width: 136px;
@@ -265,7 +275,7 @@
   @media screen and (min-width: 500px) {
     height: 232px;
     width: 219px;
-    border: solid 1px rgba(160,160,160,0.21);
+    background-color: white;
     margin: 0;
   }
   margin-left: 16px;
@@ -280,7 +290,7 @@
   @media screen and (min-width: 500px) {
     height: 232px;
     width: 219px;
-    border: solid 1px rgba(160,160,160,0.21);
+    background-color: white;
   }
   height: 144px;
   width: 136px;
@@ -359,7 +369,8 @@
   }
 }
 
-.athlete-sport-text1 {
+.athlete-sport-text1 p {
+  display: none;
   @media screen and (min-width: 500px) {
       opacity: .7;
       margin-left: 30px;
@@ -378,7 +389,7 @@
     background-repeat: no-repeat;
     height: 36px;
     width: 36px;
-    margin-left: 72px;
+    margin-left: 60px;
   }
 }
 
@@ -397,7 +408,7 @@
   @media screen and (min-width: 500px) {
     display: flex;
     align-items: center;
-    margin-left: 75px;
+    margin-left: 50px;
   }
 }
 
@@ -410,6 +421,7 @@
 }
 
 .nationality-wrapper {
+  display: none;
   @media screen and (min-width: 500px) {
     display: flex;
     align-items: center;
@@ -426,12 +438,25 @@
   }
 }
 
+.apply-button-wrapper {
+  display: none;
+  @media screen and (min-width: 500px) {
+      display: flex;
+      align-items: center;
+      margin-left: 45px;
+  }
+}
 .apply-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+    p {
+      color: white;
+    }
   @media screen and (min-width: 500px) {
     background-image: url('../../../public/themes/IPLAY/images/Combined-Shape.png');
     width: 202px;
-    height: 49px;
-    margin-left: 64px;
+    height: 40px;
   }
 }
 
@@ -492,7 +517,7 @@
     border: none;
     cursor: pointer;
     padding: 0;
-    background-color: inherit;
+    background-color: #F5F5F5;
     margin-bottom: 16px;
     font-family: Helvetica;
   }
@@ -507,6 +532,7 @@
     position: relative;
     border: none;
     align-items: center;
+    background-color: #F5F5F5;
   }
 }
 
@@ -521,13 +547,16 @@
 }
 
 .dropdown-content {
+  @media screen and (min-width: 500px) {
     display: none;
     position: absolute;
     min-width: 160px;
     z-index: 1;
+  }
 }
 
 .dropdown-content a {
+  @media screen and (min-width: 500px) {
     font-size: 16px;
     color: black;
     text-decoration: none;
@@ -535,17 +564,24 @@
     height: 24px;
     display: flex;
     align-items: center;
+  }
 }
 
 .dropdown-content a:hover {
+  @media screen and (min-width: 500px) {
   background-color: #F2F3F4;
   opacity: .5;
+  }
 }
 
 .dropdown:hover .dropdown-content {
+  @media screen and (min-width: 500px) {
     display: block;
+  }
 }
 
 .dropdown:hover .dropbtn {
+  @media screen and (min-width: 500px) {
     background-color: #3e8e41;
+  }
 }

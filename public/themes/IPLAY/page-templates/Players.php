@@ -44,8 +44,9 @@
             <div class="nationality-wrapper">
                 <input class="navigation-content" placeholder="Nationality"></input>
             </div>
-
-            <div class="apply-button"></div>
+            <div class="apply-button-wrapper">
+                <div class="apply-button"><p>Apply filters</p></div>
+            </div>
     </div>
 
 </div>
