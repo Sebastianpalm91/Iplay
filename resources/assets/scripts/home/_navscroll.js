@@ -5,21 +5,27 @@ const instagram = document.querySelector('.instagram');
 const facebook = document.querySelector('.facebook');
 const youtube = document.querySelector('.youtube');
 const cont = document.querySelector('body');
-console.log("sd");
+
+const filter = document.querySelector('form');
 cont.addEventListener('scroll', () => {
   let scroll = cont.scrollTop;
   if (scroll >= 50) {
+
+    // MENU COLOR CHANGE
     nav.classList.add('menu-container');
-    // blackarrow.classList.remove('black');
-    // blackarrow.classList.add('black-arrow');
+    // CHECK IF PATH IS PLAYERS
+    if (window.location.pathname == '/players/') {
+      const nav = document.querySelector('.fixed-position');
+      nav.classList.add('menu-container');
+    }
     // NAVIGATION MENU BLACK
     const icon = document.querySelectorAll('.navigation-bar ul li a');
     icon.forEach((e) => {
-        e.classList.add('nav-color-scroll');
+      e.classList.add('nav-color-scroll');
     })
     const li = document.querySelectorAll('.navigation-bar ul li ul li a');
     li.forEach((e) => {
-        e.classList.add('sub-menu-scroll')
+      e.classList.add('sub-menu-scroll')
     })
     // ICONS WHITE
     twitter.classList.remove('twitter');
@@ -32,12 +38,19 @@ cont.addEventListener('scroll', () => {
     facebook.classList.add('facebook-black');
     youtube.classList.add('youtube-black');
   } else if (scroll < 50 ){
-    nav.classList.remove('menu-container');
+
+    // CHECK IF PATH IS PLAYERS
+    if (window.location.pathname == '/players/') {
+      const nav = document.querySelector('.fixed-position');
+      nav.classList.add('menu-container');
+    } else {
+      nav.classList.remove('menu-container');
+    }
     // NAVIGATION MENU WHITE
-      const icon = document.querySelectorAll('.navigation-bar ul li a');
-      icon.forEach((e) => {
-          e.classList.remove('nav-color-scroll');
-      })
+    const icon = document.querySelectorAll('.navigation-bar ul li a');
+    icon.forEach((e) => {
+      e.classList.remove('nav-color-scroll');
+    })
     // ICONS WHITE
     twitter.classList.add('twitter');
     instagram.classList.add('instagram');
@@ -48,6 +61,5 @@ cont.addEventListener('scroll', () => {
     instagram.classList.remove('instagram-black');
     facebook.classList.remove('facebook-black');
     youtube.classList.remove('youtube-black');
-
   }
 });
