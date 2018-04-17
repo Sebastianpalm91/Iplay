@@ -11,7 +11,20 @@
     display: flex;
     justify-content: center;
     width: 100%;
-    height: 15vh;
+    height: 48px;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+}
+
+.search-field {
+  @media screen and (min-width: 500px) {
+    display: flex;
+    justify-content: center;
+    width: 457px;
+    height: 40px;
+    margin-left: 491px;
+    margin-bottom: 42px;
   }
 }
 
@@ -24,7 +37,7 @@
   margin-left: 17px;
 }
 
-.top-search-bar form {
+.search-field form {
   display: flex;
   @media screen and (min-width: 500px) {
     align-items: center;
@@ -32,12 +45,11 @@
   }
 }
 
-.top-search-bar input {
+.search-field input {
   border: 0px solid;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   height: 32px;
   width: 288px;
-  margin-top: 23px;
   margin-left: 17px;
   @media screen and (min-width: 500px) {
     margin-top: 21px;
@@ -46,7 +58,7 @@
   }
 }
 
-.top-search-bar button {
+.search-field button {
   border: none;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   height: 32px;
@@ -172,7 +184,7 @@
   background-size: contain;
   &:hover {
     opacity: .5;
-    transform: scale(1.2);
+    transform: scale(1.1);
   }
 }
 
@@ -254,7 +266,9 @@
     height: 232px;
     width: 219px;
     border: solid 1px rgba(160,160,160,0.21);
+    margin: 0;
   }
+  margin-left: 16px;
   height: 144px;
   width: 136px;
   background-image: url('../../../public/themes/IPLAY/images/athlete-card-desktop-tobiaskarlsson.svg');
@@ -281,8 +295,143 @@
 .function-bar {
   @media screen and (min-width: 500px) {
   width: 100%;
-  background-color: red;
   height: 80px;
+  }
+}
+
+.athlete-sport-wrapper {
+  @media screen and (min-width: 500px) {
+    margin-top: 35px;
+    display: flex;
+    width: 90vw;
+  }
+}
+
+.athlete-sport1-picture {
+  @media screen and (min-width: 500px) {
+    background-image: url('../../../public/themes/IPLAY/images/1_football_sports_icon.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 40px;
+    width: 40px;
+    margin-bottom: 6px;
+    margin-left: 38px;
+  }
+}
+
+.athlete-sport2-picture {
+  @media screen and (min-width: 500px) {
+    background-image: url('../../../public/themes/IPLAY/images/2_handball_sports_icon.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 40px;
+    width: 40px;
+    margin-left: 38px;
+    margin-bottom: 6px;
+  }
+}
+
+.athlete-sport3-picture {
+  @media screen and (min-width: 500px) {
+    background-image: url('../../../public/themes/IPLAY/images/3_bandy_sports_icon.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 40px;
+    width: 40px;
+    margin-left: 38px;
+    margin-bottom: 6px;
+  }
+}
+
+.athlete-sport4-picture {
+  @media screen and (min-width: 500px) {
+    background-image: url('../../../public/themes/IPLAY/images/4_basketball_sports_icon.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 40px;
+    width: 40px;
+    margin-left: 38px;
+    margin-bottom: 6px;
+  }
+}
+
+.athlete-sport-text1 {
+  @media screen and (min-width: 500px) {
+      opacity: .7;
+      margin-left: 30px;
+  }
+}
+
+.male-female {
+  @media screen and (min-width: 500px) {
+    display: flex;
+  }
+}
+.male {
+  @media screen and (min-width: 500px) {
+    background-image: url('../../../public/themes/IPLAY/images/ion-male-ionicons.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 36px;
+    width: 36px;
+    margin-left: 72px;
+  }
+}
+
+.female {
+  @media screen and (min-width: 500px) {
+    background-image: url('../../../public/themes/IPLAY/images/ion-female-ionicons.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 36px;
+    width: 36px;
+    margin-left: 42px;
+  }
+}
+
+.age-slide {
+  @media screen and (min-width: 500px) {
+    display: flex;
+    align-items: center;
+    margin-left: 75px;
+  }
+}
+
+.slider {
+  @media screen and (min-width: 500px) {
+    width: 288px;
+    height: 10px;
+    background-color: #A0A0A0;
+  }
+}
+
+.nationality-wrapper {
+  @media screen and (min-width: 500px) {
+    display: flex;
+    align-items: center;
+    margin-left: 65px;
+  }
+}
+
+.navigation-content {
+  @media screen and (min-width: 500px) {
+    width: 234px;
+    height: 40px;
+    background-color: #FFFEFC;
+    border: 2px solid #A0A0A0;
+  }
+}
+
+.apply-button {
+  @media screen and (min-width: 500px) {
+    background-image: url('../../../public/themes/IPLAY/images/Combined-Shape.png');
+    width: 202px;
+    height: 49px;
+    margin-left: 64px;
   }
 }
 

@@ -7,14 +7,46 @@
 <div class="top-page-wrapper">
     <div class="top-search-bar">
         <h1><strong>Athletes</strong></h1>
-        <form class="search-field" action="/">
-          <input type="text" placeholder="Search.." name="search">
-          <button></button>
-        </form>
     </div>
 </div>
+    <form class="search-field" action="/">
+        <input type="text" placeholder="Search.." name="search">
+        <button></button>
+    </form>
 
 <div class="function-bar">
+    <div class="athlete-sport-wrapper">
+            <div class="athlete-sport1">
+                <div class="athlete-sport1-picture"></div>
+                <div class="athlete-sport-text1"><p>Fotball</p></div>
+            </div>
+            <div class="sport2">
+                <div class="athlete-sport2-picture"></div>
+                <div class="athlete-sport-text1"><p>Handball</p></div>
+            </div>
+            <div class="sport3">
+                <div class="athlete-sport3-picture"></div>
+                <div class="athlete-sport-text1"><p>Basketball</p></div>
+            </div>
+            <div class="sport4">
+                <div class="athlete-sport4-picture"></div>
+                <div class="athlete-sport-text1"><p>Bandy</p></div>
+            </div>
+            <div class="male-female">
+                <div class="male"></div>
+                <div class="female"></div>
+            </div>
+
+            <div class="age-slide">
+                <div class="slider"></div>
+            </div>
+
+            <div class="nationality-wrapper">
+                <input class="navigation-content" placeholder="Nationality"></input>
+            </div>
+
+            <div class="apply-button"></div>
+    </div>
 
 </div>
 
