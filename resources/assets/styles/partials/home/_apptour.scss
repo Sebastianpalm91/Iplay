@@ -1,5 +1,4 @@
 // APP TOUR STYLE
-
 .app-tour {
   display: flex;
   margin: 80px 0px 150px 0px;
@@ -7,7 +6,7 @@
     justify-content: center;
     flex-direction: column;
     margin: 70px 20px 50px 20px;
-    }
+  }
   .app-image {
     display: flex;
     justify-content: center;
@@ -18,19 +17,11 @@
       align-items: flex-start;
       text-align: left;
       margin-top: 80px;
-      }
-      &.active {
-        opacity: 1;
-        display: block;
-      }
-    // display: flex;
-    // flex-direction: column;
-    // justify-content: space-evenly;
-    // width: 30%;
-    // height: 70%;
-  }
-  .app-text-wrapper {
-
+    }
+    &.active {
+      opacity: 1;
+      display: block;
+    }
   }
 
   .app-image img {
@@ -42,7 +33,7 @@
       margin-top: 8px;
       height: 40px;
       width: 40px;
-      }
+    }
   }
 
   .app-text {
@@ -50,8 +41,6 @@
     flex-direction: column;
     align-items: center;
     flex: 1;
-    // top: 2200px;
-    // font-size: 3em;
   }
   .app-text {
     display: flex;
@@ -62,27 +51,16 @@
     @include bp(small) {
       align-items: flex-start;
       text-align: left;
-      }
-      ul {
-        z-index: 99;
-        color: #3FBF55;
-        margin: 0;
-        padding: 0;
-        margin-bottom: -10px;
-        display: inline-block;
-        cursor: pointer;
-          // &:hover {
-          //     li {
-          //       display: block;
-          //         ul {
-          //           background-color: black;
-          //           display: flex;
-          //           flex-direction: column;
-          //
-          //         }
-          //     }
-          // }
-      }
+    }
+    ul {
+      z-index: 99;
+      color: #3FBF55;
+      margin: 0;
+      padding: 0;
+      margin-bottom: -10px;
+      display: inline-block;
+      cursor: pointer;
+    }
   }
   .app-text ul ul li{
     display: none;
@@ -95,8 +73,8 @@
     text-decoration-color: none;
   }
   .app-text-container  {
-   padding-bottom: 80px;
- }
+    padding-bottom: 80px;
+  }
   .box-span {
     height: 50px;
     display: none;
@@ -122,7 +100,6 @@
   .skew{
     transform: skew(-25deg, 0deg);
     transition: all 500ms ease;
-
   }
   .skew:hover {
     background-color: #74E493;
@@ -142,11 +119,11 @@
     background-color: #74E493;
   }
   .app-text ul li {
-      transform: skew(25deg, 0deg);
-    }
+    transform: skew(25deg, 0deg);
+  }
 
   .app-text ul ul li {
-      transform: skew(25deg, 0deg);
+    transform: skew(25deg, 0deg);
   }
 
   .tour-title-the {
@@ -167,29 +144,28 @@
     flex-direction: row;
   }
 
-
   .app-text p {
     color: #424242;
-  	font-family: Helvetica;
-  	font-size: 16px;
-  	line-height: 20px;
+    font-family: Helvetica;
+    font-size: 16px;
+    line-height: 20px;
   }
   h3 {
     line-height: 26px;
     font-weight: 500;
     font-size: 24px;
-  	font-family: "Helvetica Neue";
-  	color: #3FBF55;
+    font-family: "Helvetica Neue";
+    color: #3FBF55;
   }
 
   .wrapper {
     display: flex;
-      P {
-        color: #424242;
-        font-family: Helvetica;
-        font-size: 16px;
-        line-height: 20px;
-      }
+    P {
+      color: #424242;
+      font-family: Helvetica;
+      font-size: 16px;
+      line-height: 20px;
+    }
   }
 }
 

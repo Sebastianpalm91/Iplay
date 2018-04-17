@@ -1,89 +1,89 @@
 // MOBILE MENU
 
 .mobile-menu {
-    position: absolute;
-    display: none;
-    right: 2%;
-    top: 22%;
-    @include bp(small) {
-      .menu-menu1-container {
-        margin-top: 40px;
-      }
-      display: block;
+  position: absolute;
+  display: none;
+  right: 2%;
+  top: 22%;
+  @include bp(small) {
+    .menu-menu1-container {
+      margin-top: 40px;
     }
-    .hamburger-box {
-      z-index: 999;
-    }
-    .mobile-sub-menu {
-      .sub-menu {
-        display: none;
-      }
+    display: block;
+  }
+  .hamburger-box {
+    z-index: 999;
+  }
+  .mobile-sub-menu {
+    .sub-menu {
       display: none;
-      position: fixed;
-      top: 0;
-      height: 110%;
-      width: 75%;
-      background: #424242;
-      right: 0;
-      ul {
-        display: flex;
-        flex-direction: column;
-        align-content: flex-start;
-        list-style-type: none;
-        padding: 0px;
-        margin-top: 10px;
-        li {
-          padding: 30px;
-          border-bottom: 1px solid #A0A0A0;
-          ul {
-            padding-top: 10px;
-          }
-          a {
-            color: white;
-          }
+    }
+    display: none;
+    position: fixed;
+    top: 0;
+    height: 110%;
+    width: 75%;
+    background: #424242;
+    right: 0;
+    ul {
+      display: flex;
+      flex-direction: column;
+      align-content: flex-start;
+      list-style-type: none;
+      padding: 0px;
+      margin-top: 10px;
+      li {
+        padding: 30px;
+        border-bottom: 1px solid #A0A0A0;
+        ul {
+          padding-top: 10px;
+        }
+        a {
+          color: white;
         }
       }
+    }
 
-      .icon-wrapper {
-        display: flex;
-        justify-content: space-around;
-        flex-direction: row;
-        .twitter-hamburger,
-        .facebook-hamburger,
-        .youtube-hamburger,
-        .instagram-hamburger, {
-          background-position: center;
-          background-repeat: no-repeat;
-          background-color: none;
-          height: 21px;
-          width: 19px;
-          margin: 10px;
-        }
-        .twitter-hamburger {
-          background-image: url('../../../public/themes/IPLAY/images/twitter-header-iplay.svg');
-        }
-        .facebook-hamburger {
-          background-image: url('../../../public/themes/IPLAY/images/facebook-header-iplay.svg');
-        }
-        .youtube-hamburger {
-          background-image: url('../../../public/themes/IPLAY/images/youtube-header-iplay.svg');
-        }
-        .instagram-hamburger {
-          background-image: url('../../../public/themes/IPLAY/images/instagram-header-iplay.svg');
-        }
+    .icon-wrapper {
+      display: flex;
+      justify-content: space-around;
+      flex-direction: row;
+      .twitter-hamburger,
+      .facebook-hamburger,
+      .youtube-hamburger,
+      .instagram-hamburger, {
+        background-position: center;
+        background-repeat: no-repeat;
+        background-color: none;
+        height: 21px;
+        width: 19px;
+        margin: 10px;
       }
+      .twitter-hamburger {
+        background-image: url('../../../public/themes/IPLAY/images/headericons/twitter-header-iplay.svg');
+      }
+      .facebook-hamburger {
+        background-image: url('../../../public/themes/IPLAY/images/headericons/facebook-header-iplay.svg');
+      }
+      .youtube-hamburger {
+        background-image: url('../../../public/themes/IPLAY/images/headericons/youtube-header-iplay.svg');
+      }
+      .instagram-hamburger {
+        background-image: url('../../../public/themes/IPLAY/images/headericons/instagram-header-iplay.svg');
       }
     }
-    .hamburger-color-scroll {
-      background-color: black!important;
-    }
-    .menu-item-has-children {
-      transition: all 500ms ease;
-    }
-    .mobile-sub-menu ul li ul li{
-      padding: 15px!important;
-      margin: 0px;
-    }
-    .is-active {
-      display: block!important;
-    }
+  }
+}
+.hamburger-color-scroll {
+  background-color: black!important;
+}
+.menu-item-has-children {
+  transition: all 500ms ease;
+}
+.mobile-sub-menu ul li ul li{
+  padding: 15px!important;
+  margin: 0px;
+}
+.is-active {
+  display: block!important;
+}

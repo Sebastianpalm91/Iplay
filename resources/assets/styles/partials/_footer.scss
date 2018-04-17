@@ -39,7 +39,7 @@
 }
 .footer-logo {
   @media screen and (max-width: 780px) {
-    background-image: url('../../../public/themes/IPLAY/images/iplay-footer-logo.svg');
+    background-image: url('../../../public/themes/IPLAY/images/footer/iplay-footer-logo.svg');
     background-position: left;
     background-repeat: no-repeat;
     background-size: contain;
@@ -49,7 +49,7 @@
     margin-bottom: 16px;
     margin-left: 50px;
   }
-  background-image: url('../../../public/themes/IPLAY/images/iplay-footer-logo.svg');
+  background-image: url('../../../public/themes/IPLAY/images/footer/iplay-footer-logo.svg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -65,18 +65,18 @@
   @media screen and (max-width: 780px) {
     margin-left: 0;
   }
-    p {
-      @media screen and (max-width: 780px) {
-        font-size: 16px;
-        color: #A0A0A0;
-        line-height: 24px;
-        margin-bottom: 152px;
-      }
+  p {
+    @media screen and (max-width: 780px) {
+      font-size: 16px;
       color: #A0A0A0;
-      font-family: Helvetica;
-      font-size: 1.1111111111111112vw;
       line-height: 24px;
+      margin-bottom: 152px;
     }
+    color: #A0A0A0;
+    font-family: Helvetica;
+    font-size: 1.1111111111111112vw;
+    line-height: 24px;
+  }
 }
 .section2 {
   @media screen and (max-width: 780px) {
@@ -91,43 +91,43 @@
   height: 240px;
   width: 15%;
   background-color: #424242;
-    ul {
-      @media screen and (max-width: 780px) {
-        font-size: 24px;
-        font-family: Helvetica;
-        line-height: 32px;
-        font-weight: 500;
-        color: #A0A0A0;
-        list-style: none;
-        // height: 265px;
-        margin-bottom: 20px;
-        width: 100px;
-        padding: 0;
-      }
+  ul {
+    @media screen and (max-width: 780px) {
       font-size: 24px;
       font-family: Helvetica;
       line-height: 32px;
       font-weight: 500;
       color: #A0A0A0;
       list-style: none;
-      height: 265px;
+      // height: 265px;
+      margin-bottom: 20px;
       width: 100px;
-        li {
-          @media screen and (max-width: 780px) {
-            text-decoration: underline;
-            line-height: 32px;
-            font-size: 16px;
-            color: #A0A0A0;
-            font-family: Helvetica;
-            margin-bottom: 20px;
-          }
-          text-decoration: underline;
-          line-height: 32px;
-          font-size: 1.1111111111111112vw;
-            color: #A0A0A0;
-          font-family: Helvetica;
-        }
+      padding: 0;
     }
+    font-size: 24px;
+    font-family: Helvetica;
+    line-height: 32px;
+    font-weight: 500;
+    color: #A0A0A0;
+    list-style: none;
+    height: 265px;
+    width: 100px;
+    li {
+      @media screen and (max-width: 780px) {
+        text-decoration: underline;
+        line-height: 32px;
+        font-size: 16px;
+        color: #A0A0A0;
+        font-family: Helvetica;
+        margin-bottom: 20px;
+      }
+      text-decoration: underline;
+      line-height: 32px;
+      font-size: 1.1111111111111112vw;
+      color: #A0A0A0;
+      font-family: Helvetica;
+    }
+  }
 }
 .section3 {
   @media screen and (max-width: 780px) {
@@ -138,31 +138,31 @@
   height: 270px;
   width: 25%;
   background-color: #424242;
-    h2 {
-      @media screen and (max-width: 780px) {
-        font-size: 24px;
-        color: #A0A0A0;
-        margin-left: 17px;
-      }
-      margin-top: 6.444444444444445vw;
-      margin-bottom: 20px;
-      line-height: 32px;
+  h2 {
+    @media screen and (max-width: 780px) {
       font-size: 24px;
       color: #A0A0A0;
-      font-family: Helvetica;
+      margin-left: 17px;
     }
-    p {
-      @media screen and (max-width: 780px) {
-        font-size: 16px;
-        color: #A0A0A0;
-        margin-left: 17px;
-        margin-bottom: 18px;
-      }
-      line-height: 32px;
-      font-size: 1.1111111111111112vw;
+    margin-top: 6.444444444444445vw;
+    margin-bottom: 20px;
+    line-height: 32px;
+    font-size: 24px;
+    color: #A0A0A0;
+    font-family: Helvetica;
+  }
+  p {
+    @media screen and (max-width: 780px) {
+      font-size: 16px;
       color: #A0A0A0;
-      font-family: Helvetica;
+      margin-left: 17px;
+      margin-bottom: 18px;
     }
+    line-height: 32px;
+    font-size: 1.1111111111111112vw;
+    color: #A0A0A0;
+    font-family: Helvetica;
+  }
 }
 .footer-icons {
   @media screen and (max-width: 780px) {
@@ -177,7 +177,7 @@
   height: 18px;
 }
 .icon1 {
-  background-image: url('../../../public/themes/IPLAY/images/twitter-footer-iplay.svg');
+  background-image: url('../../../public/themes/IPLAY/images/footer/twitter-footer-iplay.svg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -190,7 +190,7 @@
   }
 }
 .icon2 {
-  background-image: url('../../../public/themes/IPLAY/images/facebook-footer-iplay.svg');
+  background-image: url('../../../public/themes/IPLAY/images/footer/facebook-footer-iplay.svg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -203,7 +203,7 @@
   }
 }
 .icon3 {
-  background-image: url('../../../public/themes/IPLAY/images/instagram-footer-iplay.svg');
+  background-image: url('../../../public/themes/IPLAY/images/footer/instagram-footer-iplay.svg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -216,7 +216,7 @@
   }
 }
 .icon4 {
-  background-image: url('../../../public/themes/IPLAY/images/youtube-footer-iplay.svg');
+  background-image: url('../../../public/themes/IPLAY/images/footer/youtube-footer-iplay.svg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -241,37 +241,37 @@
   width: 320;
   margin-left: -80px;
   background-color: #424242;
-    h2 {
-      @media screen and (max-width: 780px) {
-        font-size: 24px;
-        line-height: 26px;
-        font-family: Helvetica;
-      }
-      margin-top: 6.444444444444445vw;
-      margin-bottom: 20px;
-      line-height: 32px;
+  h2 {
+    @media screen and (max-width: 780px) {
       font-size: 24px;
-      color: #A0A0A0;
+      line-height: 26px;
       font-family: Helvetica;
     }
-    p {
-      @media screen and (max-width: 780px) {
-        font-size: 16px;
-        line-height: 24px;
-        margin-bottom: 21px;
-        font-family: Helvetica;
-      }
+    margin-top: 6.444444444444445vw;
+    margin-bottom: 20px;
+    line-height: 32px;
+    font-size: 24px;
+    color: #A0A0A0;
+    font-family: Helvetica;
+  }
+  p {
+    @media screen and (max-width: 780px) {
+      font-size: 16px;
+      line-height: 24px;
+      margin-bottom: 21px;
+      font-family: Helvetica;
+    }
     line-height: 32px;
     font-size: 1.1111111111111112vw;
     color: #A0A0A0;
     font-family: Helvetica;
-    }
+  }
 }
 .input-field {
   display: flex;
   @media screen and (max-width: 780px) {
-  width: 280px;
-  height: 40px;
+    width: 280px;
+    height: 40px;
   }
 }
 .input {
@@ -288,16 +288,16 @@
   display: flex;
   justify-content: center;
   border: 0;
-    p {
-      margin-top: 6px;
-      height: 24px;
-      width: 77px;
-      color: #FFFEFC;
-      font-family: Helvetica;
-      font-size: 16px;
-      line-height: 24px;
-      transform: skew(25deg);
-    }
+  p {
+    margin-top: 6px;
+    height: 24px;
+    width: 77px;
+    color: #FFFEFC;
+    font-family: Helvetica;
+    font-size: 16px;
+    line-height: 24px;
+    transform: skew(25deg);
+  }
 }
 .icon-wrapper {
   @media screen and (max-width: 780px){
@@ -334,7 +334,7 @@
     height: 79.78px;
   }
   margin-right: 2vw;
-  background-image: url('../../../public/themes/IPLAY/images/iplay-footer-fcbarcelona.svg');
+  background-image: url('../../../public/themes/IPLAY/images/footer/iplay-footer-fcbarcelona.svg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -350,7 +350,7 @@
   }
   margin-top: 4vh;
   margin-right: 2vw;
-  background-image: url('../../../public/themes/IPLAY/images/iplay-footer-jlindeberg.svg');
+  background-image: url('../../../public/themes/IPLAY/images/footer/iplay-footer-jlindeberg.svg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -361,14 +361,14 @@
   @media screen and (max-width: 780px) {
     margin-top: 0;
     margin-bottom: 40px;
-    background-image: url('../../../public/themes/IPLAY/images/iplay-footer-sportcompetence.svg');
+    background-image: url('../../../public/themes/IPLAY/images/footer/iplay-footer-sportcompetence.svg');
     background-position: center;
     background-repeat: no-repeat;
     height: 45px;
     width: 170px;
   }
   margin-top: 4vh;
-  background-image: url('../../../public/themes/IPLAY/images/iplay-footer-sportcompetence.svg');
+  background-image: url('../../../public/themes/IPLAY/images/footer/iplay-footer-sportcompetence.svg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -384,7 +384,7 @@
   }
   margin-top: 4vh;
   margin-right: 2vw;
-  background-image: url('../../../public/themes/IPLAY/images/iplay-footer-xps.svg');
+  background-image: url('../../../public/themes/IPLAY/images/footer/iplay-footer-xps.svg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;

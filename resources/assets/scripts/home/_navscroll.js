@@ -1,5 +1,4 @@
 const nav = document.querySelector('.fixed-position');
-// const blackarrow = document.querySelector('.black')
 const twitter = document.querySelector('.twitter');
 const instagram = document.querySelector('.instagram');
 const facebook = document.querySelector('.facebook');
@@ -10,7 +9,6 @@ const filter = document.querySelector('form');
 cont.addEventListener('scroll', () => {
   let scroll = cont.scrollTop;
   if (scroll >= 50) {
-
     // MENU COLOR CHANGE
     nav.classList.add('menu-container');
     // CHECK IF PATH IS PLAYERS
@@ -38,7 +36,6 @@ cont.addEventListener('scroll', () => {
     facebook.classList.add('facebook-black');
     youtube.classList.add('youtube-black');
   } else if (scroll < 50 ){
-
     // CHECK IF PATH IS PLAYERS
     if (window.location.pathname == '/players/') {
       const nav = document.querySelector('.fixed-position');

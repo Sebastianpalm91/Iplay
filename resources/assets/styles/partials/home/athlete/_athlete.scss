@@ -11,7 +11,6 @@
 .athlete {
   display: flex;
   flex-direction: column;
-  // background-image: url('../../../../public/themes/IPLAY/images/screenshot2.png');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -81,9 +80,6 @@
         font-size: calc(1rem + ((3.8vw - 3px) * 1.1111));
         font-weight: bold;
       }
-      // @include bp(xsmall) {
-      //   line-height: 36px;
-      // }
     }
     .athlete-text-content-wrapper {
       margin-left: 250px;
@@ -166,8 +162,5 @@
       transform: translateX(-80%);
       opacity: 0.75;
     }
-  }
-  .empty-div {
-    margin: 100px 0px 100px 0px;
   }
 }
