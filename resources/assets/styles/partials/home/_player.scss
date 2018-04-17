@@ -1,551 +1,568 @@
 .top-page-wrapper {
-  display: flex;
-  justify-content: center;
-}
-
-.top-search-bar {
-  width: 320px;
-  margin-top: 84px;
-  margin-left: 16px;
-  @media screen and (min-width: 500px) {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    height: 48px;
-    align-items: center;
-    margin-bottom: 20px;
-  }
-}
-
-.search-field {
-  @media screen and (min-width: 500px) {
-    display: flex;
-    justify-content: center;
-    width: 457px;
-    height: 40px;
-    margin-left: 491px;
-    margin-bottom: 42px;
-  }
-}
-
-.top-search-bar h1 {
-  color: #3FBF55;
-  font-family: Helvetica;
-  height: 24px;
-  width: 95px;
-  margin-bottom: 15px;
-  margin-left: 17px;
-}
-
-.search-field form {
-  display: flex;
-  @media screen and (min-width: 500px) {
-    align-items: center;
-    display: flex;
-  }
-}
-
-.search-field input {
-  border: 0px solid;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  height: 32px;
-  width: 288px;
-  margin-left: 17px;
-  @media screen and (min-width: 500px) {
-    margin-top: 21px;
-    width: 457px;
-    height: 40px;
-  }
-}
-
-.search-field button {
-  border: none;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  height: 32px;
-  width: 32px;
-  margin-top: 23px;
-  background-image: url('../../../public/themes/IPLAY/images/icon-iplay-search.svg');
-  background-repeat: no-repeat;
-  background-size: contain;
-  @media screen and (min-width: 500px) {
-    height: 40px;
-    width: 40px;
-    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.1);
-  }
-}
-
-.filter-sort {
-  margin-top: 16px;
-  width: 100%;
-  height: 40px;
-  display: flex;
-}
-
-.filter {
-  @media screen and (min-width: 500px) {
-    display: none;
-  }
-  margin-left: 16px;
-  width: 50%;
-  height: 40px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-image: url('../../../public/themes/IPLAY/images/button-iplay-mobile-filter.svg');
-}
-
-.sort {
-  @media screen and (min-width: 500px) {
-    display: none;
-  }
-  width: 50%;
-  height: 40px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-image: url('../../../public/themes/IPLAY/images/button-iplay-mobile-sort.svg');
-}
-
-.filter-buttons {
-  height: 24px;
-  width: 100%;
-  display: flex;
-  margin-top: 8px;
-  margin-bottom: 9px;
-}
-
-.handball {
-  @media screen and (min-width: 500px) {
-    display: none;
-  }
-  margin-left: 16px;
-  height: 24px;
-  width: 87px;
-  background-image: url('../../../public/themes/IPLAY/images/button-iplay-filter-handball.svg');
-}
-
-.age {
-  @media screen and (min-width: 500px) {
-    display: none;
-  }
-  margin-left: 16px;
-  height: 24px;
-  width: 97px;
-  background-image: url('../../../public/themes/IPLAY/images/button-iplay-filter-age.svg');
-}
-
-.players-wrapper {
-  height: auto;
-  width: 320px;
-  display: flex;
-  flex-wrap: wrap;
-  margin-left: 16px;
-}
-
-.players-portraits {
-  margin-left: 16px;
-}
-
-.portrait12 {
-  width: 100%;
-  margin-bottom: 15px;
-  display: flex;
-}
-
-.player1 {
-  @media screen and (min-width: 500px) {
-    height: 232px;
-    width: 219px;
-    border: solid 1px rgba(160,160,160,0.21);
-  }
-  margin-left: 16px;
-  height: 144px;
-  width: 136px;
-  background-image: url('../../../public/themes/IPLAY/images/img-player-iplay-mobile-nathaliehagman.svg');
-  background-repeat: no-repeat;
-  background-size: contain;
-}
-
-.player2 {
-  @media screen and (min-width: 500px) {
-    height: 232px;
-    width: 219px;
-    border: solid 1px rgba(160,160,160,0.21);
-  }
-  height: 144px;
-  width: 136px;
-  margin-left: 16px;
-  background-image: url('../../../public/themes/IPLAY/images/athlete-card-desktop-bellagullden.svg');
-  background-repeat: no-repeat;
-  background-size: contain;
-  &:hover {
-    opacity: .5;
-    transform: scale(1.1);
-  }
-}
-
-.portrait34 {
-  width: 100%;
-  display: flex;
-  margin-bottom: 15px;
-}
-
-.player3 {
-  @media screen and (min-width: 500px) {
-    height: 232px;
-    width: 219px;
-    border: solid 1px rgba(160,160,160,0.21);
-  }
-  height: 144px;
-  width: 136px;
-  background-image: url('../../../public/themes/IPLAY/images/athlete-card-desktop-niklasekberg.svg');
-  background-repeat: no-repeat;
-  background-size: contain;
-}
-
-.player4 {
-  @media screen and (min-width: 500px) {
-    height: 232px;
-    width: 219px;
-    border: solid 1px rgba(160,160,160,0.21);
-  }
-  height: 144px;
-  width: 136px;
-  margin-left: 16px;
-  background-image: url('../../../public/themes/IPLAY/images/athlete-card-desktop-victortomas.svg');
-  background-repeat: no-repeat;
-  background-size: contain;
-}
-
-.portrait56 {
-  width: 100%;
-  margin-bottom: 15px;
-  display: flex;
-}
-
-.player5 {
-  @media screen and (min-width: 500px) {
-    height: 232px;
-    width: 219px;
-    border: solid 1px rgba(160,160,160,0.21);
-  }
-  margin-left: 16px;
-  height: 144px;
-  width: 136px;
-  background-image: url('../../../public/themes/IPLAY/images/athlete-card-desktop-veronicakristiansen.svg');
-  background-repeat: no-repeat;
-  background-size: contain;
-}
-
-.player6 {
-  @media screen and (min-width: 500px) {
-    height: 232px;
-    width: 219px;
-    border: solid 1px rgba(160,160,160,0.21);
-  }
-  height: 144px;
-  width: 136px;
-  margin-left: 16px;
-  background-image: url('../../../public/themes/IPLAY/images/athlete-card-desktop-mattiasandersson.svg');
-  background-repeat: no-repeat;
-  background-size: contain;
-}
-
-.portrait78 {
-  margin-bottom: 15px;
-  width: 100%;
-  display: flex;
-}
-
-.player7 {
-  @media screen and (min-width: 500px) {
-    height: 232px;
-    width: 219px;
-    border: solid 1px rgba(160,160,160,0.21);
-    margin: 0;
-  }
-  margin-left: 16px;
-  height: 144px;
-  width: 136px;
-  background-image: url('../../../public/themes/IPLAY/images/athlete-card-desktop-tobiaskarlsson.svg');
-  background-repeat: no-repeat;
-  background-size: contain;
-}
-
-.player8 {
-  @media screen and (min-width: 500px) {
-    height: 232px;
-    width: 219px;
-    border: solid 1px rgba(160,160,160,0.21);
-  }
-  height: 144px;
-  width: 136px;
-  margin-left: 16px;
-  background-image: url('../../../public/themes/IPLAY/images/athlete-card-desktop-kenttonnesen.svg');
-  background-repeat: no-repeat;
-  background-size: contain;
-}
-
-//DESKTOP
-
-.function-bar {
-  @media screen and (min-width: 500px) {
-  width: 100%;
-  height: 80px;
-  }
-}
-
-.athlete-sport-wrapper {
-  @media screen and (min-width: 500px) {
-    margin-top: 35px;
-    display: flex;
-    width: 90vw;
-  }
-}
-
-.athlete-sport1-picture {
-  @media screen and (min-width: 500px) {
-    background-image: url('../../../public/themes/IPLAY/images/1_football_sports_icon.svg');
+    background-image: url('../../../public/themes/IPLAY/images/Player-catalogue-Mobile.svg');
     background-position: center;
     background-repeat: no-repeat;
-    background-size: contain;
-    height: 40px;
-    width: 40px;
-    margin-bottom: 6px;
-    margin-left: 38px;
-  }
-}
-
-.athlete-sport2-picture {
-  @media screen and (min-width: 500px) {
-    background-image: url('../../../public/themes/IPLAY/images/2_handball_sports_icon.svg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    height: 40px;
-    width: 40px;
-    margin-left: 38px;
-    margin-bottom: 6px;
-  }
-}
-
-.athlete-sport3-picture {
-  @media screen and (min-width: 500px) {
-    background-image: url('../../../public/themes/IPLAY/images/3_bandy_sports_icon.svg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    height: 40px;
-    width: 40px;
-    margin-left: 38px;
-    margin-bottom: 6px;
-  }
-}
-
-.athlete-sport4-picture {
-  @media screen and (min-width: 500px) {
-    background-image: url('../../../public/themes/IPLAY/images/4_basketball_sports_icon.svg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    height: 40px;
-    width: 40px;
-    margin-left: 38px;
-    margin-bottom: 6px;
-  }
-}
-
-.athlete-sport-text1 {
-  @media screen and (min-width: 500px) {
-      opacity: .7;
-      margin-left: 30px;
-  }
-}
-
-.male-female {
-  @media screen and (min-width: 500px) {
-    display: flex;
-  }
-}
-.male {
-  @media screen and (min-width: 500px) {
-    background-image: url('../../../public/themes/IPLAY/images/ion-male-ionicons.svg');
-    background-size: contain;
-    background-repeat: no-repeat;
-    height: 36px;
-    width: 36px;
-    margin-left: 72px;
-  }
-}
-
-.female {
-  @media screen and (min-width: 500px) {
-    background-image: url('../../../public/themes/IPLAY/images/ion-female-ionicons.svg');
-    background-size: contain;
-    background-repeat: no-repeat;
-    height: 36px;
-    width: 36px;
-    margin-left: 42px;
-  }
-}
-
-.age-slide {
-  @media screen and (min-width: 500px) {
-    display: flex;
-    align-items: center;
-    margin-left: 75px;
-  }
-}
-
-.slider {
-  @media screen and (min-width: 500px) {
-    width: 288px;
-    height: 10px;
-    background-color: #A0A0A0;
-  }
-}
-
-.nationality-wrapper {
-  @media screen and (min-width: 500px) {
-    display: flex;
-    align-items: center;
-    margin-left: 65px;
-  }
-}
-
-.navigation-content {
-  @media screen and (min-width: 500px) {
-    width: 234px;
-    height: 40px;
-    background-color: #FFFEFC;
-    border: 2px solid #A0A0A0;
-  }
-}
-
-.apply-button {
-  @media screen and (min-width: 500px) {
-    background-image: url('../../../public/themes/IPLAY/images/Combined-Shape.png');
-    width: 202px;
-    height: 49px;
-    margin-left: 64px;
-  }
-}
-
-.filter-sort {
-  p {
-    @media screen and (min-width: 500px) {
-      display: block;
-      width: 106px;
-      height: 10px;
-    }
-    display: none;
-  }
-}
-
-.desktop-handball {
-  @media screen and (min-width: 500px) {
-    width: 87px;
-    height: 24px;
-    background-image: url('../../../public/themes/IPLAY/images/button-iplay-filter-handball.svg');
     background-size: cover;
-    background-repeat: no-repeat;
-  }
-}
-
-.desktop-age {
-  @media screen and (min-width: 500px) {
-    width: 97px;
-    height: 24px;
-    background-image: url('../../../public/themes/IPLAY/images/button-iplay-filter-age.svg');
-    background-size: cover;
-    background-repeat: no-repeat;
-  }
-}
-
-.filter-applied {
-  @media screen and (min-width: 500px) {
-    display: flex;
-    margin-left: 257px;
-    align-items: center;
-    width: 100%;
-    p {
-      margin-bottom: 0;
+    height: 140vh;
+    .filter-click {
+      position: absolute;
+      top: 30%;
+      right: 15%;
+      left: 5%;
+      height: 50px;
+      width: 300px;
     }
-  }
 }
 
-.desktop-wrapper {
-  @media screen and (min-width: 500px) {
-  display: flex;
-  margin-left: 257px;
-  }
-}
 
-.dropbtn {
-  @media screen and (min-width: 500px) {
-    color: black;
-    font-size: 16px;
-    border: none;
-    cursor: pointer;
-    padding: 0;
-    background-color: inherit;
-    margin-bottom: 16px;
-    font-family: Helvetica;
-  }
-}
-
-.dropdown-menu {
-  @media screen and (min-width: 500px) {
-    width: 50%;
-    margin-bottom: 70px;
-    display: flex;
-    justify-content: flex-end;
-    position: relative;
-    border: none;
-    align-items: center;
-  }
-}
-
-.dropdown {
-  @media screen and (min-width: 500px) {
-  height: 24px;
-  position: relative;
-  display: inline-block;
-  padding: 0;
-  align-items: center;
-  }
-}
-
-.dropdown-content {
-    display: none;
-    position: absolute;
-    min-width: 160px;
-    z-index: 1;
-}
-
-.dropdown-content a {
-    font-size: 16px;
-    color: black;
-    text-decoration: none;
-    display: block;
-    height: 24px;
-    display: flex;
-    align-items: center;
-}
-
-.dropdown-content a:hover {
-  background-color: #F2F3F4;
-  opacity: .5;
-}
-
-.dropdown:hover .dropdown-content {
-    display: block;
-}
-
-.dropdown:hover .dropbtn {
-    background-color: #3e8e41;
-}
+// .top-page-wrapper {
+//   display: flex;
+//   justify-content: center;
+// }
+//
+// .top-search-bar {
+//   width: 320px;
+//   margin-top: 84px;
+//   margin-left: 16px;
+//   @media screen and (min-width: 500px) {
+//     display: flex;
+//     justify-content: center;
+//     width: 100%;
+//     height: 48px;
+//     align-items: center;
+//     margin-bottom: 20px;
+//   }
+// }
+//
+// .search-field {
+//   @media screen and (min-width: 500px) {
+//     display: flex;
+//     justify-content: center;
+//     width: 457px;
+//     height: 40px;
+//     margin-left: 491px;
+//     margin-bottom: 42px;
+//   }
+// }
+//
+// .top-search-bar h1 {
+//   color: #3FBF55;
+//   font-family: Helvetica;
+//   height: 24px;
+//   width: 95px;
+//   margin-bottom: 15px;
+//   margin-left: 17px;
+// }
+//
+// .search-field form {
+//   display: flex;
+//   @media screen and (min-width: 500px) {
+//     align-items: center;
+//     display: flex;
+//   }
+// }
+//
+// .search-field input {
+//   border: 0px solid;
+//   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+//   height: 32px;
+//   width: 288px;
+//   margin-left: 17px;
+//   @media screen and (min-width: 500px) {
+//     margin-top: 21px;
+//     width: 457px;
+//     height: 40px;
+//   }
+// }
+//
+// .search-field button {
+//   border: none;
+//   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+//   height: 32px;
+//   width: 32px;
+//   margin-top: 23px;
+//   background-image: url('../../../public/themes/IPLAY/images/icon-iplay-search.svg');
+//   background-repeat: no-repeat;
+//   background-size: contain;
+//   @media screen and (min-width: 500px) {
+//     height: 40px;
+//     width: 40px;
+//     box-shadow: 0 2px 4px 0 rgba(0,0,0,0.1);
+//   }
+// }
+//
+// .filter-sort {
+//   margin-top: 16px;
+//   width: 100%;
+//   height: 40px;
+//   display: flex;
+// }
+//
+// .filter {
+//   @media screen and (min-width: 500px) {
+//     display: none;
+//   }
+//   margin-left: 16px;
+//   width: 50%;
+//   height: 40px;
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+//   background-repeat: no-repeat;
+//   background-size: contain;
+//   background-image: url('../../../public/themes/IPLAY/images/button-iplay-mobile-filter.svg');
+// }
+//
+// .sort {
+//   @media screen and (min-width: 500px) {
+//     display: none;
+//   }
+//   width: 50%;
+//   height: 40px;
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+//   background-repeat: no-repeat;
+//   background-size: contain;
+//   background-image: url('../../../public/themes/IPLAY/images/button-iplay-mobile-sort.svg');
+// }
+//
+// .filter-buttons {
+//   height: 24px;
+//   width: 100%;
+//   display: flex;
+//   margin-top: 8px;
+//   margin-bottom: 9px;
+// }
+//
+// .handball {
+//   @media screen and (min-width: 500px) {
+//     display: none;
+//   }
+//   margin-left: 16px;
+//   height: 24px;
+//   width: 87px;
+//   background-image: url('../../../public/themes/IPLAY/images/button-iplay-filter-handball.svg');
+// }
+//
+// .age {
+//   @media screen and (min-width: 500px) {
+//     display: none;
+//   }
+//   margin-left: 16px;
+//   height: 24px;
+//   width: 97px;
+//   background-image: url('../../../public/themes/IPLAY/images/button-iplay-filter-age.svg');
+// }
+//
+// .players-wrapper {
+//   height: auto;
+//   width: 320px;
+//   display: flex;
+//   flex-wrap: wrap;
+//   margin-left: 16px;
+// }
+//
+// .players-portraits {
+//   margin-left: 16px;
+// }
+//
+// .portrait12 {
+//   width: 100%;
+//   margin-bottom: 15px;
+//   display: flex;
+// }
+//
+// .player1 {
+//   @media screen and (min-width: 500px) {
+//     height: 232px;
+//     width: 219px;
+//     border: solid 1px rgba(160,160,160,0.21);
+//   }
+//   margin-left: 16px;
+//   height: 144px;
+//   width: 136px;
+//   background-image: url('../../../public/themes/IPLAY/images/img-player-iplay-mobile-nathaliehagman.svg');
+//   background-repeat: no-repeat;
+//   background-size: contain;
+// }
+//
+// .player2 {
+//   @media screen and (min-width: 500px) {
+//     height: 232px;
+//     width: 219px;
+//     border: solid 1px rgba(160,160,160,0.21);
+//   }
+//   height: 144px;
+//   width: 136px;
+//   margin-left: 16px;
+//   background-image: url('../../../public/themes/IPLAY/images/athlete-card-desktop-bellagullden.svg');
+//   background-repeat: no-repeat;
+//   background-size: contain;
+//   &:hover {
+//     opacity: .5;
+//     transform: scale(1.1);
+//   }
+// }
+//
+// .portrait34 {
+//   width: 100%;
+//   display: flex;
+//   margin-bottom: 15px;
+// }
+//
+// .player3 {
+//   @media screen and (min-width: 500px) {
+//     height: 232px;
+//     width: 219px;
+//     border: solid 1px rgba(160,160,160,0.21);
+//   }
+//   height: 144px;
+//   width: 136px;
+//   background-image: url('../../../public/themes/IPLAY/images/athlete-card-desktop-niklasekberg.svg');
+//   background-repeat: no-repeat;
+//   background-size: contain;
+// }
+//
+// .player4 {
+//   @media screen and (min-width: 500px) {
+//     height: 232px;
+//     width: 219px;
+//     border: solid 1px rgba(160,160,160,0.21);
+//   }
+//   height: 144px;
+//   width: 136px;
+//   margin-left: 16px;
+//   background-image: url('../../../public/themes/IPLAY/images/athlete-card-desktop-victortomas.svg');
+//   background-repeat: no-repeat;
+//   background-size: contain;
+// }
+//
+// .portrait56 {
+//   width: 100%;
+//   margin-bottom: 15px;
+//   display: flex;
+// }
+//
+// .player5 {
+//   @media screen and (min-width: 500px) {
+//     height: 232px;
+//     width: 219px;
+//     border: solid 1px rgba(160,160,160,0.21);
+//   }
+//   margin-left: 16px;
+//   height: 144px;
+//   width: 136px;
+//   background-image: url('../../../public/themes/IPLAY/images/athlete-card-desktop-veronicakristiansen.svg');
+//   background-repeat: no-repeat;
+//   background-size: contain;
+// }
+//
+// .player6 {
+//   @media screen and (min-width: 500px) {
+//     height: 232px;
+//     width: 219px;
+//     border: solid 1px rgba(160,160,160,0.21);
+//   }
+//   height: 144px;
+//   width: 136px;
+//   margin-left: 16px;
+//   background-image: url('../../../public/themes/IPLAY/images/athlete-card-desktop-mattiasandersson.svg');
+//   background-repeat: no-repeat;
+//   background-size: contain;
+// }
+//
+// .portrait78 {
+//   margin-bottom: 15px;
+//   width: 100%;
+//   display: flex;
+// }
+//
+// .player7 {
+//   @media screen and (min-width: 500px) {
+//     height: 232px;
+//     width: 219px;
+//     border: solid 1px rgba(160,160,160,0.21);
+//     margin: 0;
+//   }
+//   margin-left: 16px;
+//   height: 144px;
+//   width: 136px;
+//   background-image: url('../../../public/themes/IPLAY/images/athlete-card-desktop-tobiaskarlsson.svg');
+//   background-repeat: no-repeat;
+//   background-size: contain;
+// }
+//
+// .player8 {
+//   @media screen and (min-width: 500px) {
+//     height: 232px;
+//     width: 219px;
+//     border: solid 1px rgba(160,160,160,0.21);
+//   }
+//   height: 144px;
+//   width: 136px;
+//   margin-left: 16px;
+//   background-image: url('../../../public/themes/IPLAY/images/athlete-card-desktop-kenttonnesen.svg');
+//   background-repeat: no-repeat;
+//   background-size: contain;
+// }
+//
+// //DESKTOP
+//
+// .function-bar {
+//   @media screen and (min-width: 500px) {
+//   width: 100%;
+//   height: 80px;
+//   }
+// }
+//
+// .athlete-sport-wrapper {
+//   @media screen and (min-width: 500px) {
+//     margin-top: 35px;
+//     display: flex;
+//     width: 90vw;
+//   }
+// }
+//
+// .athlete-sport1-picture {
+//   @media screen and (min-width: 500px) {
+//     background-image: url('../../../public/themes/IPLAY/images/1_football_sports_icon.svg');
+//     background-position: center;
+//     background-repeat: no-repeat;
+//     background-size: contain;
+//     height: 40px;
+//     width: 40px;
+//     margin-bottom: 6px;
+//     margin-left: 38px;
+//   }
+// }
+//
+// .athlete-sport2-picture {
+//   @media screen and (min-width: 500px) {
+//     background-image: url('../../../public/themes/IPLAY/images/2_handball_sports_icon.svg');
+//     background-position: center;
+//     background-repeat: no-repeat;
+//     background-size: contain;
+//     height: 40px;
+//     width: 40px;
+//     margin-left: 38px;
+//     margin-bottom: 6px;
+//   }
+// }
+//
+// .athlete-sport3-picture {
+//   @media screen and (min-width: 500px) {
+//     background-image: url('../../../public/themes/IPLAY/images/3_bandy_sports_icon.svg');
+//     background-position: center;
+//     background-repeat: no-repeat;
+//     background-size: contain;
+//     height: 40px;
+//     width: 40px;
+//     margin-left: 38px;
+//     margin-bottom: 6px;
+//   }
+// }
+//
+// .athlete-sport4-picture {
+//   @media screen and (min-width: 500px) {
+//     background-image: url('../../../public/themes/IPLAY/images/4_basketball_sports_icon.svg');
+//     background-position: center;
+//     background-repeat: no-repeat;
+//     background-size: contain;
+//     height: 40px;
+//     width: 40px;
+//     margin-left: 38px;
+//     margin-bottom: 6px;
+//   }
+// }
+//
+// .athlete-sport-text1 {
+//   @media screen and (min-width: 500px) {
+//       opacity: .7;
+//       margin-left: 30px;
+//   }
+// }
+//
+// .male-female {
+//   @media screen and (min-width: 500px) {
+//     display: flex;
+//   }
+// }
+// .male {
+//   @media screen and (min-width: 500px) {
+//     background-image: url('../../../public/themes/IPLAY/images/ion-male-ionicons.svg');
+//     background-size: contain;
+//     background-repeat: no-repeat;
+//     height: 36px;
+//     width: 36px;
+//     margin-left: 72px;
+//   }
+// }
+//
+// .female {
+//   @media screen and (min-width: 500px) {
+//     background-image: url('../../../public/themes/IPLAY/images/ion-female-ionicons.svg');
+//     background-size: contain;
+//     background-repeat: no-repeat;
+//     height: 36px;
+//     width: 36px;
+//     margin-left: 42px;
+//   }
+// }
+//
+// .age-slide {
+//   @media screen and (min-width: 500px) {
+//     display: flex;
+//     align-items: center;
+//     margin-left: 75px;
+//   }
+// }
+//
+// .slider {
+//   @media screen and (min-width: 500px) {
+//     width: 288px;
+//     height: 10px;
+//     background-color: #A0A0A0;
+//   }
+// }
+//
+// .nationality-wrapper {
+//   @media screen and (min-width: 500px) {
+//     display: flex;
+//     align-items: center;
+//     margin-left: 65px;
+//   }
+// }
+//
+// .navigation-content {
+//   @media screen and (min-width: 500px) {
+//     width: 234px;
+//     height: 40px;
+//     background-color: #FFFEFC;
+//     border: 2px solid #A0A0A0;
+//   }
+// }
+//
+// .apply-button {
+//   @media screen and (min-width: 500px) {
+//     background-image: url('../../../public/themes/IPLAY/images/Combined-Shape.png');
+//     width: 202px;
+//     height: 49px;
+//     margin-left: 64px;
+//   }
+// }
+//
+// .filter-sort {
+//   p {
+//     @media screen and (min-width: 500px) {
+//       display: block;
+//       width: 106px;
+//       height: 10px;
+//     }
+//     display: none;
+//   }
+// }
+//
+// .desktop-handball {
+//   @media screen and (min-width: 500px) {
+//     width: 87px;
+//     height: 24px;
+//     background-image: url('../../../public/themes/IPLAY/images/button-iplay-filter-handball.svg');
+//     background-size: cover;
+//     background-repeat: no-repeat;
+//   }
+// }
+//
+// .desktop-age {
+//   @media screen and (min-width: 500px) {
+//     width: 97px;
+//     height: 24px;
+//     background-image: url('../../../public/themes/IPLAY/images/button-iplay-filter-age.svg');
+//     background-size: cover;
+//     background-repeat: no-repeat;
+//   }
+// }
+//
+// .filter-applied {
+//   @media screen and (min-width: 500px) {
+//     display: flex;
+//     margin-left: 257px;
+//     align-items: center;
+//     width: 100%;
+//     p {
+//       margin-bottom: 0;
+//     }
+//   }
+// }
+//
+// .desktop-wrapper {
+//   @media screen and (min-width: 500px) {
+//   display: flex;
+//   margin-left: 257px;
+//   }
+// }
+//
+// .dropbtn {
+//   @media screen and (min-width: 500px) {
+//     color: black;
+//     font-size: 16px;
+//     border: none;
+//     cursor: pointer;
+//     padding: 0;
+//     background-color: inherit;
+//     margin-bottom: 16px;
+//     font-family: Helvetica;
+//   }
+// }
+//
+// .dropdown-menu {
+//   @media screen and (min-width: 500px) {
+//     width: 50%;
+//     margin-bottom: 70px;
+//     display: flex;
+//     justify-content: flex-end;
+//     position: relative;
+//     border: none;
+//     align-items: center;
+//   }
+// }
+//
+// .dropdown {
+//   @media screen and (min-width: 500px) {
+//   height: 24px;
+//   position: relative;
+//   display: inline-block;
+//   padding: 0;
+//   align-items: center;
+//   }
+// }
+//
+// .dropdown-content {
+//     display: none;
+//     position: absolute;
+//     min-width: 160px;
+//     z-index: 1;
+// }
+//
+// .dropdown-content a {
+//     font-size: 16px;
+//     color: black;
+//     text-decoration: none;
+//     display: block;
+//     height: 24px;
+//     display: flex;
+//     align-items: center;
+// }
+//
+// .dropdown-content a:hover {
+//   background-color: #F2F3F4;
+//   opacity: .5;
+// }
+//
+// .dropdown:hover .dropdown-content {
+//     display: block;
+// }
+//
+// .dropdown:hover .dropbtn {
+//     background-color: #3e8e41;
+// }

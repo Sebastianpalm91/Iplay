@@ -1,15 +1,16 @@
     <?php /* Template Name: Players */ ?>
     <?php get_header(); ?>
-<head>
+<!-- <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-</head>
+</head> -->
 
 <div class="top-page-wrapper">
-    <div class="top-search-bar">
+        <button class="filter-click" onClick="window.location='/Sports';" value="click here" />
+    <!-- <div class="top-search-bar">
         <h1><strong>Athletes</strong></h1>
-    </div>
+    </div> -->
 </div>
-    <form class="search-field" action="/">
+    <!-- <form class="search-field" action="/">
         <input type="text" placeholder="Search.." name="search">
         <button></button>
     </form>
@@ -92,7 +93,7 @@
                 <a href="bella" class="player2">
                 </a>
                 <!-- <div class="player2"></div> -->
-            </div>
+            <!-- </div>
             <div class="players-portraits">
                 <div class="portrait34">
                     <div class="player3"></div>
@@ -142,6 +143,6 @@
                 <div class="player8" style="margin-bottom: 120px;"></div>
             </div>
         </div>
-    </div>
+    </div> --> -->
 
     <?php get_footer();

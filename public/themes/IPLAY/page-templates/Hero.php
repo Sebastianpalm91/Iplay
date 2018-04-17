@@ -92,7 +92,7 @@
             <div class="wrapper">
                 <img class="tour-icon" src="<?php echo $fields['app_image_athletes_1']["url"]; ?>">
                 <div class="text-wrapper">
-                    <h3>Chat with your teammates</h3> <br>
+                    <h3>CHAT WITH YOUR TEAMMATES</h3> <br>
                     <p>Connect with your team and <br>
                         chat with your current or <br>
                         previous teammates.</p>
@@ -101,7 +101,7 @@
             <div class="wrapper">
                 <img class="tour-icon" src="<?php echo $fields['app_image_athletes_2']["url"]; ?>">
                 <div class="text-wrapper">
-                    <h3>Own your communication</h3>
+                    <h3>OWN YOUR COMMUNICATION</h3>
                     <p>Connect your social networks to <br>
                         Iplay and maintain all your <br>
                         communication in one place.</p>
@@ -110,7 +110,7 @@
             <div class="wrapper">
                 <img class="tour-icon" src="<?php echo $fields['app_image_athletes_3']["url"]; ?>">
                 <div class="text-wrapper">
-                    <h3>Take controll over your career</h3>
+                    <h3>TAKE CONTROLL OVER YOUR CAREER</h3>
                     <p>Connect with agents, coaches, <br>
                         sponsors or companies that <br>
                         could be your future employers.</p>
@@ -122,28 +122,24 @@
             <div class="wrapper">
                 <img class="tour-icon" src="<?php echo $fields['app_image_fans_1']["url"]; ?>">
                 <div class="text-wrapper">
-                    <h3>test</h3> <br>
-                    <p>Connect with your team and <br>
-                        chat with your current or <br>
-                        previous teammates.</p>
+                    <h3>FOLLOW ATHLETES</h3> <br>
+                    <p> Follow your favorite athletes, teams,
+                         coaches and other fans within your chosen sports.
+                        </p>
                 </div>
             </div>
             <div class="wrapper">
                 <img class="tour-icon" src="<?php echo $fields['app_image_fans_2']["url"]; ?>">
                 <div class="text-wrapper">
-                    <h3>test</h3>
-                    <p>Connect your social networks to <br>
-                        Iplay and maintain all your <br>
-                        communication in one place.</p>
+                    <h3>TAKE A PART AND INTERACT</h3>
+                    <p>Interact and communicate with athletes, teams, coaches, other fans and participate in competitions.</p>
                 </div>
             </div>
             <div class="wrapper">
                 <img class="tour-icon" src="<?php echo $fields['app_image_fans_3']["url"]; ?>">
                 <div class="text-wrapper">
-                    <h3>test</h3>
-                    <p>Connect with agents, coaches, <br>
-                        sponsors or companies that <br>
-                        could be your future employers.</p>
+                    <h3>MATCH STATS UPDATES</h3>
+                    <p>See the livescores, results and upcoming matches.</p>
                 </div>
             </div>
         </div>
@@ -151,28 +147,21 @@
             <div class="wrapper">
                 <img class="tour-icon" src="<?php echo $fields['app_image_coaches_1']["url"]; ?>">
                 <div class="text-wrapper">
-                    <h3>kebab</h3> <br>
-                    <p>Connect with your team and <br>
-                        chat with your current or <br>
-                        previous teammates.</p>
+                    <h3>FIND TALENTS</h3>
+                    <p>Take the unique chance to find talents for your team and make connections with agents and other coaches.</p>
                 </div>
             </div>
             <div class="wrapper">
                 <img class="tour-icon" src="<?php echo $fields['app_image_coaches_2']["url"]; ?>">
                 <div class="text-wrapper">
-                    <h3>kebab</h3>
-                    <p>Connect your social networks to <br>
-                        Iplay and maintain all your <br>
-                        communication in one place.</p>
+                    <h3>BOOST YOUR CAREER</h3>
+                    <p>Build your career, connections and resumee in the right place.</p>
                 </div>
             </div>
             <div class="wrapper">
                 <img class="tour-icon" src="<?php echo $fields['app_image_coaches_3']["url"]; ?>">
                 <div class="text-wrapper">
-                    <h3>kebab</h3>
-                    <p>Connect with agents, coaches, <br>
-                        sponsors or companies that <br>
-                        could be your future employers.</p>
+                    <h3>COMMUNICATE EASY</h3>
                 </div>
             </div>
         </div>
@@ -180,6 +169,8 @@
             <div class="uniting-text-sub-apple" alt=""></div>
             <div class="uniting-text-sub-google" alt=""></div>
         </div>
+    </div>
+    <div class="testimonials-container">
     </div>
 
     <div class="sportsoniplay">
